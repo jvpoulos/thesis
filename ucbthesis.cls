@@ -216,11 +216,11 @@
 % The Grad. Division requires that "Placement of page must be
 % consistent throughout."
 
-\pagestyle{simple}
-\aliaspagestyle{book}{simple}
-\aliaspagestyle{part}{simple}
-\aliaspagestyle{chapter}{simple}
-\aliaspagestyle{title}{simple}
+\pagestyle{plain}
+\aliaspagestyle{book}{plain}
+\aliaspagestyle{part}{plain}
+\aliaspagestyle{chapter}{plain}
+\aliaspagestyle{title}{plain}
 
 % Issue warnings if the settings are not appropriate for a final copy
 
@@ -520,8 +520,8 @@ by\par
 
 \def\abstract{
 \begin{alwayssingle}
-% \pagestyle{simple}
-\thispagestyle{simple}
+% \pagestyle{plain}
+\thispagestyle{plain}
 \setcounter{page}{1}
 \begin{center}
 {\fmfont

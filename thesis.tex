@@ -4,7 +4,7 @@
 %
 % The Current Maintainer of this work is Paul Vojta.
 
-\documentclass{ucbthesis}
+\documentclass[hidelinks]{ucbthesis}
 %\usepackage{biblatex}
 
 % To compile this file, run "latex thesis", then "biber thesis"
@@ -19,8 +19,99 @@
 % be indented (like the others), then include this line:
 % \usepackage{indentfirst}
 
+% Define packages
+\usepackage{hyperref, url} 
+\usepackage{graphicx,amsfonts,psfrag,layout,subcaption,array,longtable,lscape,booktabs,dcolumn,amsmath,amssymb,amssymb,amsthm,setspace,epigraph,chronology,color,colortbl,wasysym,diagbox,colortbl,authblk,commath,upgreek}
+\usepackage[]{graphicx}\usepackage[]{color}
+%\usepackage[page]{appendix}
+%\usepackage[section]{placeins}
+%\usepackage[linewidth=1pt]{mdframed}
+%\usepackage[margin={1in}]{geometry} %1 inch margins
+
+% Footnotes stick at the bottom
+\usepackage[bottom]{footmisc}
+
+% Caption keys
+\usepackage{mathtools,tikz,caption}
+\captionsetup{labelfont=sc,labelsep=period}
+\DeclareRobustCommand\sampleline[1]{%
+	\tikz\draw[#1] (0,0) (0,\the\dimexpr\fontdimen22\textfont2\relax)
+	-- (2em,\the\dimexpr\fontdimen22\textfont2\relax);%
+}
+
+\usetikzlibrary{plotmarks}
+
+% Wes Anderson colors
+
+\usepackage{xcolor}
+
+\definecolor{Darjeeling11}{HTML}{FF0000}
+\definecolor{Darjeeling15}{HTML}{5BBCD6}
+
+% New footnote characters
+\usepackage{footmisc}
+\DefineFNsymbols{mySymbols}{{\ensuremath\dagger}{\ensuremath\ddagger}\S\P
+	*{**}{\ensuremath{\dagger\dagger}}{\ensuremath{\ddagger\ddagger}}}
+\setfnsymbol{mySymbols}
+
+%Rm thanks dagger
+\renewcommand\footnotemark{}
+%\renewcommand\footnoterule{}
+
+% New tabular environment
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}% raggedleft column X
+
+% Define appendix 
+\renewcommand*\appendixpagename{Appendix}
+\renewcommand*\appendixtocname{Appendix}
+
+% Position floats
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.35}
+\setcounter{totalnumber}{5}
+
+% Colors for highlighting tables
+\definecolor{Gray}{gray}{0.9}
+
+% Different font in captions
+\newcommand{\captionfonts}{\normalsize}
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+	\vskip\abovecaptionskip
+	\sbox\@tempboxa{{\captionfonts #1: #2}}%
+	\ifdim \wd\@tempboxa >\hsize
+	{\captionfonts #1: #2\par}
+	\else
+	\hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+	\fi
+	\vskip\belowcaptionskip}
+%\makeatother   % Cancel the effect of \makeatletter
+
+% Macros
+\newcommand{\Adv}{{\mathbf{Adv}}}       
+\newcommand{\prp}{{\mathrm{prp}}}                  % How to define new commands 
+\newcommand{\calK}{{\cal K}}
+\newcommand{\outputs}{{\Rightarrow}}                
+\newcommand{\getsr}{{\:\stackrel{{\scriptscriptstyle\hspace{0.2em}\$}}{\leftarrow}\:}}
+\newcommand{\andthen}{{\::\;\;}}    %  \: \; for thinspace, medspace, thickspace
+\newcommand{\Rand}[1]{{\mathrm{Rand}[{#1}]}}       % A command with one argument
+\newcommand{\Perm}[1]{{\mathrm{Perm}[{#1}]}}       
+\newcommand{\Randd}[2]{{\mathrm{Rand}[{#1},{#2}]}} % and with two arguments
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\DeclareMathOperator*{\plim}{plim}
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+\newcommand{\possessivecite}[1]{\citeauthor{#1}'s (\citeyear{#1})} 
+
 \newtheorem{theorem}{Jibberish}
 
+%%%%%%%%%%%%%
 % Chicago 15 ed. author-date
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -28,7 +119,7 @@
 \usepackage{csquotes}
 
 \usepackage[authordate,backend=biber,natbib]{biblatex-chicago}
-\addbibresource{/media/jason/Dropbox/github/land-reform/paper/references.bib}
+\addbibresource{references.bib}
 
 % Puts parentheses around year in ref list
 \makeatletter
@@ -47,8 +138,6 @@
 \makeatother
 
 %%%%%%%%%%%%%
-
-%\bibliography{references}
 
 \hyphenation{mar-gin-al-ia}
 \hyphenation{bra-va-do}
@@ -109,10 +198,10 @@ transcript alike. Washable an acre. To canned, silence in foreign.
 % separate pages.
 
 \tableofcontents
-\clearpage
-\listoffigures
-\clearpage
-\listoftables
+%\clearpage
+%\listoffigures
+%\clearpage
+%\listoftables
 
 \begin{acknowledgements}
 I acknowledge support of the National Science Foundation Graduate Research Fellowship (DGE 1106400). This work used the computer resources of Stampede2 at the Texas Advanced Computing Center (TACC) under an Extreme Science and Engineering Discovery Environment (XSEDE) startup allocation (TG-SES180010). The Titan Xp GPU used for this research was donated by the NVIDIA Corporation.
@@ -120,7 +209,7 @@ I acknowledge support of the National Science Foundation Graduate Research Fello
 
 \end{frontmatter}
 
-\pagestyle{headings}
+%\pagestyle{headings}
 
 %\part{First Part}
 \include{intro} % Introduction and background to the general topic area.
@@ -129,9 +218,9 @@ I acknowledge support of the National Science Foundation Graduate Research Fello
 \include{chap3} % Third paper
 \include{conclusion} % Conclusion and implications for policy and/or further research.
 
-% \appendix
-% \chapter{More Monticello Candidates}
+\appendix
+\include{a1} % First paper
 
-\printbibliography%[title=References]
+\printbibliography[title=References]
 
 \end{document}

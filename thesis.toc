@@ -1,40 +1,58 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {american}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Contents}{ii}
+\contentsline {chapter}{Contents}{ii}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{iii}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{4}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Prexy Salaam}{4}
+\contentsline {section}{\numberline {2.2}Historical background}{6}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Faceplate Marginalia}{4}
+\contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{7}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Promenade Exeter}{4}
+\contentsline {subsection}{Matrix completion estimator}{7}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{7}
+\contentsline {subsection}{Simulations}{8}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{7}
+\contentsline {subsection}{Hypothesis testing}{9}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{7}
+\contentsline {paragraph}{Permuation structures}{11}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{8}
+\contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{11}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{9}
+\contentsline {subsection}{Placebo tests}{12}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{9}
+\contentsline {subsection}{Main estimates}{13}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{9}
+\contentsline {section}{\numberline {2.5}DID estimation}{16}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{10}
+\contentsline {subsection}{DID estimates on state capacity}{16}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{11}
+\contentsline {subsection}{Land inequality as a causal mechanism}{17}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Faceplate Marginalia}{11}
+\contentsline {section}{\numberline {2.6}Conclusion}{18}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Promenade Exeter}{11}
+\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{20}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{14}
+\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{20}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{20}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{21}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{22}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{22}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{22}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{23}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{24}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}Tables and Figures for Chapter \ref {land-reform}}{25}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{31}{section*.26}

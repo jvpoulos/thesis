@@ -82,7 +82,7 @@
       <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/media/jason/Dropbox/github/land-reform/paper/references.bib</file>
+      <file>references.bib</file>
     </requires>
   </external>
 </requests>
