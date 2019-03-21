@@ -213,7 +213,7 @@
 
 \AtBeginDocument{\checkandfixthelayout}
 
-% The Grad. Division requires that "Placement of page numbers must be
+% The Grad. Division requires that "Placement of page must be
 % consistent throughout."
 
 \pagestyle{simple}

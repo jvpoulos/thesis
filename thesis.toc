@@ -1,19 +1,40 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {american}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Contents}{ii}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {1}Prexy Salaam}{1}
+\contentsline {chapter}{List of Figures}{iii}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Faceplate Marginalia}{1}
+\contentsline {chapter}{List of Tables}{iv}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Promenade Exeter}{1}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Placental Ionosphere}{4}
+\contentsline {chapter}{\chapternumberline {2}Prexy Salaam}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Pigeonhole Buckthorn}{4}
+\contentsline {section}{\numberline {2.1}Faceplate Marginalia}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Pinwheel Thresh}{4}
+\contentsline {subsection}{Promenade Exeter}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Laryngeal Gallon Mission}{5}
+\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{6}
+\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Faceplate Marginalia}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Promenade Exeter}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{14}

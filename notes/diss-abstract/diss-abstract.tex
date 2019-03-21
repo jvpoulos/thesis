@@ -1,0 +1,128 @@
+%\documentstyle[11pt,a4]{article}
+%\documentclass[a4paper]{article}
+\documentclass[12pt,letterpaper]{article}
+% Seems like it does not support 9pt and less. Anyways I should stick to 10pt.
+%\documentclass[a4paper, 9pt]{article}
+\topmargin-2.0cm
+
+\usepackage{fancyhdr}
+\usepackage{pagecounting}
+\usepackage[dvips]{color}
+
+% Color Information from - http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_advanced/node13.html
+
+% NEW COMMAND
+% marginsize{left}{right}{top}{bottom}:
+%\marginsize{3cm}{2cm}{1cm}{1cm}
+%\marginsize{0.85in}{0.85in}{0.625in}{0.625in}
+
+\advance\oddsidemargin-0.65in
+%\advance\evensidemargin-1.5cm
+\textheight9.2in
+\textwidth6.75in
+\newcommand\bb[1]{\mbox{\em #1}}
+\def\baselinestretch{1.05}
+\pagestyle{empty}
+
+\newcommand{\hsp}{\hspace*{\parindent}}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+%\definecolor{gray}{rgb}{1.0,1.0,1.0}
+
+\usepackage[margin=1in]{geometry} %1 inch margins
+
+\usepackage[compact]{titlesec}
+\usepackage{setspace}  %squeeze bibliography
+\usepackage{multicol}	 %multicolumn references
+
+%\setlength{\parindent}{1em}
+\setlength{\parskip}{1em}
+
+\usepackage{times}
+
+% Chicago 15 ed. author-date
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+
+\usepackage[authordate,backend=biber,natbib]{biblatex-chicago}
+\addbibresource{/media/jason/Dropbox/github/land-reform/paper/references.bib}
+
+\begin{document}
+\pagestyle{fancy}
+\rhead{\thepage}
+\cfoot{}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text} 
+% Leave Left and Right Header empty.
+\lhead{}
+\rhead{}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+%\fancyfoot[C]{\footnotesize \textcolor{gray}{http://www.stanford.edu/$\sim$sundaes/application}} 
+
+%\pagestyle{myheadings}
+%\markboth{Jason Poulos}{Jason Poulos}
+
+\pagestyle{fancy}
+\lhead{\textcolor{gray}{\it Jason Poulos}}
+\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+%\renewcommand{\headrulewidth}{0pt} 
+%\renewcommand{\footrulewidth}{0pt} 
+%\fancyfoot[C]{\footnotesize http://www.stanford.edu/$\sim$sundaes/application} 
+%\ref{TotPages}
+
+% This kind of makes 10pt to 9 pt.
+\begin{small}
+
+%\vspace*{0.1cm}
+\begin{center}
+{\LARGE \bf Dissertation Abstract}\\
+\vspace*{0.1cm}
+{\normalsize Jason Poulos (poulos@berkeley.edu)}
+\end{center}
+%\vspace*{0.2cm}
+
+%\begin{document}
+%\centerline {\Large \bf Research Statement for Jason Poulos}
+%\vspace{0.5cm}
+
+% Write about research interests...
+%\footnotemark
+%\footnotetext{Check This}
+
+\subsubsection*{The Political Economy of Land Reform in the U.S.}
+
+My dissertation argues that early land reforms had consequential long-run impacts on the development of the American state. The state-building role of land reform, which includes policies to decentralize public land, is frequently discussed in the context of comparative political economy \citep[e.g.,][]{albertus2015autocracy,murtazashvili2016does}. Several scholars of American Political Development (APD) have studied the implications of land policies designed to open up the western frontier on the developmental trajectory of the U.S. \citep[e.g.,][]{bensel1990,frymer2014rush}; however, my dissertation research is the first to quantify how land policies shaped the American political economy. 
+
+In the existing APD literature, substantial attention is paid to state-building with respect to the centralization of national power, and specifically to the expansion of federal bureaucratic capacity through the merit-based federal civil service system installed following the Civil War and Reconstruction \citep{skowronek1982building,bensel1990,carpenter2001}. The American state, however, is organized horizontally and authority is often delegated downward to sub-national units of government. As \citet{novak2008myth} writes, ``trying to gauge the power of the American state or the reach of American public policy by looking simply at the national center or the federal bureaucracy is to miss where much of the action is --- on the local and state levels --- on the periphery." How did public land laws shape the development of state governments? 
+
+\textbf{``Building State Capacity through Public Land Disposal"}, which is invited for resubmission to the \emph{Journal of the Royal Statistical Society, Series A}, provides evidence that mid-nineteenth century homestead acts had positive long-run impacts that can help explain contemporary differences in the capacity of state governments. The paper proposes a new method of estimating the causal impacts of a policy intervention on observational time-series data using recurrent neural networks (RNNs). The method improves upon the standard difference-in-difference (DD) approach because it allows researchers to chart the temporal evolution of causal impacts, rather than simply measuring the difference before and after an intervention. I use the method to predict the counterfactual of state government finances in the absence of homestead acts, and find that the Homestead Act of 1862 had a significant and positive impact on western state government finances about fifty years following its implementation. 
+
+\textbf{``Land Lotteries, Long-term Wealth, and Political Selection"} (forthcoming in \emph{Public Choice}) asks whether personal wealth can cause individuals to select into office. This question is important and relevant because wealthy individuals might select into office in order to use their power to protect vested interests rather than advance the interests of their constituents. While several studies have studied the effect of officeholding on wealth accumulation, research on the extent to which personal wealth affects the probability of officeholding is much more limited.
+
+The paper takes advantage of the random assignment of land in Georgia at the beginning of the nineteenth century. This random assignment of land generates a meaningful ex-ante exogenous shock to personal wealth, which is expected to reduce the opportunity costs of holding office and may make it more important for the wealthy to hold office. I find no evidence in support of the hypotheses that wealth increases the probability of running for office or holding office and argue that these null results are informative because the estimated effects are not practically different than zero. The absence of a treatment effect suggests that observed cross-sectional correlations between wealth and officeholding are likely due to selection effects. 
+
+\vspace{0.5cm}
+%\begin{flushright}
+%Jason Poulos
+%\end{flushright}
+
+\end{small}
+
+%\begin{thebibliography}{deSolaPITH}
+% Change font size?
+% \tiny, \footnotesize, \small,\normalsize, \large, \Large, \LARGE, and \huge 
+%\begin{small}
+\begin{singlespace}
+\begin{footnotesize}
+\begin{multicols}{2}
+\printbibliography
+\end{multicols}
+\end{footnotesize}
+\end{singlespace}
+
+\end{document}
+

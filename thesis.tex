@@ -5,7 +5,7 @@
 % The Current Maintainer of this work is Paul Vojta.
 
 \documentclass{ucbthesis}
-\usepackage{biblatex}
+%\usepackage{biblatex}
 
 % To compile this file, run "latex thesis", then "biber thesis"
 % (or "bibtex thesis", if the output from latex asks for that instead),
@@ -21,7 +21,34 @@
 
 \newtheorem{theorem}{Jibberish}
 
-\bibliography{references}
+% Chicago 15 ed. author-date
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+
+\usepackage[authordate,backend=biber,natbib]{biblatex-chicago}
+\addbibresource{/media/jason/Dropbox/github/land-reform/paper/references.bib}
+
+% Puts parentheses around year in ref list
+\makeatletter
+\renewbibmacro*{cmsbibyear}{%
+	\printtext[parens]{%
+		\iftoggle{cms@origlabel}%
+		{\usebibmacro{origyear+labelyear}}%
+		{\iftoggle{cms@bothlabelnew}%
+			{\usebibmacro{bothyear+oldstyle}}%
+			{\iftoggle{cms@bothlabelold}%
+				{\usebibmacro{bothyear+oldstyle}}%
+				{\usebibmacro{labelyear+extrayear}}}}}%
+	\ifcsdef{@cms@tempdate}%
+	{\toggletrue{\@cms@tempdate}}%
+	{}}%
+\makeatother
+
+%%%%%%%%%%%%%
+
+%\bibliography{references}
 
 \hyphenation{mar-gin-al-ia}
 \hyphenation{bra-va-do}
@@ -82,28 +109,29 @@ transcript alike. Washable an acre. To canned, silence in foreign.
 % separate pages.
 
 \tableofcontents
-%\clearpage
-%\listoffigures
-%\clearpage
-%\listoftables
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
 
 \begin{acknowledgements}
 I acknowledge support of the National Science Foundation Graduate Research Fellowship (DGE 1106400). This work used the computer resources of Stampede2 at the Texas Advanced Computing Center (TACC) under an Extreme Science and Engineering Discovery Environment (XSEDE) startup allocation (TG-SES180010). The Titan Xp GPU used for this research was donated by the NVIDIA Corporation.
-
 \end{acknowledgements}
 
 \end{frontmatter}
 
 \pagestyle{headings}
 
-% (Optional) \part{First Part}
-
-\include{chap1}
-\include{chap2}
+%\part{First Part}
+\include{intro} % Introduction and background to the general topic area.
+\include{chap1} % First paper
+\include{chap2} % Second paper
+\include{chap3} % Third paper
+\include{conclusion} % Conclusion and implications for policy and/or further research.
 
 % \appendix
 % \chapter{More Monticello Candidates}
 
-\printbibliography
+\printbibliography%[title=References]
 
 \end{document}

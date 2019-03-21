@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>thesis.bcf</file>
+      <file>diss-abstract.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>thesis.bbl</file>
+      <file>diss-abstract.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,19 +67,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>thesis</infile>
+      <infile>diss-abstract</infile>
     </cmdline>
     <input>
-      <file>thesis.bcf</file>
+      <file>diss-abstract.bcf</file>
     </input>
     <output>
-      <file>thesis.bbl</file>
+      <file>diss-abstract.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>thesis.bbl</file>
+      <file>diss-abstract.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>thesis.bcf</file>
+      <file>diss-abstract.bcf</file>
     </requires>
     <requires type="editable">
       <file>/media/jason/Dropbox/github/land-reform/paper/references.bib</file>

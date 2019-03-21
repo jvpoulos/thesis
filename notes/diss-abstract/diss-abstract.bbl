@@ -29,7 +29,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Cambridge: Cambridge University Press}%
+        {New York, NY: Cambridge University Press}%
       }
       \strng{namehash}{9dcb437679ca57e86d54676a70bcb35d}
       \strng{fullhash}{9dcb437679ca57e86d54676a70bcb35d}
@@ -56,7 +56,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Cambridge: Cambridge University Press}%
+        {Cambridge University Press}%
       }
       \strng{namehash}{c24417d3015709a0d0a7f3f61d4d4772}
       \strng{fullhash}{c24417d3015709a0d0a7f3f61d4d4772}
@@ -126,7 +126,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Perspectives on Politics}
       \field{number}{1}
-      \field{title}{`{A} Rush and a Push and the Land Is Ours': {T}erritorial Expansion, Land Policy, and {U.S.} State Formation}
+      \field{title}{`A Rush and a Push and the Land Is Ours': Territorial Expansion, Land Policy, and U.S. State Formation}
       \field{volume}{12}
       \field{year}{2014}
       \field{pages}{119}
@@ -202,38 +202,6 @@
       \field{pages}{752\bibrangedash 772}
       \range{pages}{21}
     \endentry
-    \entry{poulos2019land}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=8b2549e4c976cf3be7f9821f20ca4b7d}{%
-           family={Poulos},
-           familyi={P\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \strng{fullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \strng{bibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \strng{authorbibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \strng{authornamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \strng{authorfullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Public Choice}
-      \field{number}{1}
-      \field{title}{Land lotteries, long-term wealth, and political selection}
-      \field{volume}{178}
-      \field{year}{2019}
-      \field{pages}{217\bibrangedash 230}
-      \range{pages}{14}
-    \endentry
     \entry{skowronek1982building}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=7c32512215b3ff1ae93e05f630f8e23c}{%
@@ -244,7 +212,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Cambridge: Cambridge University Press}%
+        {New York, NY: Cambridge University Press}%
       }
       \strng{namehash}{7c32512215b3ff1ae93e05f630f8e23c}
       \strng{fullhash}{7c32512215b3ff1ae93e05f630f8e23c}
@@ -262,9 +230,6 @@
       \field{year}{1982}
     \endentry
   \enddatalist
-  \missing{cmusic}
-  \missing{fm}
-  \missing{waveshaping}
 \endrefsection
 \endinput
 
