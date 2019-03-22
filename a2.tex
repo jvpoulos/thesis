@@ -1,0 +1,106 @@
+\chapter{Supplementary Tables and Figures for Chapter \ref{ga-lottery}}
+
+%1
+\begin{table}[htbp] 
+	\caption{Counties created by 1805 and 1807 lotteries. \label{counties-tab}}
+	\begin{tabularx}{\linewidth}{l*{7}{Y}}
+		\toprule
+		\multicolumn{7}{l}{\textbf{Panel A: 1805}} \\
+		\midrule
+		Counties  & No. Districts & Lot sizes (acres)& Lot length (chains square)& Lot orientation (degrees) & Grant fee (\$) & Est. value of lot (\$)\\
+		\hline
+		Baldwin & 5  &  202.5  & 45& 45 / 60  & 8.10  & 839.17\\ 
+		Wayne & 3 &  490  &70 &13 / 77  & 19.60 & 842.64 \\ 
+		Wilkinson & 5  &  202.5  & 45&45 / 60 & 8.10 & 811.25 \\   
+	\end{tabularx}
+	\begin{tabularx}{\linewidth}{l*{7}{Y}}
+		\toprule
+		\multicolumn{7}{l}{\textbf{Panel B: 1807}} \\
+		\midrule
+		Counties  & No. Districts & Lot sizes (acres)& Lot length (chains square)& Lot orientation (degrees) & Grant fee (\$) & Est. value of lot (\$) \\
+		\hline
+		Baldwin & 15  &  202.5  & 45& 45 / 60  & 12.15  & 827.35\\ 
+		Wilkinson & 23 &  202.5  & 45&45 / 60 & 12.15 & 799.82 \\    
+		\bottomrule
+	\end{tabularx} 
+	\footnotesize{Notes: counties and land lots specified by Acts of 11 May 1803 and 9 June 1806. Lot orientation is degrees from the meridian. Lot values are estimated by averaging the cash value of farms minus the value of farming implements and machinery by the number of (improved and unimproved) acres of land in farms \citep{haines2004,bleakley2013up}. The 1850 values are deflated to 1805 dollars (Panel A) and 1807 dollars (Panel B) using a historical consumer price index \citep{officer2012}.}
+\end{table}
+
+%2
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{Distribution of census wealth by officeholding status.}   \label{officeholders-1820-1850}
+		\resizebox{1\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/online-appendix/officeholders-1820-1850}}\\
+	\end{center}
+	\footnotesize{Notes: slave wealth adjusted to 1850\$ values \citep{williamson2016}. $p$-value is obtained from a Mann-Whitney-Wilcoxon test under the null hypothesis that officeholder and non-officeholder distributions are equal.} 
+\end{table}
+
+%9
+\begin{table}[htbp]
+	\begin{center}
+		\caption{Record classification ensemble.\label{ensemble-tab-link}} 
+		\begin{tabular}{llcc}
+			\hline
+			Algorithm & Parameters & MSE & Weight \\ 
+			\hline
+			\rowcolor{Gray}
+			Super Learner & default & 0.02 & - \\
+			Generalized boosted regression &  default & 0.02 & 0.05 \\ 
+			GLM with elasticnet regularization	 &  $\alpha=0$ & 0.02 & 0 \\  % ridge
+			GLM with elasticnet regularization	 &  $\alpha=0.25$ & 0.02& 0 \\ 
+			GLM with elasticnet regularization 	&  $\alpha=0.5$ & 0.02 & 0 \\ 
+			GLM with elasticnet regularization 	 &  $\alpha=0.75$ & 0.02 & 0 \\ 
+			GLM with elasticnet regularization 	 &  $\alpha=1$ & 0.02 & 0.52 \\  % lasso
+			Neural network  &  default & 0.13 & 0 \\ 
+			Random forests 	& default & 0.02 & 0.32 \\ 
+			Random forests 	 & $\# \, \text{variables sampled} =1$ & 0.04 & 0.09 \\ 
+			Random forests 	  & $\# \, \text{variables sampled}=5$  & 0.02 & 0 \\ 
+			Random forests 	 & $\# \, \text{variables sampled}=10$ & 0.03 & 0 \\ 
+			\hline
+		\end{tabular} 
+	\end{center}
+	\footnotesize{Notes: cross-validated risk and weights used for each algorithm in Super Learner prediction ensemble for record classification model. \textit{MSE} is the ten-fold cross-validated mean squared error for each algorithm. \textit{Weight} is the coefficient for the Super Learner, which is estimated using non-negative least squares based on the Lawson-Hanson algorithm. $\alpha$ is the elasticnet mixing parameter, where $\alpha = 0$ is the ridge penalty and $\alpha = 1$ is the lasso penalty. $\# \, \text{variables sampled}$ is the number of predictors sampled for splitting at each node.}
+\end{table}
+
+%12
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{Robustness: ITT treatment effects on officeholding.}   \label{officeholding-robust-table}
+		\resizebox{0.9\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/online-appendix/officeholder-robust-table}}
+	\end{center}
+	\footnotesize{Notes: \textit{Officeholder (match prob.)} is the officeholder match probability. See notes to Table \ref{candidate-robust-table}.}  
+\end{table} 
+
+%13
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{Robustness: ITT treatment effects on candidacy.}   \label{candidate-robust-table}
+		\resizebox{0.9\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/online-appendix/candidate-robust-table}}
+	\end{center}
+	\footnotesize{Notes: \textit{Candidate (match prob.)} is the candidate match probability. Covariates included are those that yield $p <0.10$ in Fig. \ref{balance-plot}.}  
+\end{table}  
+
+%14
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{Robustness: ITT treatment effects on slave wealth (1820\$).}   \label{slave-robust-table}
+		\resizebox{0.9\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/online-appendix/slave-robust-table}}
+	\end{center}
+	\footnotesize{Notes: \textit{Slave wealth (weighted)} is the same measure weighted by the census match probability. See notes to Table \ref{candidate-robust-table}.}  
+\end{table}   
+
+\begin{figure}[htbp] %15
+	\begin{center}
+		\caption{Power analysis by simulation for binary response variable.\label{power-plot-bin}}		
+		\includegraphics[width=1\textwidth]{/media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png} 
+	\end{center}
+	\footnotesize{Notes: $N=21,732$ and $\mathcal{I} =100$ iterations. The horizontal line indicates the 80\% power that is normally required to justify a study.}
+\end{figure}
+
+\begin{figure}[htbp] % 16
+	\begin{center}
+		\caption{Quantile regression treatment effect estimates on slave wealth for 1805 winners \& losers. \label{qreg-plot} }
+		\includegraphics[width=1\linewidth]{/media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png} \\
+	\end{center}
+	\footnotesize{Notes: estimates from a quantile regression of the treatment effect on imputed slave wealth for participants linked to the 1820 Census ($N=5,252$). The points are quantile-specific estimates of the treatment effect and the error bars represent 95\% confidence intervals constructed from bootstrapped standard errors. Quantiles above 0.98 are omitted for display purposes. The line is a LOESS-smoothed estimate of the treatment effect.}
+\end{figure}

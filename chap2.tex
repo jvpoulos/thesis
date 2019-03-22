@@ -1,66 +1,149 @@
-\chapter{Placental Ionosphere}
+\chapter[Land Lotteries, Long-term Wealth, and Political Selection]{Land Lotteries, Long-term Wealth, and Political Selection\footnote{This paper is previously published \citep{poulos2019land}.}}\label{ga-lottery}
 
-\section{Pigeonhole Buckthorn}
+\begin{quote}  
+	\textbf{Summary:} Does personal wealth cause individuals to select into public office? This study exploits the 1805 and 1807 Georgia land lotteries to investigate the hypothesis that wealth increases political power. Most eligible males participated in the lotteries and more than one-in-ten participants won a land prize worth over half of median property wealth. I find no evidence that lottery wealth increases the likelihood of officeholding or running for office, and argue that those null findings are informative because the estimates are not practically different from zero. The absence of a treatment effect implies that commonly observed cross-sectional correlations between personal wealth and officeholding are likely explained by selection effects.
+\end{quote}
 
-Davidson witting and grammatic.  Hoofmark and Avogadro ionosphere.
-Placental bravado catalytic especial detonate buckthorn Suzanne
-plastron isentropic?  Glory characteristic.  Denature?  Pigeonhole
-sportsman grin historic stockpile. Doctrinaire marginalia and art.
-Sony tomography.
+\section{Introduction}
 
-\begin{figure}\centering
-\parbox{.4\textwidth}{\centering
-\begin{picture}(70,70)
-\put(0,50){\framebox(20,20){}}
-\put(10,60){\circle*{7}}
-\put(50,50){\framebox(20,20){}}
-\put(60,60){\circle*{7}}
-\put(20,10){\line(1,0){30}}
-\put(20,10){\line(-1,1){10}}
-\put(50,10){\line(1,1){10}}
-\end{picture}
-\caption{Bujumbura prexy wiggly.}}
-\hfill
-\parbox{.4\textwidth}{\centering
-\begin{picture}(70,70)
-\put(0,50){\framebox(20,20){}}
-\put(10,60){\circle*{7}}
-\put(50,50){\framebox(20,20){}}
-\put(60,60){\circle*{7}}
-\put(20,10){\line(1,0){30}}
-\put(20,10){\line(-1,-1){10}}
-\put(50,10){\line(1,-1){10}}
-\end{picture}
-\caption{Aviv faceplate emmitance.}}
+\noindent
+A problem in representative democracies is that elected officials might use their power to defend vested interests rather than advance the interests of their constituents. Personal wealth is expected to reduce the opportunity costs of holding public office and also may make it more important for wealthy citizens to seek elective or appointive positions. While several studies have examined the effect of officeholding on wealth accumulation  \citep[e.g.,][]{eggers2009,querubin2013,truex2013}, research on the extent to which wealth affects officeholding is more limited. 
+
+Natural experiments that exploit exogenous variation in personal wealth can be used to identify wealth's causal effects on officeholding. State-run lotteries that randomly distribute land titles to individuals satisfy that objective because winning a land title represents an exogenous shock to personal wealth. \citet{rossi2014}, for instance, exploits the random allocation of land in $16^{th}$ century Argentina to identify the causal relationship between wealth and subsequent political power. Wealth is proxied by the distance of randomly allocated land from the City of Buenos Aires, where land closer to the city is more valuable and political power is represented as a binary variable indicating whether heads of household or their relatives held a position in city government. Rossi finds that an increase of one standard deviation in the distance of the land to the city reduces the likelihood of political power by about 12\%.\footnote{The linear model used to obtain the estimate assumes that distance of the land to the city is uncorrelated with unobserved individual-level predictors of political labor supply, such as the opportunity costs associated with holding office.}
+
+The present study uses the first two Georgia land lotteries as natural experiments to investigate the hypothesis that personal wealth increases subsequent political power. The 1805 lottery was the first public land lottery in US history, only to be replicated in 1807 and six later Georgia lotteries.\footnote{The six later Georgia lotteries were held in 1820, 1821, 1827, 1832, 1832 (``Gold Lottery''), and 1833 (``Fractions Lottery'').} The state distributed more than one million acres of land in the 1805 lottery, two million acres in the 1807 lottery, and 23 million acres in all eight lotteries \citep{cadle1991}. A sizable majority of eligible adult white males participated in the lotteries, and about one-in-ten won land prizes with an estimated mean value of least \$800, which represents more than half of median property wealth at the time of the lotteries. Since land prizes could readily be sold in a secondary market for public land, the random assignment of land generates an ex-ante exogenous shock to personal wealth. However, I find no evidence in support of the hypotheses that wealth increases the likelihood of officeholding or political candidacy. I argue that those null results are still informative because the estimates are not practically different from zero. 
+
+Did winning the lottery not affect officeholding or candidacy because the magnitude of the windfall --- while large relative to average wealth --- was not sufficient to move the median participant into the slaveholding elite that formed the largest political class in the antebellum South? To determine  whether treatment translates into long-run wealth for lottery winners, I link the participant records to the full-count 1820 Census, which is the earliest census to include a measure of individual wealth: the number of slaves owned. I provide evidence from quantile regression estimates that winning a prize in the 1805 lottery conferred on lottery winners near the median of the wealth distribution a \$171 increase in wealth, with a 95\% confidence interval of [\$18, \$323]. The upper bound of the estimate is enough wealth to satisfy the freehold qualification for running for representative to Georgia's legislature. The estimate is similar in size to \possessivecite{bleakley2013up} estimate that winning a prize in the 1832 Georgia lottery significantly increases 1850 total census wealth (i.e., combined slave and real-estate wealth) by \$200.\footnote{The authors use a sample of 1832 lottery participants linked to the full-count 1850 Census to investigate the effects of lottery prize values on the long-run wealth distribution of lottery winners. Using the same linked sample, \citet{bleakley2016} finds no evidence of a treatment effect on the wealth, literacy, or occupational standing of lottery winners or their descendants.} 
+
+This paper proceeds as follows: Section \ref{theory} provides a theoretical discussion of the channels through which wealth may or may not impact political power; Section \ref{history-ch2} provides some historical background, including details on the development and implementation of the 1805 and 1807 lotteries. Section \ref{data} describes the data and record-linkage procedure, and provides summary statistics on the wealth of officeholders. Section \ref{results} specifies the treatment effect estimator, tests the assumption of random treatment assignment, and provides treatment effect estimates. Section \ref{discussion-ch2} discusses concerns regarding statistical power and the importance of treatment; Section \ref{conclusion} concludes.
+
+\section{Theoretical considerations} \label{theory} 
+
+Through which channel should we expect wealth to influence officeholding, both in general and in the case of the antebellum South? In general, wealth makes it easier to access politics or makes it more important to have political power in order to protect vested interests. Materialist interpretations of oligarchies view personal wealth as a source of political power because it is tightly concentrated among a minority of the population, can be translated into political influence, and accompanies a set of political interests, such as wealth defense \citep{winters2009}. According to that interpretation, wealthy citizens do not need to hold office or explicitly coordinate their political efforts, but instead work toward similar policy goals through political investment or lobbying.
+
+In the case of antebellum Georgia, wealth shocks could have enabled poor citizens to overcome freehold requirements for holding office and attenuate the opportunity costs associated with candidacy and officeholding since the state legislature was not yet professionalized. Citizen-candidate models \citep{osborne1996,besley1997} demonstrate that the number of candidates entering political contests declines with the cost of running, which is modeled both as campaigning cost and the opportunity cost of entering political races. In such models, the set of eligible candidates is the universe of eligible voters. In antebellum Georgia, the former was a proper subset of the latter because many otherwise eligible citizens could not run for office owing to freehold requirements for officeholding.
+
+\citet{corvalan2018political} build on the citizen-candidate model by adding a wealth-based eligibility requirements, which results in ideological distributions differing between eligible candidates and voters. Their model predicts that when the eligibility requirement is high enough to be binding --- i.e., when the eligibility requirement exceeds the median wealth of the constituency --- the key player is the citizen closest to the median within the set of eligible candidates. When the eligibility requirement does not bind, the key player is the constituency median. Eligibility requirements that are not binding can still restrict electoral competition in equilibrium by ruling out the possibility of poorer candidates who prefer higher taxes.
+
+As described in further detail in Section \ref{barriers}, wealth-based eligibility requirements in Georgia were not binding in the sense that they did not exceed the estimated median property wealth at the time of the land lotteries. The lotteries initiated an exogenous shock to the wealth distribution that would have provided poor citizens with the freehold eligibility required to run for the state legislature. In the context of \citet{corvalan2018political}, the exogenous wealth shock resulting from the land lotteries therefore had an  effect on tax policy and electoral competition identical to lessening eligibility restrictions for officeholding: the decisive citizen becomes less wealthy and more favorable to income redistribution, potentially opening the door for ``leftist'' candidates.  
+
+Wealth shocks resulting from the lotteries likewise may have lowered the opportunity costs associated with officeholding, especially considering that Georgia's legislature was not professionalized at the time. State legislatures that are not professionalized tend to be dominated by proprietors rather than wage and salary earners, who face higher opportunity costs of serving \citep{fiorina1994,fiorina1999}. Studies of legislative careers and strategic retirements generally find that nonpolitical wealth and tenure in office are inversely related. \citet{hall1995}, for instance, find that a significant number of US Representatives decided to postpone retirement in 1990 in order to take advantage of a pension windfall enacted by the outgoing Congress. \citet{groseclose1994} estimates that the opportunity cost of remaining in office accounts for more than a third of retirements in 1992, which was the final year in which Members of Congress could transform campaign funds into personal wealth.\footnote{Relatedly, \citet{milyo1999electoral} find that incumbent wealth is orthogonal to electoral success in the 1992 House elections.}
+
+\section{Historical background} \label{history-ch2} 
+
+Inequality in political represenation was prevalent throughout the antebellum South. For example, \citet{helper1860} rails against the ``slave-driving oligarchy'' which dominated political offices then: 
+%
+	\begin{quotation}The magistrates in the villages, the constables in the districts, the commissioners of the towns, the mayors of the cities, the sheriffs of the counties, the judges of the various courts, the members of the legislatures, the governors of the States, the representatives and senators in Congress --- are all slaveholders....There is no legislation except for the benefit of slavery and slaveholders.
+	\end{quotation}  
+%
+The slaveholders' dilemma was to secure political dominance amid universal white male suffrage. The 1798 Georgia constitution, which was in effect for the entirety of the antebellum period, extended rights to elect members of the legislature to adult white males. Propertyless whites were discouraged from voting on account of a poll tax that the legislature maintained during the antebellum period. Slaveholder candidates, however, often paid the poll taxes of poor whites in exchange for political support \citep{meyers2012}. Slaveholding cotton planters found allies in members of the clerical and the professional classes, who often owned a few slaves for personal service, and that alliance created a class of ``social retainers'' who defended the interests of slaveholding planters \citep{simons1912}. Echoing the US Constitution of 1787, the three-fifths clause in the 1798 Georgia constitution counted slaves as three-fifths of a person for the purpose of representation in the legislature and thus fortified the slaveholders' control of the legislature \citep{coulter1960}.
+
+\subsection{Barriers to officeholding} \label{barriers}
+
+The 1798 Georgia constitution also tied officeholding eligibility to land and property values. Beyond age and residency requirements, candidates for state representative were required to own freehold estates worth \$250 or possess \$500 of taxable property within their constituencies. The eligibility requirements for state senator were double those amounts. Qualifications for governor, an office opened to direct elections in 1824, included owning at least 500 acres of land within the state and other property to the value of \$4,000. Amendments to the constitution removed freehold qualifications for the legislature in 1835 and for governor in 1847. 
+
+In the terminology of \citet{corvalan2018political}, the freehold requirements for serving in the legislature were not binding because the requirements did not exceed the estimated median property wealth at the time of the land lotteries. Drawing a sample from the full-count 1850 Census \citep{ruggles2015} of adult male heads-of-household who were born in Georgia, living in Georgia, and had nonmissing surnames and property values, I estimate that about 13\% of otherwise-eligible citizens had nominal property values below the freehold requirement for state representative and 28\% were barred from running for state senator.
+
+However, winning a land lottery prize enabled otherwise eligible lottery winners who did not satisfy freehold qualifications to hold office in the legislature. Using county-level data from the 1850 Census \citep{haines2004}, I estimate that the mean value of a land prize in either of the first two lotteries exceeded \$800, which represents 55\% of median property wealth at the time of the lotteries.\footnote{Table \ref{counties-tab} provides information on the estimated lot value per county and a description of how the mean land prize values are calculated.}
+
+Georgia's legislature was not professionalized at the time of the lotteries and was mandated by the constitution to meet only once a year.\footnote{The legislature typically met more than once. For example, in 1805 the House and Senate each met about 30 times.} The 1798 constitution provides salaries only for members of the executive branch and judiciary, while \textit{per diem} compensation for legislators was not introduced until the 1877 constitution. The lack of legislative professionalism may have imposed an additional barrier for less wealthy citizens to run for the legislature owing to the opportunity costs associated with holding office.
+
+\subsection{Officeholder wealth}\label{political-class} 
+
+How does the wealth of Georgia's political class compare with the wealth of the general population?  Following the record linkage procedure described in Section \ref{data}, I link the full list of officeholders to the 1820 and 1850 censuses in order to get a sense of where officeholders stand in the distribution of slave wealth and real estate wealth, respectively.\footnote{The match probability averages are close to zero because the model is trained on a different domain; i.e., linking 1807 participants to officeholder records. I drop the prediction threshold to 25\% in order to compensate for lower average match probabilities.} I successfully link 39\% and 66\% of officeholders to the 1820 and 1850 Censuses, respectively. In comparison, \citet{corvalan2018political} report success rates of between 41\% and 68\% when linking the names of state senators from the Carolinas and Virginia to the full-count 1850 Census. 
+
+Table \ref{officeholders-1820-1850} reports basic summary statistics on the wealth-holding of officeholders versus the rest of the sample. Officeholders matched to the 1820 Census hold \$548 more in slave wealth, on average, than the rest of the sample ($p < 0.001$). Similarly, officeholders matched to the 1850 Census hold about \$400 more in real estate wealth, on average, than non-officeholders ($p < 0.001$).
+
+\subsection{The 1805 and 1807 lotteries} \label{lotteries} 
+
+In the wake of public land fraud scandals, Georgia's legislature created a lottery system to distribute 1.3 million acres of newly acquired public land ceded by the Creek tribe. The 1805 lottery carved out three new counties from that land: Baldwin and Wilkinson counties, each divided into five districts, and Wayne county, divided into three districts \citep{clayton1812}. The 1807 lottery extended the boundary between Baldwin and Wilkinson, more than tripling the number of districts within the two counties.  
+
+Free white adult men and orphaned children were eligible for a single draw, while married men with children and widows with children were eligible for two draws in the 1805 lottery. The eligibility rules for the 1807 lottery were similar, with the main exception being that adult unmarried females could participate and 1805 lottery winners were excluded from participation.\footnote{Participants were required to take an oath when ``doubt exist in the minds of the said justices'' regarding the veracity of participants' eligibility. The legislature criminalized making false statements concerning eligibility in the land lotteries. The law specifies that if found guilty in a jury trial, half of the defendant's land went to the informer and the other half is reverted to the state, to be auctioned as land fractions.} Registration for each lottery was voluntary and required a payment of 12.5 cents per draw. I estimate that approximately 85\% of eligible males living in Georgia participated in the 1805 lottery and 70\% of eligible males participated in the 1807 lottery.\footnote{The 1805 calculation was made by taking the proportion of adult male participants over the total white male population aged 16 and over in the 1800 Census. The 1807 calculation subtracts the number of adult male winners in the 1805 lottery from the numerator.} 
+
+Prior to each lottery, a surveyor was appointed by the legislature to map the districts into square lots. During the 1805 lottery, tickets representing each lot were placed in a wooden lottery wheel to be awarded as prizes, along with blank tickets equal in number to the difference between the number of prizes and the number of draws. Two lottery wheels were used in the 1807 drawing: one containing the names of participants, and the other containing lot numbers. Blank tickets in number equal to difference between the number of registered draws and lot prizes were added to the lottery wheel. Tickets from each wheel were drawn simultaneously to form a combined ticket, and the participant won if the combined ticket included a prize. Lottery winners were required to pay \$4 per hundred acres for lots won in the 1805 lottery, or \$6 per hundred acres for lots won in the 1807 lottery, in order to obtain the title on the lot.\footnote{Lottery winners had 12 months following the drawing to claim their prize under law; however, the legislature extended the deadline for claiming prizes on an annual basis until 1815. If lottery winners did not claim their land prior to the deadline, then the lots reverted to the state and sold in a public auction.} 
+
+Winning a prize in the lottery represents a pure wealth shock because no homesteading requirement was imposed and lottery winners could easily sell their grants in a secondary market for public land \citep{weiman1991}. In some cases, lottery winners sold their grants to land speculators, who in turn sold the land to out-of-state settlers \citep{davis1981}. Land speculators often sought out lottery winners who drew particularly valuable lots \citep{cadle1991}.
+
+\section{Data and descriptive statistics} \label{data}
+
+The primary source of data for this study is \possessivecite{graham2004} record of 1805 lottery winners and losers. The 1805 lottery is the only Georgia lottery to have recorded the names of all lottery participants. The records contain information on participants' names, county of registration, lottery draws, and lottery prizes won. Identifying remarks next to the participants' names provide additional information, such as generational suffix (i.e., ``Jr." and ``Sr.") and orphan status. Table \ref{summary-table} reports that 15\% of the unrestricted sample of 1805 lottery participants ($N=23,927$) received at least one lottery prize and was registered for 1.65 draws, on average, and 4\% of 1805 lottery winners ($N=3,707$) won two prizes.
+
+I use lottery winner grant records for the 1807 lottery \citep{graham2011} to construct a sample of 1807 lottery winners ($N = 8,822$), in which 14\% of the sample won two prizes. Since the 1807 lottery records do not include information on the number of registered draws, I impute the number of draws by assigning two draws to all participants, except for women and orphans, who are assigned one draw. The mean of the imputed number of draws among 1807 winners, 1.85 draws, is virtually identical to the mean of the actual number of registered draws registered by 1805 winners.
+
+In order to test the hypothesis that wealth increases the probability of officeholding, I link participant names to a historical roster of officeholders published in the \textit{Georgia Official and Statistical Register} \citep{archives1978, archives1990}. The roster includes information on names, jurisdictions, and term dates for all elected and appointed officeholders from the state's colonial period to 1990. I consider officeholders whose first term began in 1805 or 1807 to 1850, inclusive. That decision is based on the fact that the white male life expectancy at age 20 in the early 1800s was approximately 40 years \citep{hacker2010}, the youngest participants who were both eligible for the lottery and public office were 21 years of age and were expected to live 40 additional years. 
+
+I employ a machine learning approach for linking lottery participants to officeholder records. First, I link 1807 lottery winners to officeholders based on an exact match on surname and a phonetic algorithm (i.e., Soundex) code of first name, and then deduplicate the matched records manually. Second, I train an ensemble of algorithmic models on the 1807 records to classify correct matches, using participant characteristics (e.g., the frequency and lengths of surnames) and match characteristics (e.g., the Euclidean distance between participants' county of registration and officeholders' constituency) as features of the model.\footnote{The cross-validated mean squared error on the training set is less than 3\%. Table \ref{ensemble-tab-link} provides information on the record link ensemble's candidate learners, weights, and error estimates.} Lastly, I use the ensemble fit to deduplicate automatically 1805 participant records matched with officeholders on the basis of an exact match on surname and Soundex code of the first name; a prediction threshold of 50\% is adopted to classify correct matches. Thus, the \textit{Officeholder} outcome variable is a binary variable indicating whether the participant is linked to the officeholder records.
+
+As reported in Table \ref{summary-table}, 17\% of adult males who participated in the 1805 lottery are matched to officeholder records successfully, and about one-in-ten of matched participants held office before the drawing of the 1805 lottery. Three-quarters of participants linked to officeholder records first served in the state House, while the rest started their political careers in the state Senate, US House, or other state executive branch offices.
+
+\subsection{Candidacy}
+
+To address the question of whether wealth makes individuals more likely to be candidates for office, I extract candidate names from two election datasets, the first covering all offices from the local level to the federal level from 1787 to 1825 \citep{lampi2012} and the second covering federal offices from 1788 to 1990 \citep{inter1984}. I link participants to candidates who first ran for office between the period of 1805 or 1807 to 1850 using the same deduplication model used for linking participants to officeholder names.\footnote{I lower the prediction threshold to 12.5\% to adjust for candidate match probabilities that average near zero.} The resulting \textit{Candidate} outcome is a binary variable that captures whether participants ran for office. Since the candidate records are more limited in scope compared to the officeholder records, only about 2\% of 1805 and 1807 lottery participants are successfully linked to candidate records, and about a quarter of these matched participants ran for office prior to 1805 or 1807.
+
+\subsection{Future wealth}
+
+Finally, I investigate whether winning a lottery prize increased long-term wealth by linking the participant records to the full-count 1820 Census and estimating the treatment effect on imputed slave wealth. The 1820 Census is the earliest surviving enumeration of Georgia's population and represents all counties except for Franklin, Rabun, and Twiggs counties. The records include information on the name of the head of household and the number of slaves held by gender and age group, which I use to impute slave wealth.\footnote{Access to the full-count data is granted by agreement between UC Berkeley, and the Minnesota Population Center \citep{ruggles2015}. The Minnesota Population Center has collected digitized census data for 1790-1930 microdata collection with contributions from Ancestry.com and FamilySearch.} I match 18\% of 1805 lottery participants and 40\% of 1807 lottery winners to the 1820 Census. The mean slave wealth in the linked samples is between \$1,222 and \$1,971, which is approximates the market value of two male prime-age field hands in Georgia at the time of the lotteries.\footnote{ \citet{phillips1905} estimates the average value of male prime field hands (18-30 years old) in Georgia in 1821 is \$700. I impute slave wealth in 1820 by using the coefficients in Table II of \citet{kotlikoff1979} to adjust this average value according to age group and gender.}
+
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{Distribution of pretreatment and response variables by sample.\label{summary-table}}   
+		\resizebox{0.9\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/summary-table}}
+	\end{center}
+	\footnotesize{Notes: \textit{Treated } is defined as winning at least one prize for the 1805 winners and losers sample, and winning two prizes for the samples restricted to winners. \textit{\# draws} is the number of registered draws. \textit{Candidate} and \textit{Officeholder} indicates whether participants ran for office or held office, respectively. \textit{Slave wealth} (in 1820 dollars) is the imputed slave wealth for participants matched to the 1820 Census.} 
+\end{table}
+
+\section{Estimation and results} \label{results} 
+
+I estimate the following linear model:
+
+\begin{equation} 
+y_{i,s} =  \text{\# draws}_{i,s} + \delta \, \text{treat}_{i,s} + \epsilon_{i,s}, \label{eq:lm} 
+\end{equation} 
+\noindent
+where $y_{i,s}$ is the candidate or officeholder response or 1820 slave wealth measure for participant $i = \left\{1, ..., N \right\}$ in sample $s$ and $\text{\# draws}_{i,s} \in \{1,2\}$ represents the number of draws registered by each participant. When the sample includes both 1805 winners and losers, $\text{treat}_{i,s}$ is a binary treatment assignment variable that assumes a value of unity for participants who won at least one prize in the 1805 lottery and assumes a zero value for participants who did not win a prize. The coefficient of interest, $\delta$, corresponds to the intention-to-treat (ITT) estimate of the sample average treatment effect. When the sample is limited to winners in either the 1805 or 1807 lotteries, $\text{treat}_{i,s}$ is equal to unity for participants who win two prizes in the lottery and is zero otherwise. In that case, the ITT effect captures the marginal effect of winning a second land prize. 
+
+\subsection{Balance}
+
+The model assumes that treatment assignment is random conditional on the number of registered draws. While that assumption cannot be tested directly, we can verify that treatment assignment with respect to the pretreatment covariates is balanced. Statistically significant treatment effects on pretreatment covariates at the level of $\alpha= 0.05$ indicate imbalance in treatment assignment. 
+
+Fig. \ref{balance-plot} plots the $p$-values corresponding to the treatment effect estimated by estimating Eq. \ref{eq:lm} on each pretreatment covariate summarized in Table \ref{summary-table}. Treatment assignment is balanced across all pretreatment covariates for 1805 lottery winners and losers. When the sample is restricted to 1805 lottery winners, winners registered in Clarke County were more likely to have won two prizes rather than a single prize, controlling for the number of draws ($p=0.02$). However, the difference is not significant when accounting for the multiple comparisons made for the balance tests.\footnote{The significance level for the Bonferroni correction is $\alpha= 0.05/33 = 0.001$.}
+
+In the sample of 1807 lottery winners, winners who ran for office prior to the 1807 lottery were more likely to have won a second prize ($p = 0.01$). Additionally, 1807 lottery winners were more likely to have won a second prize if they also were more likely to be matched to the 1820 Census ($p < 0.01$), have names with generational suffixes ($p < 0.01$), or have more common surnames ($p < 0.01$). Treatment assignment likewise is unbalanced for 1807 winners registered in the counties of Bryan, Clarke, and Lincoln. 
+
+\begin{figure}[htbp]
+	\caption{Balance in treatment assignment by lottery sample.\label{balance-plot}}
+	\begin{center}
+		\includegraphics[width=0.85\linewidth]{/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/balance-plot.jpeg} 
+	\end{center}
+	\footnotesize{Notes: \textit{1820 Census Match} is the probability of being linked to the 1820 Census;  \textit{Candidate} and \textit{Officeholder} indicates participants who ran for or held office, respectively, prior to the 1805 lottery. Samples include all lottery participants.}
 \end{figure}
 
-Aviv censor seventh, conjugal.  Faceplate emittance borough airline.
-Salutary.  Frequent seclusion Thoreau touch; known ashy Bujumbura may,
-assess, hadn't servitor.  Wash, Doff, or Algorithm.
+\subsection{ITT estimates}
 
-Denature and flaxen frightful supra sailor nondescript cheerleader
-forth least sashay falconry, sneaky foxhole wink stupefy blockage and
-sinew acyclic aurora left guardian.  Raffish daytime; fought ran and
-fallible penning.
+Table \ref{itt-table} presents the ITT treatment effect estimates on each outcome of interest. The confidence intervals for the ITT estimates on officeholding tightly straddle zero for each sample. In the discussion below, I argue that these null results on officeholding are informative because the estimated effects are not practically different from zero. For example, the upper bound of the interval of the treatment effect estimate on \textit{Officeholder} implies that, at most, 1\% of the sample treated group would select into office as a result of receiving treatment. The confidence interval for the estimate is unchanged when estimating the effect on officeholder match probability (Table \ref{officeholding-robust-table}). 
 
-\section{Pinwheel Thresh}
+While I find no evidence of a treatment effect on candidacy for the sample of 1805 winners and losers, the point estimates for the samples of 1805 and 1807 winners imply that the marginal effect of winning a second prize in the lottery significantly increases the probability of running for office by 1\% to 2\%. However, those estimates are not robust to using candidate match probability as the outcome variable (Table \ref{candidate-robust-table}). 
 
-Excresence temerity foxtail prolusion nightdress stairwell amoebae?
-Pawnshop, inquisitor cornet credulous pediatric?  Conjoin.  Future
-earthmen.  Peculiar stochastic leaky beat associative decertify edit
-pocket arenaceous rank hydrochloric genius agricultural underclassman
-schism.  Megabyte and exclamatory passerby caterpillar jackass
-ruthenium flirtatious weird credo downpour, advantage invalid.
+Lastly, I find no evidence that winning a prize in the 1805 lottery increased future slave wealth. In the sample of 1807 winners, winning a second prize significantly reduces slave wealth in 1820 by \$163 [-\$256, -\$69]; although, that estimate is not robust to including pretreatment covariates in the regression or weighting slave wealth by the probability of being matched to the 1820 Census (Table \ref{slave-robust-table}).
 
-\section{Laryngeal Gallon Mission}
+\begin{table}[htbp] 
+	\begin{center}
+		\caption{ITT treatment effect estimates.\label{itt-table}}   
+		\resizebox{0.9\width}{!}{\input{/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/itt-table}}
+	\end{center}
+	\footnotesize{Notes: values in brackets represent 95\% confidence intervals for treatment effect estimates derived from the standard errors of the linear model (Eq. \ref{eq:lm}). Orphans and women are excluded from each sample for candidacy and officeholding outcomes.}
+\end{table}
 
-Conformance and pave.  Industrial compline dunk transept edifice
-downstairs.  Sextillion.  Canvas?  Lyricism webbing insurgent
-anthracnose treat familiar.  Apocalyptic quasar; ephemerides
-circumstantial.
+\section{Discussion} \label{discussion-ch2}
 
-Peridotite giblet knot.  Navigable aver whee sheath bedraggle twill
-era scourge insert.  Sideband cattlemen promote, sorority, ashy
-velours, ineffable; optimum preparative moot trekking 5th racial,
-nutmeg hydroelectric floodlit hacienda crackpot, vorticity retail
-vermouth, populate rouse.  Ceremony?  Fungoid.
+In the short-run, treatment enabled lottery winners at the lower-end of the wealth distribution to meet the freehold qualifications for holding office in the state legislature. Still, treatment may be too weak to cause a substantively meaningful increase in the likelihood that lottery winners would select into public office, given how rare an event it is for citizens to become elected officials. I conduct a power analysis by simulation to ensure that the research design allows for the identification of a significant treatment effect. The simulation results imply that if the actual treatment effect size in a hypothetical finite population is 2.1\%, the research design provides an 80\% chance of rejecting the null hypothesis that treated and control participants are equally likely to hold office (Fig. \ref{power-plot-bin}). Since I am unable to reject the null in the sample, it follows that the population effect size is most likely less than 2.1\%, an effect not practically different from zero. 
+
+Is it the case that the null effects for officeholding are driven by the fact that lottery wealth does not translate into larger long-run wealth, but rather increases present consumption? Lottery winners may perceive lottery wealth as a financial windfall and spend the winnings more quickly than earned wealth \citep{doherty2006}. While I find no evidence that winning a prize in the 1805 lottery increased the future wealth of lottery winners, I provide evidence from quantile regression estimates that treatment increased future wealth for 1805 lottery participants near the median of the wealth distribution (Fig. \ref{qreg-plot}). Specifically, I find that treatment confers a \$171 [\$18, \$323] increase in wealth for participants at the median. The upper bound of the confidence interval represents an increase in wealth sufficient to satisfy the freehold qualification for running for state representative. 
+
+While winning a land lottery prize enabled otherwise eligible lottery winners who did not satisfy freehold qualifications to hold office in the legislature, pervasive wealth inequality may have played a role in stifling access to politics in Georgia in the early $19^{th}$ century. In 1850, the top decile of property-owners held over half of the total property wealth in that state.\footnote{The calculation uses a sample of adult male heads of household who were born in Georgia and were living in Georgia at the time of the 1850 Census. The statewide slave wealth Gini coefficient in 1820 is 0.78 and the coefficient for statewide real estate wealth in 1850 is 0.66, both indicating substantial wealth inequality.} It may be difficult in this setting for even the \textit{nouveau riche} to overcome barriers to entry into politics, such as the opportunity costs associated with participating in politics. Further investigations in alternative settings would help determine whether the results of the present study would be different in a context of less wealth inequality. 
+
+\section{Conclusion} \label{conclusion} 
+
+This study exploits the first two land lotteries in US history to estimate the effect of lottery wealth on subsequent political power. Personal wealth is expected to reduce the opportunity costs of holding office and may make it more important for the wealthy to seek and to hold office. In the case of antebellum Georgia, wealth shocks could have enabled poor citizens to overcome freehold officeholding requirements and lower the opportunity costs associated with officeholding since Georgia's legislature was not yet professionalized. I find no evidence in support of the hypotheses that wealth increases the probability of running for or holding office. 
+
+The null findings nevertheless are informative because the estimated effects are not practically different from zero. What is more important, the absence of a treatment effect implies that commonly observed cross-sectional correlations between personal wealth and public officeholding are likely explained by selection effects. 

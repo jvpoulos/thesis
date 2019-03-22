@@ -4,8 +4,4 @@
 
 References 
 
-counterfactual history
-	sunstein
-	Fogel: Railroads and American Economic Growth: Essays in Econometric History
-	Hornbeck RR
-	Williamson: Late Nineteenth-Century American Development: A General Equilibrium History
+

@@ -5,19 +5,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Inequality and State Capacity}{2}{section.1.1}
+\contentsline {section}{\numberline {1.1}Land Reform, Inequality and State Capacity}{2}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Rent-Seeking on the Frontier}{3}{section.1.2}
+\contentsline {subsection}{``Hollowing Out'' Tax Institutions}{3}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}What Will the Railroad Bring Us?}{4}{section.1.3}
+\contentsline {subsection}{Frontier Land Monopolization}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}What Will the Railroad Bring Us?}{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Counterfactual History}{5}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Overview}{5}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{5}{section*.2}
+\contentsline {subsection}{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{5}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{RNN-Based Counterfactual Time-Series Prediction, with an Application to Homestead Acts and State Capacity}{5}{section*.3}
+\contentsline {subsection}{Land Lotteries, Long-term Wealth, and Political Selection}{5}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Land Lotteries, Long-term Wealth, and Political Selection}{6}{section*.4}
+\contentsline {subsection}{RNN-Based Counterfactual Time-Series Prediction, with an Application to Homestead Acts and State Capacity}{6}{section*.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -27,46 +31,72 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Matrix completion estimator}{10}{section*.5}
+\contentsline {subsection}{Matrix completion estimator}{10}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Simulations}{11}{section*.6}
+\contentsline {subsection}{Simulations}{11}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Hypothesis testing}{12}{section*.8}
+\contentsline {subsection}{Hypothesis testing}{12}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Permuation structures}{14}{section*.9}
+\contentsline {paragraph}{Permuation structures}{14}{section*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{14}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Placebo tests}{15}{section*.10}
+\contentsline {subsection}{Placebo tests}{15}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Main estimates}{16}{section*.12}
+\contentsline {subsection}{Main estimates}{16}{section*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}DID estimation}{19}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{DID estimates on state capacity}{19}{section*.15}
+\contentsline {subsection}{DID estimates on state capacity}{19}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Land inequality as a causal mechanism}{20}{section*.17}
+\contentsline {subsection}{Land inequality as a causal mechanism}{20}{section*.19}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Conclusion}{21}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{23}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}Land Lotteries, Long-term Wealth, and Political Selection}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{23}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{23}{section.3.2}
+\contentsline {section}{\numberline {3.2}Theoretical considerations}{25}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{24}{section.3.3}
+\contentsline {section}{\numberline {3.3}Historical background}{26}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{25}{chapter.4}
+\contentsline {subsection}{Barriers to officeholding}{27}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{25}{section.4.1}
+\contentsline {subsection}{Officeholder wealth}{27}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{25}{section.4.2}
+\contentsline {subsection}{The 1805 and 1807 lotteries}{28}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{26}{section.4.3}
+\contentsline {section}{\numberline {3.4}Data and descriptive statistics}{29}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{27}{chapter.5}
+\contentsline {subsection}{Candidacy}{30}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Tables and Figures for Chapter \ref {land-reform}}{28}{appendix.A}
+\contentsline {subsection}{Future wealth}{30}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{34}{section*.26}
+\contentsline {section}{\numberline {3.5}Estimation and results}{31}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Balance}{31}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{ITT estimates}{33}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Discussion}{35}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Conclusion}{35}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}RNN-Based Counterfactual Time-Series Prediction, with an Application to Homestead Acts and State Capacity}{37}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{37}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{38}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{38}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{39}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{40}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{48}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{54}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation}{59}{appendix.C}

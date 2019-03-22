@@ -16,6 +16,10 @@
   {}
 \endgroup
 
+\preamble{%
+\newcommand{\noop}[1]{}%
+}
+
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
@@ -360,6 +364,60 @@
       \field{title}{Inequality and Democratization: An Elite Competition Approach}
       \field{year}{2015}
     \endentry
+    \entry{archives1978}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49618f0f21783f122f3efcc7e407e3af}{%
+           family={Archives},
+           familyi={A\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Morrow, Georgia: Georgia Archives}%
+      }
+      \strng{namehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{fullhash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{bibnamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authorbibnamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authornamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authorfullhash}{49618f0f21783f122f3efcc7e407e3af}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Georgia Official and Statistical Register 1977-1978}
+      \field{year}{1978}
+    \endentry
+    \entry{archives1990}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49618f0f21783f122f3efcc7e407e3af}{%
+           family={Archives},
+           familyi={A\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Morrow, Georgia: Georgia Archives}%
+      }
+      \strng{namehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{fullhash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{bibnamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authorbibnamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authornamehash}{49618f0f21783f122f3efcc7e407e3af}
+      \strng{authorfullhash}{49618f0f21783f122f3efcc7e407e3af}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Georgia Official and Statistical Register 1989-1990}
+      \field{year}{1990}
+    \endentry
     \entry{atack2013use}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1495e8d0e5a66629a22f9b8ab5853ea8}{%
@@ -643,6 +701,44 @@
       \field{pages}{249\bibrangedash 275}
       \range{pages}{27}
     \endentry
+    \entry{besley1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=57c77888db637677332c102812686993}{%
+           family={Besley},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dbb0776a0349739030b4394e01c2b8b9}{%
+           family={Coate},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{68fc37eaac71a4eebad5256e3ededd85}
+      \strng{fullhash}{68fc37eaac71a4eebad5256e3ededd85}
+      \strng{bibnamehash}{68fc37eaac71a4eebad5256e3ededd85}
+      \strng{authorbibnamehash}{68fc37eaac71a4eebad5256e3ededd85}
+      \strng{authornamehash}{68fc37eaac71a4eebad5256e3ededd85}
+      \strng{authorfullhash}{68fc37eaac71a4eebad5256e3ededd85}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{1}
+      \field{title}{An Economic Model of Representative Democracy}
+      \field{volume}{112}
+      \field{year}{1997}
+      \field{pages}{85\bibrangedash 114}
+      \range{pages}{30}
+    \endentry
     \entry{besley2009origins}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=57c77888db637677332c102812686993}{%
@@ -719,6 +815,75 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
+    \entry{bleakley2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=feb0541024f5f842ad45ff83e9f0d08c}{%
+           family={Bleakley},
+           familyi={B\bibinitperiod},
+           given={Hoyt},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=185e73a115e09297b96c62029bbf2be5}{%
+           family={Ferrie},
+           familyi={F\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \strng{fullhash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \strng{bibnamehash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \strng{authorbibnamehash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \strng{authornamehash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \strng{authorfullhash}{57af2111efbfb4b6ffa93fbc9b0dfa8d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{title}{Shocking Behavior: Random Wealth in Antebellum Georgia and Human Capital Across Generations}
+      \field{year}{2016}
+      \field{pages}{qjw014}
+      \range{pages}{-1}
+    \endentry
+    \entry{bleakley2013up}{unpublished}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=feb0541024f5f842ad45ff83e9f0d08c}{%
+           family={Bleakley},
+           familyi={B\bibinitperiod},
+           given={Hoyt},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=9d12a3e46f78a1c093fed35466e0134c}{%
+           family={Ferrie},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{ccbf534389c717b703e07c31c3f551e8}
+      \strng{fullhash}{ccbf534389c717b703e07c31c3f551e8}
+      \strng{bibnamehash}{ccbf534389c717b703e07c31c3f551e8}
+      \strng{authorbibnamehash}{ccbf534389c717b703e07c31c3f551e8}
+      \strng{authornamehash}{ccbf534389c717b703e07c31c3f551e8}
+      \strng{authorfullhash}{ccbf534389c717b703e07c31c3f551e8}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Up from Poverty? {T}he 1832 {C}herokee {L}and {L}ottery and the Long-run Distribution of Wealth}
+      \field{year}{2013}
+    \endentry
     \entry{boix2003democracy}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=428c46bc733f20d7ce6454a9590347dc}{%
@@ -783,6 +948,33 @@
       \field{year}{2000}
       \field{pages}{285\bibrangedash 313}
       \range{pages}{29}
+    \endentry
+    \entry{cadle1991}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a05c9333ec203aec9a2b1eb44aa50ca}{%
+           family={Cadle},
+           familyi={C\bibinitperiod},
+           given={Farris\bibnamedelima W},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Georgia Press}%
+      }
+      \strng{namehash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \strng{fullhash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \strng{bibnamehash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \strng{authorbibnamehash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \strng{authornamehash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \strng{authorfullhash}{6a05c9333ec203aec9a2b1eb44aa50ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Georgia Land Surveying History and Law}
+      \field{year}{1991}
     \endentry
     \entry{candes2010matrix}{article}{}
       \name{author}{2}{}{%
@@ -924,6 +1116,177 @@
       \field{title}{An exact and robust conformal inference method for counterfactual and synthetic controls}
       \field{year}{2017}
     \endentry
+    \entry{clayton1812}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b7efe5c531f6a48af4ea75f2f3b83322}{%
+           family={Clayton},
+           familyi={C\bibinitperiod},
+           given={Augustin\bibnamedelima Smith},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2a6f58bc01bde55bc77d4770f32c629b}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Thomas\bibnamedelima W},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Adams \& Duyckinck}%
+      }
+      \strng{namehash}{e85ef2232350789790495fbb966ab2a0}
+      \strng{fullhash}{e85ef2232350789790495fbb966ab2a0}
+      \strng{bibnamehash}{e85ef2232350789790495fbb966ab2a0}
+      \strng{authorbibnamehash}{e85ef2232350789790495fbb966ab2a0}
+      \strng{authornamehash}{e85ef2232350789790495fbb966ab2a0}
+      \strng{authorfullhash}{e85ef2232350789790495fbb966ab2a0}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Compilation of the Laws of the State of Georgia: Passed by the Legislature Since the Political Year 1800, to the Year 1810, Inclusive}
+      \field{year}{1812}
+    \endentry
+    \entry{corvalan2018political}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=a4c1ec492a46c40148617ee0ab387e00}{%
+           family={Corvalan},
+           familyi={C\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b54615531e99bd788c23968e47366e4}{%
+           family={Querubin},
+           familyi={Q\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f071797396f432f98302968bd5c42764}{%
+           family={Vicente},
+           familyi={V\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{b98c506eb580d1013f49e17fe3790069}
+      \strng{fullhash}{b98c506eb580d1013f49e17fe3790069}
+      \strng{bibnamehash}{b98c506eb580d1013f49e17fe3790069}
+      \strng{authorbibnamehash}{b98c506eb580d1013f49e17fe3790069}
+      \strng{authornamehash}{b98c506eb580d1013f49e17fe3790069}
+      \strng{authorfullhash}{b98c506eb580d1013f49e17fe3790069}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the European Economic Association}
+      \field{title}{The Political Class and Redistributive Policies}
+      \field{year}{\noop{3002}forthcoming, 2018}
+    \endentry
+    \entry{coulter1960}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c4fef3af77ed6133bb2e9874e69cd10b}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={Ellis\bibnamedelima Merton},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of North Carolina Press}%
+      }
+      \strng{namehash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \strng{fullhash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \strng{bibnamehash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \strng{authorbibnamehash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \strng{authornamehash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \strng{authorfullhash}{c4fef3af77ed6133bb2e9874e69cd10b}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Georgia: A Short History}
+      \field{year}{1960}
+    \endentry
+    \entry{davis1981}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3d48f6e7e5f0aa181015876a9c8d35df}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima Scott},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Southern Historical Press}%
+      }
+      \strng{namehash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \strng{fullhash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \strng{bibnamehash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \strng{authorbibnamehash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \strng{authornamehash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \strng{authorfullhash}{3d48f6e7e5f0aa181015876a9c8d35df}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research in Georgia}
+      \field{year}{1981}
+    \endentry
+    \entry{doherty2006}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8991334c89079bace4d34395f3f214a}{%
+           family={Doherty},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0a7264d2b4bba6d62d2feffc3a27ce5c}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Alan\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f69d31596b22a5e2817d80037f58a725}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Donald\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{e17d51690a593846b0811d2ac8af3547}
+      \strng{fullhash}{e17d51690a593846b0811d2ac8af3547}
+      \strng{bibnamehash}{e17d51690a593846b0811d2ac8af3547}
+      \strng{authorbibnamehash}{e17d51690a593846b0811d2ac8af3547}
+      \strng{authornamehash}{e17d51690a593846b0811d2ac8af3547}
+      \strng{authorfullhash}{e17d51690a593846b0811d2ac8af3547}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Psychology}
+      \field{number}{3}
+      \field{title}{Personal Income and Attitudes Toward Redistribution: A Study of Lottery Winners}
+      \field{volume}{27}
+      \field{year}{2006}
+      \field{pages}{441\bibrangedash 458}
+      \range{pages}{18}
+    \endentry
     \entry{donaldson2016railroads}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=ebaa25e63560bd4b55d707322b3b0128}{%
@@ -993,6 +1356,44 @@
       \field{title}{Balancing, Regression, Difference-In-Differences and Synthetic Control Methods: A Synthesis}
       \field{year}{2016}
     \endentry
+    \entry{eggers2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b2bdc9c6492141258cc67c29ff926fe}{%
+           family={Eggers},
+           familyi={E\bibinitperiod},
+           given={Andrew\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=be94165c21f502aeaed11e611358d6be}{%
+           family={Hainmueller},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ Press}%
+      }
+      \strng{namehash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \strng{fullhash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \strng{bibnamehash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \strng{authorbibnamehash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \strng{authornamehash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \strng{authorfullhash}{814c6916cb95e9012b3bf9355e0c4fdc}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{04}
+      \field{title}{MPs for sale? Returns to office in postwar British politics}
+      \field{volume}{103}
+      \field{year}{2009}
+      \field{pages}{513\bibrangedash 533}
+      \range{pages}{21}
+    \endentry
     \entry{engerman2005evolution}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=14c0cf6e08bc393f288fbcdb8ee1a2f6}{%
@@ -1057,6 +1458,66 @@
       \field{labeltitlesource}{title}
       \field{title}{Migration to the Frontier in Mid-Nineteenth Century {A}merica: {A} Re-Examination of {T}urner's `Safety Valve'}
       \field{year}{1997}
+    \endentry
+    \entry{fiorina1994}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c618dba8143ba992b00697e2598b2f49}{%
+           family={Fiorina},
+           familyi={F\bibinitperiod},
+           given={Morris\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{fullhash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{bibnamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authorbibnamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authornamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authorfullhash}{c618dba8143ba992b00697e2598b2f49}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{title}{Divided Government in the {A}merican {S}tates: {A} Byproduct of Legislative Professionalism?}
+      \field{year}{1994}
+      \field{pages}{304\bibrangedash 316}
+      \range{pages}{13}
+    \endentry
+    \entry{fiorina1999}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c618dba8143ba992b00697e2598b2f49}{%
+           family={Fiorina},
+           familyi={F\bibinitperiod},
+           given={Morris\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{fullhash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{bibnamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authorbibnamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authornamehash}{c618dba8143ba992b00697e2598b2f49}
+      \strng{authorfullhash}{c618dba8143ba992b00697e2598b2f49}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{title}{Further Evidence of the Partisan Consequences of Legislative Professionalism}
+      \field{year}{1999}
+      \field{pages}{974\bibrangedash 977}
+      \range{pages}{4}
     \endentry
     \entry{frymer2014rush}{article}{}
       \name{author}{1}{}{%
@@ -1296,6 +1757,152 @@
       \field{pages}{206\bibrangedash 227}
       \range{pages}{22}
     \endentry
+    \entry{graham2004}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1dfe9f07af6300018067dad74456fbf0}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Genealogy Company}%
+      }
+      \strng{namehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{fullhash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{bibnamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authorbibnamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authornamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authorfullhash}{1dfe9f07af6300018067dad74456fbf0}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{1805 Georgia Land Lottery Fortunate Drawers and Grantees}
+      \field{year}{2004}
+    \endentry
+    \entry{graham2011}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1dfe9f07af6300018067dad74456fbf0}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Genealogy Company}%
+      }
+      \strng{namehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{fullhash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{bibnamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authorbibnamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authornamehash}{1dfe9f07af6300018067dad74456fbf0}
+      \strng{authorfullhash}{1dfe9f07af6300018067dad74456fbf0}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{1807 Georgia Land Lottery Fortunate Drawers and Grantees}
+      \field{year}{2011}
+    \endentry
+    \entry{groseclose1994}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=01b8ba5d67bc738f42be0e6e07b57420}{%
+           family={Groseclose},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c7780ef7a2eda59206b58307dff7b9dc}{%
+           family={Krehbiel},
+           familyi={K\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \strng{fullhash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \strng{bibnamehash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \strng{authorbibnamehash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \strng{authornamehash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \strng{authorfullhash}{8c1c7cdf0ace02ab054934ecb3a966a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{number}{1}
+      \field{title}{Golden Parachutes, Rubber Checks, and Strategic Retirements from the 102d {H}ouse}
+      \field{volume}{38}
+      \field{year}{1994}
+      \field{pages}{75\bibrangedash 99}
+      \range{pages}{25}
+    \endentry
+    \entry{hacker2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7df41c5bc8228776a03d9c9a0b1786a}{%
+           family={Hacker},
+           familyi={H\bibinitperiod},
+           given={J\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \strng{fullhash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \strng{bibnamehash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \strng{authorbibnamehash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \strng{authornamehash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \strng{authorfullhash}{d7df41c5bc8228776a03d9c9a0b1786a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Historical Methods}
+      \field{number}{2}
+      \field{title}{Decennial Life Tables for the White Population of the {U}nited {S}tates, 1790--1900}
+      \field{volume}{43}
+      \field{year}{2010}
+      \field{pages}{45\bibrangedash 79}
+      \range{pages}{35}
+    \endentry
+    \entry{haines2004}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e9719fc070483c0cb5cc7eb4d1de4ad0}{%
+           family={Haines},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \strng{fullhash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \strng{bibnamehash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \strng{authorbibnamehash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \strng{authornamehash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \strng{authorfullhash}{e9719fc070483c0cb5cc7eb4d1de4ad0}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ann Arbor: MI: Inter-{U}niversity Consortium for Political and Social Research}
+      \field{title}{The {I}nter-{U}niversity {C}onsortium for {P}olitical and {S}ocial {R}esearch. {H}istorical, {D}emographic, {E}conomic, and {S}ocial {D}ata: The {U}nited {S}tates, 1790-2000 [Computer file]. {ICPSR}02896-v2. {H}amilton, {NY}: {C}olgate {U}niversity}
+      \field{year}{2004}
+    \endentry
     \entry{haines2010}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=e9719fc070483c0cb5cc7eb4d1de4ad0}{%
@@ -1320,6 +1927,98 @@
       \field{note}{Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2010-05-21. \url{doi.org/10.3886/ICPSR02896.v3}}
       \field{title}{{H}istorical, {D}emographic, {E}conomic, and {S}ocial {D}ata: The {U}nited {S}tates, 1790-2002}
       \field{year}{2010}
+    \endentry
+    \entry{hall1995}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=09a8f4f80829890b8ac739dd4dea1387}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ac3bd669d4a4fb72ad83eafc777edb01}{%
+           family={Van\bibnamedelima Houweling},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Robert\bibnamedelima P},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{90486b826861151cc09981a418d884fb}
+      \strng{fullhash}{90486b826861151cc09981a418d884fb}
+      \strng{bibnamehash}{90486b826861151cc09981a418d884fb}
+      \strng{authorbibnamehash}{90486b826861151cc09981a418d884fb}
+      \strng{authornamehash}{90486b826861151cc09981a418d884fb}
+      \strng{authorfullhash}{90486b826861151cc09981a418d884fb}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{01}
+      \field{title}{Avarice and Ambition in {C}ongress: Representatives' Decisions to Run or Retire from the {U.S.} {H}ouse}
+      \field{volume}{89}
+      \field{year}{1995}
+      \field{pages}{121\bibrangedash 136}
+      \range{pages}{16}
+    \endentry
+    \entry{helper1860}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=965446fbf4ba2bda748d59352628f2e3}{%
+           family={Helper},
+           familyi={H\bibinitperiod},
+           given={Hinton\bibnamedelima Rowan},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {AB Burdick}%
+      }
+      \strng{namehash}{965446fbf4ba2bda748d59352628f2e3}
+      \strng{fullhash}{965446fbf4ba2bda748d59352628f2e3}
+      \strng{bibnamehash}{965446fbf4ba2bda748d59352628f2e3}
+      \strng{authorbibnamehash}{965446fbf4ba2bda748d59352628f2e3}
+      \strng{authornamehash}{965446fbf4ba2bda748d59352628f2e3}
+      \strng{authorfullhash}{965446fbf4ba2bda748d59352628f2e3}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Impending Crisis of the South: How to Meet It}
+      \field{year}{1860}
+    \endentry
+    \entry{inter1984}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=131b8eab0880739284a764593d9c70f1}{%
+           family={ICPSR},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Inter-{U}niversity {C}onsortium for {P}olitical}%
+        {{S}ocial {R}esearch (ICPSR)}%
+      }
+      \strng{namehash}{131b8eab0880739284a764593d9c70f1}
+      \strng{fullhash}{131b8eab0880739284a764593d9c70f1}
+      \strng{bibnamehash}{131b8eab0880739284a764593d9c70f1}
+      \strng{authorbibnamehash}{131b8eab0880739284a764593d9c70f1}
+      \strng{authornamehash}{131b8eab0880739284a764593d9c70f1}
+      \strng{authorfullhash}{131b8eab0880739284a764593d9c70f1}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/2}}
+      \field{note}{[Online; accessed 06-June-2016]}
+      \field{title}{Candidate {N}ame and {C}onstituency {T}otals, 1788-1984}
+      \field{year}{1984}
     \endentry
     \entry{ilin2010practical}{article}{}
       \name{author}{2}{}{%
@@ -1388,6 +2087,64 @@
       \field{labeltitlesource}{title}
       \field{title}{Causal Inference in Statistics, Social, and Biomedical Sciences}
       \field{year}{2015}
+    \endentry
+    \entry{kotlikoff1979}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=064d0820ff89991df0e85cf0a05b5b43}{%
+           family={Kotlikoff},
+           familyi={K\bibinitperiod},
+           given={Laurence\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{064d0820ff89991df0e85cf0a05b5b43}
+      \strng{fullhash}{064d0820ff89991df0e85cf0a05b5b43}
+      \strng{bibnamehash}{064d0820ff89991df0e85cf0a05b5b43}
+      \strng{authorbibnamehash}{064d0820ff89991df0e85cf0a05b5b43}
+      \strng{authornamehash}{064d0820ff89991df0e85cf0a05b5b43}
+      \strng{authorfullhash}{064d0820ff89991df0e85cf0a05b5b43}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic Inquiry}
+      \field{number}{4}
+      \field{title}{The Structure of Slave Prices in {N}ew {O}rleans, 1804 to 1862}
+      \field{volume}{17}
+      \field{year}{1979}
+      \field{pages}{496\bibrangedash 518}
+      \range{pages}{23}
+    \endentry
+    \entry{lampi2012}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=976a9bd19c3fdc7310140beafc701c21}{%
+           family={Lampi},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{976a9bd19c3fdc7310140beafc701c21}
+      \strng{fullhash}{976a9bd19c3fdc7310140beafc701c21}
+      \strng{bibnamehash}{976a9bd19c3fdc7310140beafc701c21}
+      \strng{authorbibnamehash}{976a9bd19c3fdc7310140beafc701c21}
+      \strng{authornamehash}{976a9bd19c3fdc7310140beafc701c21}
+      \strng{authorfullhash}{976a9bd19c3fdc7310140beafc701c21}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://elections.lib.tufts.edu/}}
+      \field{note}{[Online; accessed 06-June-2016]}
+      \field{title}{A {N}ew {N}ation {V}otes: {A}merican {E}lection {R}eturns, 1787-1825}
+      \field{year}{2013}
     \endentry
     \entry{lanza1999agrarianism}{book}{}
       \name{author}{1}{}{%
@@ -1566,6 +2323,77 @@
       \field{pages}{914\bibrangedash 927}
       \range{pages}{14}
     \endentry
+    \entry{meyers2012}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5db85543b754fc824b1e2942206c3fad}{%
+           family={Meyers},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d1e72ac43350dd0d17b7cb6776696ca6}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mercer University Press}%
+      }
+      \strng{namehash}{175d8d6c51f7a974311b623ba05d47bf}
+      \strng{fullhash}{175d8d6c51f7a974311b623ba05d47bf}
+      \strng{bibnamehash}{175d8d6c51f7a974311b623ba05d47bf}
+      \strng{authorbibnamehash}{175d8d6c51f7a974311b623ba05d47bf}
+      \strng{authornamehash}{175d8d6c51f7a974311b623ba05d47bf}
+      \strng{authorfullhash}{175d8d6c51f7a974311b623ba05d47bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Georgia: A Brief History}
+      \field{year}{2012}
+    \endentry
+    \entry{milyo1999electoral}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5138cd5f827f23bb380acc55818908bb}{%
+           family={Milyo},
+           familyi={M\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=01b8ba5d67bc738f42be0e6e07b57420}{%
+           family={Groseclose},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{2601efc84e4169be891de1483f3bfb52}
+      \strng{fullhash}{2601efc84e4169be891de1483f3bfb52}
+      \strng{bibnamehash}{2601efc84e4169be891de1483f3bfb52}
+      \strng{authorbibnamehash}{2601efc84e4169be891de1483f3bfb52}
+      \strng{authornamehash}{2601efc84e4169be891de1483f3bfb52}
+      \strng{authorfullhash}{2601efc84e4169be891de1483f3bfb52}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Law and Economics}
+      \field{number}{2}
+      \field{title}{The Electoral Effects of Incumbent Wealth}
+      \field{volume}{42}
+      \field{year}{1999}
+      \field{pages}{699\bibrangedash 722}
+      \range{pages}{24}
+    \endentry
     \entry{murtazashvili2013political}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f716e894b3ba839fdffb8cb3cc875c77}{%
@@ -1663,6 +2491,75 @@
       \field{pages}{752\bibrangedash 772}
       \range{pages}{21}
     \endentry
+    \entry{officer2012}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=14d1811e9e23afccd2d8ba735d808cda}{%
+           family={Officer},
+           familyi={O\bibinitperiod},
+           given={Lawrence\bibnamedelima H},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0ec25e91a1b50a434f7aa9e00b55429}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69b0f09f6caa711dd9844341ac6101bf}
+      \strng{fullhash}{69b0f09f6caa711dd9844341ac6101bf}
+      \strng{bibnamehash}{69b0f09f6caa711dd9844341ac6101bf}
+      \strng{authorbibnamehash}{69b0f09f6caa711dd9844341ac6101bf}
+      \strng{authornamehash}{69b0f09f6caa711dd9844341ac6101bf}
+      \strng{authorfullhash}{69b0f09f6caa711dd9844341ac6101bf}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www. whatisitworth.com}}
+      \field{title}{The {A}nnual {C}onsumer {P}rice {I}ndex for the {U}nited {S}tates, 1774-2010}
+      \field{year}{2012}
+    \endentry
+    \entry{osborne1996}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=951d045a9de8c4b9c2a7972714fc23b2}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=76de5feb627b4ccc8f77cd0af4e37b77}{%
+           family={Slivinski},
+           familyi={S\bibinitperiod},
+           given={Al},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0f50c18f15e86d97943fdc691d57d210}
+      \strng{fullhash}{0f50c18f15e86d97943fdc691d57d210}
+      \strng{bibnamehash}{0f50c18f15e86d97943fdc691d57d210}
+      \strng{authorbibnamehash}{0f50c18f15e86d97943fdc691d57d210}
+      \strng{authornamehash}{0f50c18f15e86d97943fdc691d57d210}
+      \strng{authorfullhash}{0f50c18f15e86d97943fdc691d57d210}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{1}
+      \field{title}{A model of political competition with citizen-candidates}
+      \field{volume}{111}
+      \field{year}{1996}
+      \field{pages}{65\bibrangedash 96}
+      \range{pages}{32}
+    \endentry
     \entry{perotti1993political}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=55ce5f65063eaaa17e18002f1298566a}{%
@@ -1694,6 +2591,38 @@
       \field{year}{1993}
       \field{pages}{755\bibrangedash 776}
       \range{pages}{22}
+    \endentry
+    \entry{phillips1905}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d086ed407440bb46b4ce5841299bea11}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Ulrich\bibnamedelima B},
+           giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{d086ed407440bb46b4ce5841299bea11}
+      \strng{fullhash}{d086ed407440bb46b4ce5841299bea11}
+      \strng{bibnamehash}{d086ed407440bb46b4ce5841299bea11}
+      \strng{authorbibnamehash}{d086ed407440bb46b4ce5841299bea11}
+      \strng{authornamehash}{d086ed407440bb46b4ce5841299bea11}
+      \strng{authorfullhash}{d086ed407440bb46b4ce5841299bea11}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Science Quarterly}
+      \field{number}{2}
+      \field{title}{The economic cost of slaveholding in the cotton belt}
+      \field{volume}{20}
+      \field{year}{1905}
+      \field{pages}{257\bibrangedash 275}
+      \range{pages}{19}
     \endentry
     \entry{politis2004automatic}{article}{}
       \name{author}{2}{}{%
@@ -1758,6 +2687,78 @@
       \field{title}{{RNN}-based counterfactual time-series prediction}
       \field{year}{2017}
     \endentry
+    \entry{poulos2019land}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b2549e4c976cf3be7f9821f20ca4b7d}{%
+           family={Poulos},
+           familyi={P\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{fullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{bibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authorbibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authornamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authorfullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Public Choice}
+      \field{number}{1}
+      \field{title}{Land lotteries, long-term wealth, and political selection}
+      \field{volume}{178}
+      \field{year}{2019}
+      \field{pages}{217\bibrangedash 230}
+      \range{pages}{14}
+    \endentry
+    \entry{querubin2013}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b54615531e99bd788c23968e47366e4}{%
+           family={Querubin},
+           familyi={Q\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b7c701f97823e9b5af7148b1628cc66}{%
+           family={Snyder\bibnamedelima Jr},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={James\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Now Publishers, Inc.}%
+      }
+      \strng{namehash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \strng{fullhash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \strng{bibnamehash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \strng{authorbibnamehash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \strng{authornamehash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \strng{authorfullhash}{8594eb4eaf485c0484fab3e5546ab97c}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Political Science}
+      \field{number}{4}
+      \field{title}{The Control of Politicians in Normal Times and Times of Crisis: Wealth Accumulation by US Congressmen, 1850--1880}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{409\bibrangedash 450}
+      \range{pages}{42}
+    \endentry
     \entry{ramcharan2010inequality}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=4a095abca93dbc834388a1e4e9c768cc}{%
@@ -1789,6 +2790,91 @@
       \field{year}{2010}
       \field{pages}{729\bibrangedash 744}
       \range{pages}{16}
+    \endentry
+    \entry{rossi2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3a3d5c0385081ce9b230b10cf34de66e}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Martín\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \strng{fullhash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \strng{bibnamehash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \strng{authorbibnamehash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \strng{authornamehash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \strng{authorfullhash}{3a3d5c0385081ce9b230b10cf34de66e}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Behavior \& Organization}
+      \field{number}{C}
+      \field{title}{The Impact of Individual Wealth on Posterior Political Power}
+      \field{volume}{106}
+      \field{year}{2014}
+      \field{pages}{469\bibrangedash 480}
+      \range{pages}{12}
+    \endentry
+    \entry{ruggles2015}{misc}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=7387f51a82f67bf6afaf06e50696a5ba}{%
+           family={Ruggles},
+           familyi={R\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=917f91466873934d6664d7fb3b07961a}{%
+           family={Genadek},
+           familyi={G\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=292c2d073bf4d3e709ef9027e7915ede}{%
+           family={Goeken},
+           familyi={G\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=20e9e50a609504a788c8f2b0da8c6fad}{%
+           family={Grover},
+           familyi={G\bibinitperiod},
+           given={Josiah},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87928807d3b2c56017eaad58f9f65811}{%
+           family={Sobek},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Minneapolis: University of Minnesota}%
+      }
+      \strng{namehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{fullhash}{9058eb111d54ff74d72cd622cb101b6a}
+      \strng{bibnamehash}{9058eb111d54ff74d72cd622cb101b6a}
+      \strng{authorbibnamehash}{9058eb111d54ff74d72cd622cb101b6a}
+      \strng{authornamehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{authorfullhash}{9058eb111d54ff74d72cd622cb101b6a}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nappdata.org/}}
+      \field{note}{[Online; accessed 06-June-2016]}
+      \field{title}{{I}ntegrated {P}ublic {U}se {M}icrodata {S}eries: {V}ersion 6.0 [database]}
+      \field{year}{2015}
     \endentry
     \entry{saint1993education}{article}{}
       \name{author}{2}{}{%
@@ -1857,6 +2943,33 @@
       \field{year}{2005}
       \field{pages}{20\bibrangedash 41}
       \range{pages}{22}
+    \endentry
+    \entry{simons1912}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e451caae1cea31fa695275b6b758aef7}{%
+           family={Simons},
+           familyi={S\bibinitperiod},
+           given={Algie\bibnamedelima Martin},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan}%
+      }
+      \strng{namehash}{e451caae1cea31fa695275b6b758aef7}
+      \strng{fullhash}{e451caae1cea31fa695275b6b758aef7}
+      \strng{bibnamehash}{e451caae1cea31fa695275b6b758aef7}
+      \strng{authorbibnamehash}{e451caae1cea31fa695275b6b758aef7}
+      \strng{authornamehash}{e451caae1cea31fa695275b6b758aef7}
+      \strng{authorfullhash}{e451caae1cea31fa695275b6b758aef7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Social Forces in American History}
+      \field{year}{1912}
     \endentry
     \entry{skowronek1982building}{book}{}
       \name{author}{1}{}{%
@@ -2135,6 +3248,38 @@
       \field{pages}{520\bibrangedash 525}
       \range{pages}{6}
     \endentry
+    \entry{truex2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1ebaeda83cf42dd03ddbb59b4b912a3d}{%
+           family={Truex},
+           familyi={T\bibinitperiod},
+           given={Rory},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \strng{fullhash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \strng{bibnamehash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \strng{authorbibnamehash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \strng{authornamehash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \strng{authorfullhash}{1ebaeda83cf42dd03ddbb59b4b912a3d}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{02}
+      \field{title}{The Returns to Office in a ``Rubber Stamp'' Parliament}
+      \field{volume}{108}
+      \field{year}{2014}
+      \field{pages}{235\bibrangedash 251}
+      \range{pages}{17}
+    \endentry
     \entry{turner1956significance}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=e677efe2b2d14c66315ab4933276705e}{%
@@ -2265,6 +3410,38 @@
       \field{title}{Sovereign Debt and Repudiation: The Emerging-Market Debt Crisis in the US States, 1839-1843}
       \field{year}{2004}
     \endentry
+    \entry{weiman1991}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6250cae110cdbf26b07e93c2cfeebb08}{%
+           family={Weiman},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima F},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \strng{fullhash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \strng{bibnamehash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \strng{authorbibnamehash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \strng{authornamehash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \strng{authorfullhash}{6250cae110cdbf26b07e93c2cfeebb08}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Economic History}
+      \field{number}{04}
+      \field{title}{Peopling the Land by Lottery? {T}he Market in Public Lands and the Regional Differentiation of Territory on the {G}eorgia Frontier}
+      \field{volume}{51}
+      \field{year}{1991}
+      \field{pages}{835\bibrangedash 860}
+      \range{pages}{26}
+    \endentry
     \entry{williamson2017seven}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=19080d83b7ecff306bae224a1827abef}{%
@@ -2289,6 +3466,31 @@
       \field{note}{Available from \url{http://MeasuringWorth.com}}
       \field{title}{Seven ways to compute the relative value of a {U.S.} dollar amount, 1774 to present}
       \field{year}{2017}
+    \endentry
+    \entry{williamson2016}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=19080d83b7ecff306bae224a1827abef}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Samuel\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19080d83b7ecff306bae224a1827abef}
+      \strng{fullhash}{19080d83b7ecff306bae224a1827abef}
+      \strng{bibnamehash}{19080d83b7ecff306bae224a1827abef}
+      \strng{authorbibnamehash}{19080d83b7ecff306bae224a1827abef}
+      \strng{authornamehash}{19080d83b7ecff306bae224a1827abef}
+      \strng{authorfullhash}{19080d83b7ecff306bae224a1827abef}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.measuringworth.com/uscpi/}}
+      \field{title}{The {A}nnual {C}onsumer {P}rice {I}ndex for the {U}nited {S}tates, 1774-2015}
+      \field{year}{2018}
     \endentry
     \entry{winters2009}{article}{}
       \name{author}{2}{}{%

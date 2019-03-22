@@ -1,0 +1,11 @@
+\chapter{Power Analysis by Simulation}\label{oa-power}
+
+The purpose of a power analysis by simulation is to estimate $\mathrm{P}(\mathrm{Reject \, H_0} | \mathrm{H_0 \, is \, false})$ at a fixed significance level ($\alpha =0.05$) and sample size ($N=21,732$) for different treatment effects $\Delta_{1, \ldots, j}$. In this case $N$ is the size of the observed sample of participants, excluding women and orphans. The simulation proceeds as follows:
+
+\begin{enumerate}
+	\item Take a random sample of size $N$ without replacement from from the observed distribution of treatment assignments, weighted by the observed propensity score, to create a vector of simulated treatment assignments.
+	\item Simulate response values with $\Delta_{j}$ as the difference-in-means between the simulated treated and control units. Generate random values from the binomial distribution with the probability of success on each trial equal to the mean of the response in the observed sample.
+	\item Run linear model on the simulated data and extract the $p$ value.
+\end{enumerate}
+
+Repeat the simulation $\mathcal{I}$ times and calculate power of the test by dividing the count of the number of $p$ values that are less than $\alpha$ over $\mathcal{I}$. Normally, 80\% power is required to justify a study.  Fig. \ref{power-plot-bin} provides the results of power analysis simulations for the officeholding response. 

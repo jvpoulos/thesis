@@ -23,13 +23,6 @@
 \usepackage{hyperref, url} 
 \usepackage{graphicx,amsfonts,psfrag,layout,subcaption,array,longtable,lscape,booktabs,dcolumn,amsmath,amssymb,amssymb,amsthm,setspace,epigraph,chronology,color,colortbl,wasysym,diagbox,colortbl,authblk,commath,upgreek}
 \usepackage[]{graphicx}\usepackage[]{color}
-%\usepackage[page]{appendix}
-%\usepackage[section]{placeins}
-%\usepackage[linewidth=1pt]{mdframed}
-%\usepackage[margin={1in}]{geometry} %1 inch margins
-
-% Footnotes stick at the bottom
-\usepackage[bottom]{footmisc}
 
 % Caption keys
 \usepackage{mathtools,tikz,caption}
@@ -213,14 +206,16 @@ I acknowledge support of the National Science Foundation Graduate Research Fello
 
 %\part{First Part}
 \include{intro} % Introduction and background to the general topic area.
-\include{chap1} % First paper
-\include{chap2} % Second paper
-\include{chap3} % Third paper
+\include{chap1} % land-reform
+\include{chap2} % ga-lottery
+\include{chap3} % rnns-causal
 \include{conclusion} % Conclusion and implications for policy and/or further research.
 
-\appendix
-\include{a1} % First paper
-
 \printbibliography[title=References]
+
+\appendix
+\include{a1} % Tables and Figures: land-reform
+\include{a2} % Tables and Figures: ga-lottery
+\include{a2-power} % Power analysis by simulation: ga-lottery
 
 \end{document}

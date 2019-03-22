@@ -5,7 +5,7 @@
 \end{quote}
 
 \section{Introduction}
-
+\noindent
 Political scientists are increasingly interested in patterns of state development across time and place. Several scholars \citep[e.g.,][]{bensel1990,murtazashvili2013political,frymer2014rush} theorize a relationship between mid-nineteenth century public land policies and the development of the state, arguing that policies designed to transfer public land to private individuals increased the bureaucratic capacity of the U.S. federal government to administer land. 
 
 Public land policies had long-lasting impacts on state capacity, or the ability of governments to finance and implement policies \citep{besley2010state}. I explore the role of two U.S. public land policies in shaping state capacity: the Homestead Act (HSA) of 1862, which opened for settlement hundreds of millions of acres of western frontier land, and the Southern Homestead Act (SHA) of 1866, which opened over 46 million acres of land for homesteading. I provide evidence that homesteads authorized under these laws had significant long-run impacts on the capacity of frontier state governments. 
@@ -16,9 +16,9 @@ The view that the western frontier had long-lasting impacts on the evolution of 
 
 The paper makes a methodological contribution in applying an alternative method for estimating causal impacts of policy interventions on time-series cross-section data. Building on a new literature that uses machine learning algorithms such as L1-regularized linear regression \citep{doudchenko2016balancing} or deep neural networks \citep{poulos2017rnn} for counterfactual prediction, I apply a matrix completion method to predict the treated unit time-series in the absence of the intervention. I perform placebo tests and find that the matrix completion method outperforms the synthetic control method and other regression-based estimators in terms of minimizing prediction error. In addition, I show how to evaluate the overall effect of the policy intervention using a randomization inference procedure in which approximately unbiased $p$-values are obtained under minimal assumptions.
 
-The paper proceeds as follows: in Section \ref{history}, I overview the historical context of homestead policies and its relationship to state capacity and land inequality; Section \ref{estimation} describes the method of matrix completion for counterfactual prediction, benchmarks the method against alternative estimators, and describes the inferential procedure. In Section \ref{state-capacity}, I report the results of placebo tests to verify the consistency of the matrix completion estimator. I then present estimates of the long-run impacts of homestead policies on state capacity. Section~\ref{DID} reports DID estimates of the effect of homesteads on state capacity and land inequality, and Section~\ref{discussion} concludes. 
+The paper proceeds as follows: in Section \ref{history-ch1}, I overview the historical context of homestead policies and its relationship to state capacity and land inequality; Section \ref{estimation} describes the method of matrix completion for counterfactual prediction, benchmarks the method against alternative estimators, and describes the inferential procedure. In Section \ref{state-capacity}, I report the results of placebo tests to verify the consistency of the matrix completion estimator. I then present estimates of the long-run impacts of homestead policies on state capacity. Section~\ref{DID} reports DID estimates of the effect of homesteads on state capacity and land inequality, and Section~\ref{discussion-ch1} concludes. 
 
-\section{Historical background} \label{history}
+\section{Historical background} \label{history-ch1}
 
 The 1862 HSA opened up hundreds of millions of acres of western public land for settlement. The HSA provides that any adult citizen --- including women, immigrants who had applied for citizenship, and freed slaves following the passage of the Fourteenth Amendment---  could apply for a homestead grant of 160 acres of frontier land. Applicants were required to live and make improvements on the land for five years before filing to claim a homestead land grant. 
 
@@ -81,19 +81,19 @@ Across all estimators, the average RMSE decreases and prediction intervals narro
 
 \begin{figure}[htbp]
 	\centering
-	\begin{subfigure}[t]{0.48\textwidth}
+	\begin{subfigure}[t]{0.42\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png}
 		\caption{Basque Country terrorism data, $\text{N}_t = 8$} 
 	\end{subfigure}
 	~ 
-	\begin{subfigure}[t]{0.48\textwidth}
+	\begin{subfigure}[t]{0.42\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png}
 		\caption{California smoking ban data, $\text{N}_t = 19$}
 	\end{subfigure}
 	~ 
-	\begin{subfigure}[t]{0.48\textwidth}
+	\begin{subfigure}[t]{0.42\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png}
 		\caption{West German reunification data, $\text{N}_t = 8$}
@@ -155,7 +155,7 @@ In this application, PLS are the treated units and state land states --- i.e., s
 
 When estimating (\ref{eq:mc-Y}), unit-specific covariates include state-level average farm sizes measured in the 1860 and average farm values measured in the 1850 and 1860 censuses. In theory, we should expect that homesteaders migrate to more productive land and thus excluding these pre-period measures of agricultural productivity may result in overestimating the actual impact of homestead policies. To control for selection bias arising from differences in access to frontier lands, I create a measure of railroad access using digitized railroad maps provided by \citet{atack2013use}, which contain information on the year that each rail line was built. Overlaying the railroad track map over historical county borders, I calculate the total miles of operational track per square mile and aggregate the measure to the state-level.
 
-\subsection{Placebo tests} \label{placebo-tests}
+\subsection{Placebo tests}
 
 Prior to presenting the main results, I assess the validity of the key assumption underlying the approach by discarding post-period observations from the data. Treating $t = \left\{1, \ldots,  \text{T}_0 - \tau\right\}$ as the pre-period, I estimate (\ref{tstat}) and test the zero effect null hypothesis 
 
@@ -172,7 +172,7 @@ Table \ref{placebo-tests} reports randomization $p$-values corresponding to each
 	\captionsetup{font=normalsize}
 	\caption{Placebo test $p$-values.\label{placebo-tests}}
 	\begin{center}
-		\scalebox{.95}{\input{/media/jason/Dropbox/github/land-reform/paper/placebo-tests}}
+		\scalebox{.9}{\input{/media/jason/Dropbox/github/land-reform/paper/placebo-tests}}
 	\end{center}
 \end{table}
 
@@ -188,7 +188,7 @@ A similar pattern of results emerges when estimating the impacts of homesteads o
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png}
+	\includegraphics[width=0.9\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png}
 	\caption{MC-NNM estimates of treatment exposure on state government expenditure, 1809 to 1982:
 		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
 		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
@@ -248,7 +248,7 @@ In Figure \ref{fig:ineq-capacity}, a bivariate regression model yields a positiv
 
 Table \ref{dd-estimates} presents DID estimates of the impact of log per-capita homesteads on land inequality at the state-level during the period of 1870 to 1950. Since land inequality is measured every decennial, I aggregate homesteads to the next decennial year; e.g., the number of homesteads measured in 1880 is the total for the years 1871 to 1880. Average farm values are included in the regression as a proxy for agricultural productivity, which might be associated with farm sizes approaching ideal scale and therefore land inequality. I estimate that homesteads significantly decreased land inequality in frontier states: a 1\% increase in log per-capita homesteads is expected to lower  land inequality by $4.81\,\cdot\,10^{-6}$ points. 
 
-\section{Conclusion} \label{discussion} 
+\section{Conclusion} \label{discussion-ch1} 
 
 The findings of this paper signify that mid-nineteenth century homestead policies had long-lasting impacts that can potentially explain contemporary differences in state government capacity. MC-NNM and DID estimates imply that homestead policies --- or the homestead entries authorized by those policies --- had significant and negative impacts on state government expenditure and revenue that lasted a century following its implementation. The direction of these estimates contradicts the view that frontier state governments sought to increase public investments in order to attract eastern migrants following the passage of the HSA, and that homesteads would increase state and local tax bases. Instead, the results conform with the view that homestead policies were exploited by land speculators and natural resource companies and that the rents from public land were appropriated by the private sector. 
 
