@@ -5,54 +5,68 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{4}{chapter.2}
+\contentsline {section}{\numberline {1.1}Inequality and State Capacity}{2}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
+\contentsline {section}{\numberline {1.2}Rent-Seeking on the Frontier}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Historical background}{6}{section.2.2}
+\contentsline {section}{\numberline {1.3}What Will the Railroad Bring Us?}{4}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{7}{section.2.3}
+\contentsline {section}{\numberline {1.4}Overview}{5}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Matrix completion estimator}{7}{section*.5}
+\contentsline {subsection}{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{5}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Simulations}{8}{section*.6}
+\contentsline {subsection}{RNN-Based Counterfactual Time-Series Prediction, with an Application to Homestead Acts and State Capacity}{5}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Hypothesis testing}{9}{section*.8}
+\contentsline {subsection}{Land Lotteries, Long-term Wealth, and Political Selection}{6}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Permuation structures}{11}{section*.9}
+\contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{11}{section.2.4}
+\contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Placebo tests}{12}{section*.10}
+\contentsline {section}{\numberline {2.2}Historical background}{9}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Main estimates}{13}{section*.12}
+\contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}DID estimation}{16}{section.2.5}
+\contentsline {subsection}{Matrix completion estimator}{10}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{DID estimates on state capacity}{16}{section*.15}
+\contentsline {subsection}{Simulations}{11}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Land inequality as a causal mechanism}{17}{section*.17}
+\contentsline {subsection}{Hypothesis testing}{12}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Conclusion}{18}{section.2.6}
+\contentsline {paragraph}{Permuation structures}{14}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{20}{chapter.3}
+\contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{14}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{20}{section.3.1}
+\contentsline {subsection}{Placebo tests}{15}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{20}{section.3.2}
+\contentsline {subsection}{Main estimates}{16}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{21}{section.3.3}
+\contentsline {section}{\numberline {2.5}DID estimation}{19}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{22}{chapter.4}
+\contentsline {subsection}{DID estimates on state capacity}{19}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{22}{section.4.1}
+\contentsline {subsection}{Land inequality as a causal mechanism}{20}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{22}{section.4.2}
+\contentsline {section}{\numberline {2.6}Conclusion}{21}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{23}{section.4.3}
+\contentsline {chapter}{\chapternumberline {3}Placental Ionosphere}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{24}{chapter.5}
+\contentsline {section}{\numberline {3.1}Pigeonhole Buckthorn}{23}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Tables and Figures for Chapter \ref {land-reform}}{25}{appendix.A}
+\contentsline {section}{\numberline {3.2}Pinwheel Thresh}{23}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{31}{section*.26}
+\contentsline {section}{\numberline {3.3}Laryngeal Gallon Mission}{24}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}Placental Ionosphere}{25}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Pigeonhole Buckthorn}{25}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pinwheel Thresh}{25}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Laryngeal Gallon Mission}{26}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{27}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}Tables and Figures for Chapter \ref {land-reform}}{28}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{34}{section*.26}
