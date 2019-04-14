@@ -26,13 +26,13 @@ Landed elites might choose an inefficient organization of the state in order to 
 
 This finding is in contrast to several empirical studies that establish a negative relationship between land inequality and state capacity in the context of taxes, revenues, and public school spending at the county-level in 1890 and 1930. These studies are based on analyses over shorter time periods. \citet{ramcharan2010inequality}, for instance, finds an inverse relationship between land inequality and county-level property tax revenues in 1890. The authors find that the negative relationship is especially large in rural counties, where landownership tends to be more concentrated. \citet{vollrath2013inequality} establish a negative relationship between land inequality and local property tax revenues in 1890 in northern rural counties, but not in southern rural counties. 
 
-\subsection{Migration and culture}
+\section{Culture and migration to the frontier}
 
-Sociologists and political economists \citep[e.g,][]{meyer1979public,alesina2013nation,bandiera2018nation} have viewed the rapid development of public schooling in the U.S. during the 19th century as a nation-building policy. It is argued that states across the U.S. adopted compulsory primary education means to homogenize the population during the `Age of Mass Migration', when of tens of millions of foreign migrants arrived to the country between 1850 and 1914. 
+It is commonly believed in the political economy literature that state capacity in general is easier to raise in more ethnically or culturally homogeneous societies \citep{besley2010state}. It has also long been viewed in by sociologists \citep{meyer1979public} and more recently, political economists \citep{alesina2013nation,bandiera2018nation}, that the rise of public schooling in the U.S. during the 19th century can be explained as a nation-building policy enacted primarily by state governments. \citet{bandiera2018nation}, for instance, argues that states adopted compulsory schooling laws as a nation-building tool to instill civic values to the millions of foreign migrants who arrived to the country during the `Age of Mass Migration', between 1850 and 1914. 
 
-%bazzi2017frontier
+During this time period, the frontier attracted foreign migrants along with workers from eastern U.S. cities, many of whom were the lower end of the skill distribution. \citet{bazzi2017frontier} find evidence that frontier settlers were disproportionately illiterate and foreign-born. The negative selection of westward migrants during this period is consistent with theory of the frontier as a ``safety valve'' for relieving congested urban labor markets in eastern states \citep{turner1956significance, ferrie1997migration}.
 
-%state capacity is easier to raise in more homogeneous societies in which the common good is more easily identifiable and political institutions are inclusive [Besley and Persson 2010].
+Beside the negative selection in terms of labor market skill, \citet{bazzi2017frontier} argue that the frontier attracted individualists who would be able to thrive in the harsh conditions (e.g., the isolation and low population density) characterizing the frontier experience. The authors find that counties with longer historical frontier experience exhibit lower contemporary property tax rates, and its citizens are more opposed to taxation and redistribution. 
 
 \section{Land monopolization and rent-seeking on the frontier} 
 
@@ -55,11 +55,34 @@ Because railroads expanded commerce by making it cheaper to trade, railroad acce
 \section{Counterfactual history and covariate shift}
 
 
-%counterfactual history
-	%sunstein
-	%Fogel: Railroads and American Economic Growth: Essays in Econometric History
-	%Hornbeck RR
-	%Williamson: Late Nineteenth-Century American Development: A General Equilibrium History
+%sunstein2016historical
+In a sense, they are constructing something like a randomized controlled
+trial, at least in their own minds. As Elster puts it, “in a non-experimental and non-
+comparative discipline one can hardly discuss the relative importance of causes without
+engaging in some kind of though experiment where one removes successively and
+separately each of the causes in question and evaluates what difference the absence of
+this cause would have made to the phenomenon in question.'' \citet{elster1978logic}
+
+%fearon1991counterfactuals
+%tetlock1996counterfactual
+	Philip Tetlock and Aaron Belkin specify a
+	set of criteria for assessing counterfactual arguments. 8 Tetlock and Belkin rightly urge,
+	“We can avoid counterfactuals only if we eschew all causal inference and limit ourselves
+	to strictly noncausal narratives of what actually happened.” 9 To discipline counterfactual
+	history, they emphasize the importance of well-specified antecedents and consequents, of
+	logical consistency among connecting principles, of avoiding preposterous claims about
+	causality, and of maintaining consistency with well-established historical facts
+
+%fogel1964railroads, fogel1962quantitative
+	"what would the U.S. economy have been like in 1890 had there been no railroads?"
+%donaldson2016railroads
+%Williamson: Late Nineteenth-Century American Development: A General Equilibrium History
+
+\subsection{Covariate shift}
+
+The problem of covariate shift is a special case of domain adaptation \citep{huang2007correcting,ben2007analysis,bickel2009discriminative,cortes2010learning,2015arXiv150507818G}. \citet{schnabel2016recommendations} first connected the matrix completion problem with causal inference in observational settings in the context of recommender systems under confounding. \citet{johansson2016learning} formulates the general problem of counterfactual inference as a covariate shift problem.
+
+The covariate shift problem occurs when training and test data are drawn from different distributions. 
 
 %johansson2016learning
 	%Inferring causal relations is a fundamental problem in the sciences and commercial applications. The problem of causal inference is often framed in terms of counterfactual questions (Lewis, 1973; Rubin, 1974; Pearl, 2009) such as “Would this patient have lower blood sugar had she received a different medication?”, or “Would the user have clicked on this ad had it been in a different color?”.
@@ -81,7 +104,11 @@ Because railroads expanded commerce by making it cheaper to trade, railroad acce
 The dissertation is comprised of the following three papers related to the political economy of the American frontier. 
 
 \subsection{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}
-This essay provides evidence that mid-nineteenth century homestead acts had significant long-run impacts that can help explain contemporary differences in the capacity of state governments. The paper applies a matrix completion method to predict the counterfactual time-series of frontier state capacity had there been no homestead acts. Causal estimates signify that homestead policies had significant and long-lasting negative impacts on state government expenditure and revenue. These results are similar to difference-in-difference estimates that exploit variation in the timing and intensity of homestead entries aggregated from 1.46 million individual land patent records.
+This essay provides evidence that mid-nineteenth century homestead acts had significant long-run impacts that can potentially explain contemporary differences in the capacity of state governments. The paper applies a matrix completion method to predict the counterfactual time-series of frontier state capacity had there been no homestead acts. Causal estimates signify that homestead policies had significant and long-lasting negative impacts on state government expenditure and revenue that lasted a century following their implementation. These results are similar to difference-in-difference (DID) estimates that exploit variation in the timing and intensity of homestead entries aggregated from 1.46 million individual land patent records.
+
+The direction of these estimates align with the view that homestead policies were exploited by land speculators and natural resource companies and that the rents from public land were appropriated by the private sector. I explore land inequality as a possible causal mechanism underlying the relationship between land reform and state capacity, and provide evidence of a positive relationship between land inequality and state government finances and that the slope of correlation increases at higher levels of inequality. I also present DID estimates that reveal per-capita homesteads significantly lowered land inequality in frontier states; although, the magnitude of the effect is negligible. 
+
+This paper makes a methodological contribution in applying matrix completion for estimating causal impacts of policy interventions on panel data. The method can be easily understood within the framework of modern causal inference, is adaptable to settings with staggered treatment adoption, and outperforms several other regression-based estimators in a battery of placebo tests.
 
 \subsection{Land Lotteries, Long-term Wealth, and Political Selection} 
 This essay asks whether personal wealth can cause individuals to select into office. This question is important and relevant because wealthy individuals might select into office in order to use their power to protect vested interests rather than advance the interests of their constituents. While several studies have studied the effect of officeholding on wealth accumulation, research on the extent to which personal wealth affects the probability of officeholding is much more limited.
@@ -89,6 +116,9 @@ This essay asks whether personal wealth can cause individuals to select into off
 The paper takes advantage of the random assignment of land in Georgia at the beginning of the nineteenth century. This random assignment of land generates a meaningful ex-ante exogenous shock to personal wealth, which is expected to reduce the opportunity costs of holding office and may make it more important for the wealthy to hold office. I find no evidence in support of the hypotheses that wealth increases the probability of running for office or holding office and argue that these null results are informative because the estimated effects are not practically different than zero. The absence of a treatment effect suggests that observed cross-sectional correlations between wealth and officeholding are likely due to selection effects. 
 
 \subsection{RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}
-This essay empirically evaluates the RNN-based method for estimating the effect of a policy intervention on an outcome over time. The proposed method offers a more principled approach than the synthetic control method (SCM) because it automatically selects the most relevant predictors at each time-step, without relying on pre-treatment covariates. RNNs are specifically designed to handle sequential data and have two important built-in advantages over SCM: first, RNNs are capable of handling multiple treated units, which is useful because the networks can share parameters across treated units and can thus generate more precise predictions in settings where treated units share similar data-generating processes; second, RNNs can learn nonconvex combinations of predictors, which is beneficial when the data-generating process underlying the outcome of interest depends nonlinearly on the history of predictors. 
 
-In the empirical application, I estimate the causal impacts of the 1862 Homestead Act on state government education spending.
+This paper makes a methodological contribution in proposing a novel alternative to the popular synthetic control method (SCM) for estimating the effect of a policy intervention on an outcome over time. The proposed method based on recurrent neural networks (RNNs) is less susceptible to $p$-hacking because it does not require the researcher to choose predictors or pre-intervention covariates to construct the synthetic control. Moreover, RNNs do not assume a functional form, can learn nonconvex combinations of control units, and are specifically structured to exploit temporal dependencies in sequential data.
+
+The RNN-based estimators require sufficient pre-period observations in order to learn an informative representation of the control units, and consequently perform comparatively worse than the SCM on small-dimensional datasets such as those featured in the original synthetic control papers. The RNN-based methods outperform the SCM in high-dimensional data settings when the number of pre-intervention time periods exceeds the number of control units.
+
+In the empirical application, I estimate the causal impacts of the 1862 Homestead Act (HSA) on state government education spending. I find that homestead policy had positive long-run impacts on public education spending, although the impacts are not statistically significant when averaging across the entire post-intervention period. Time-specific causal estimates suggest that the HSA had positive and significant impacts on state government education spending fifty years after the first homestead entry in 1869. The estimated increase in education spending attributable to homestead policy translates to about 3\% of the total school expenditures per-capita in 1929.
