@@ -32,7 +32,7 @@ It is commonly believed in the political economy literature that state capacity 
 
 During this time period, the frontier attracted foreign migrants along with workers from eastern U.S. cities, many of whom were the lower end of the skill distribution. \citet{bazzi2017frontier} find evidence that frontier settlers were disproportionately illiterate and foreign-born. The negative selection of westward migrants during this period is consistent with theory of the frontier as a ``safety valve'' for relieving congested urban labor markets in eastern states \citep{turner1956significance, ferrie1997migration}.
 
-Beside the negative selection in terms of labor market skill, \citet{bazzi2017frontier} argue that the frontier attracted individualists who would be able to thrive in the harsh conditions (e.g., the isolation and low population density) characterizing the frontier experience. The authors find that counties with longer historical frontier experience exhibit lower contemporary property tax rates, and its citizens are more opposed to taxation and redistribution. 
+Beside the negative selection in terms of labor market skill, \citet{bazzi2017frontier} argue that the frontier attracted individualists who would be able to thrive in the harsh conditions characterizing the frontier experience (e.g., the isolation due to low population density). The authors find that counties with longer historical frontier experience exhibit lower contemporary property tax rates, and its citizens are more opposed to taxation and redistribution. 
 
 \section{Land monopolization and rent-seeking on the frontier} 
 
@@ -52,52 +52,27 @@ Frontier states prioritized spending on banking and transportation projects in c
 
 Because railroads expanded commerce by making it cheaper to trade, railroad access is theoretically expected to increase returns to farm land, and in turn increase the property tax base. \citet{donaldson2016railroads}, for instance, find that average farm values increased substantially as the railroad network expanded from 1870 to 1890, and estimate that the absence of railroads would have decreased farm land values by 60\%. \citet{atack2011impact} attribute two-thirds of the increase in improved farm acreage in Midwestern states to the expansion of railroad access in the decade prior to the Civil War. As evidence that railroad access increases the property tax base through higher land values, \citet{atack2012impact} find school attendance rates increased in counties that gained access to the rail network between 1850 and 1860. 
 
-\section{Counterfactual history and covariate shift}
+\section{Counterfactual history}
 
+Inferring causal relationships is a fundamental problem in history and the social sciences. The problem of causal inference is usually framed in terms of counterfactuals: outcomes that would have been observed had the path of history diverged \citep{lewis2013counterfactuals,pearl2009causality,imbens2015causal}. Historians frequently pose counterfactuals in terms of speculating about the `might-have-beens' of history, as it is put by  \citet{elster1978logic}, 
 
-%sunstein2016historical
-In a sense, they are constructing something like a randomized controlled
-trial, at least in their own minds. As Elster puts it, “in a non-experimental and non-
-comparative discipline one can hardly discuss the relative importance of causes without
-engaging in some kind of though experiment where one removes successively and
-separately each of the causes in question and evaluates what difference the absence of
-this cause would have made to the phenomenon in question.'' \citet{elster1978logic}
+\begin{quote}
+``in a non-experimental and non-comparative discipline one can hardly discuss the
+relative importance of causes without engaging in some kind of thought experiment where one removes successively and separately each of the causes in
+question and evaluates what difference the absence of this cause would have
+made to the phenomenon in question. Some historians have come to recognize,
+therefore, that they have been talking counterfactually all the time without
+recognizing it.''
+\end{quote}
 
-%fearon1991counterfactuals
-%tetlock1996counterfactual
-	Philip Tetlock and Aaron Belkin specify a
-	set of criteria for assessing counterfactual arguments. 8 Tetlock and Belkin rightly urge,
-	“We can avoid counterfactuals only if we eschew all causal inference and limit ourselves
-	to strictly noncausal narratives of what actually happened.” 9 To discipline counterfactual
-	history, they emphasize the importance of well-specified antecedents and consequents, of
-	logical consistency among connecting principles, of avoiding preposterous claims about
-	causality, and of maintaining consistency with well-established historical facts
+This dissertation focuses on counterfactual questions in observational studies, where interventions and outcomes have already been recorded. In observational studies, interventions are not randomly assigned and thus there is no ``reasoned basis for inference'' for evaluating counterfactuals, according to Fisherian view of causal inference \citep{fisher1935}. This absence of randomization has not prevented political scientists from reasoning about counterfactuals in comparative case studies \citep{fearon1991counterfactuals, tetlock1996counterfactual,abadie2010synthetic,abadie2015comparative}. Economic historians have evaluated counterfactual questions such as, ``What would the U.S. economy have been like in 1890 had there been no railroads?'' using a ``social saving" methodology \citep{fogel1964railroads, donaldson2016railroads} or general equilibrium models \citep{williamson2008late}.
 
-%fogel1964railroads, fogel1962quantitative
-	"what would the U.S. economy have been like in 1890 had there been no railroads?"
-%donaldson2016railroads
-%Williamson: Late Nineteenth-Century American Development: A General Equilibrium History
+\section{Sample selection bias and covariate shift}
+The problem of counterfactual analysis in observational studies is inevitably confronted with sample selection bias \citep{heckman1979sample} which arises because the units choose whether they are exposed to treatment, or because the researcher makes nonrandom sample selection decisions. In either case, inferences on the observed sample are biased because they differ from what we would infer on random samples from the population. 
 
-\subsection{Covariate shift}
+The observational study presented in Chapter \ref{ga-lottery} makes the case that sample selection bias due to self-selection is ignorable because the treatment in the study -- winning land in the first two Georgia land lotteries --- was perfectly randomized by the state of Georgia; i.e., it is a ``natural experiment.'' In Chapters \ref{land-reform} and \ref{rnns-causal}, it is acknowledged that treatment --- exposure to homestead policy or homestead entries authorized by those policies --- is not randomly assigned and units select into treatment. Both of these studies approach the problem of causal inference by counterfactual prediction via machine learning methods. These methods predict counterfactual outcomes of the treated units, which are then compared to the observed outcomes for estimating casual effects. These methods are data-driven, in that they do not require domain knowledge or pre-intervention covariates to generate counterfactual outcomes.  
 
-The problem of covariate shift is a special case of domain adaptation \citep{huang2007correcting,ben2007analysis,bickel2009discriminative,cortes2010learning,2015arXiv150507818G}. \citet{schnabel2016recommendations} first connected the matrix completion problem with causal inference in observational settings in the context of recommender systems under confounding. \citet{johansson2016learning} formulates the general problem of counterfactual inference as a covariate shift problem.
-
-The covariate shift problem occurs when training and test data are drawn from different distributions. 
-
-%johansson2016learning
-	%Inferring causal relations is a fundamental problem in the sciences and commercial applications. The problem of causal inference is often framed in terms of counterfactual questions (Lewis, 1973; Rubin, 1974; Pearl, 2009) such as “Would this patient have lower blood sugar had she received a different medication?”, or “Would the user have clicked on this ad had it been in a different color?”.
-	%We focus on counterfactual questions raised by what are known as observational studies. Observational studies are studies where interventions and outcomes have been recorded, along with appropriate context.
-	
-	%the problem of causal inference by counterfactual prediction might require inference over a different distribution than the one from which samples are given
-		
-	%Intuitively, representations that reduce the discrepancy between the treated and control populations prevent the learner from using “unreliable” aspects of the data when trying to generalize from the factual to counterfactual domains. For example, if in our sample almost no men ever received medication A, inferring how men would react to medication A is highly prone to error and a more conservative use of the gender feature might be warranted.
-	
-	%*cortes2008sample - importance weighting of loss fn to address the problem of covariate shift.
-	%points are drawn according to the test distribution but not all of them are made available to the learner. This is called the sample
-	%selection bias problem. 
-	%The problem of sample selection bias correction for linear regression has been extensively studied in econometrics and statistics (heckman1979sample)
-	%The main correction technique used in all of these publications consists of reweighting the cost of training point errors to more closely reflect that of the test distribution.
-	%This is in fact a technique commonly used in statistics and machine learning for a variety of problems of this type (Little & Rubin, 1986). With the exact weights, this reweighting could optimally correct the bias, but, in practice, the weights are based on an estimate of the sampling probability from finite data sets.
+In machine learning terms, the sample selection bias problem occurs when test set data are drawn from a true distribution and training data are drawn from a biased distribution, where the support of biased distribution is included in that of the true distribution \citep{cortes2008sample}. The sample selection bias problem is a special case of the covariate shift problem, when the distributions of training and test sets differ \citep{bickel2007discriminative}. The problem of causal inference by counterfactual prediction assumes that the training set (i.e., control unit observations) and test set (i.e., treated unit observations) are drawn from the same distribution and therefore, requires inference on a different distribution than training set. The approach described in Chapter \ref{rnns-causal} reweights the training loss function by the propensity score \citep{rosenbaum1983central}. This correction technique, along with other regularization approaches, prevent the model from learning an overreliance on certain control units when attempting ot generalize from the factual to counterfactual domains \citep{johansson2016learning}.
 	
 \section{Overview}
 

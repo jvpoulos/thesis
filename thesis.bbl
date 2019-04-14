@@ -1021,6 +1021,48 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
+    \entry{bickel2007discriminative}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=47b03dd624cb5fa54f8e4972d74fdf33}{%
+           family={Bickel},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bb7f9fae7cfb25aad0bc9998696b0088}{%
+           family={Br{ü}ckner},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3a954fc182e5a18b0900ce293c0401ea}{%
+           family={Scheffer},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e897aa1e51fc724acc13e34056d8231d}
+      \strng{fullhash}{e897aa1e51fc724acc13e34056d8231d}
+      \strng{bibnamehash}{e897aa1e51fc724acc13e34056d8231d}
+      \strng{authorbibnamehash}{e897aa1e51fc724acc13e34056d8231d}
+      \strng{authornamehash}{e897aa1e51fc724acc13e34056d8231d}
+      \strng{authorfullhash}{e897aa1e51fc724acc13e34056d8231d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 24th international conference on Machine learning}
+      \field{title}{Discriminative learning for differing training and test distributions}
+      \field{year}{2007}
+      \field{pages}{81\bibrangedash 88}
+      \range{pages}{8}
+    \endentry
     \entry{bickel2009discriminative}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=47b03dd624cb5fa54f8e4972d74fdf33}{%
@@ -2242,6 +2284,33 @@
       \field{pages}{409}
       \range{pages}{1}
     \endentry
+    \entry{elster1978logic}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=089dd66d7c1927e54fa09c8c6d9772d3}{%
+           family={Elster},
+           familyi={E\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \strng{fullhash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \strng{bibnamehash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \strng{authorbibnamehash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \strng{authornamehash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \strng{authorfullhash}{089dd66d7c1927e54fa09c8c6d9772d3}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Logic and Society Contradictions and Possible Worlds}
+      \field{year}{1978}
+    \endentry
     \entry{engerman2005evolution}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=14c0cf6e08bc393f288fbcdb8ee1a2f6}{%
@@ -2313,6 +2382,38 @@
       \field{journaltitle}{arXiv:1412.6581}
       \field{title}{Variational recurrent auto-encoders}
       \field{year}{2014}
+    \endentry
+    \entry{fearon1991counterfactuals}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=85d93b93d5348ad9754eaae2aa494482}{%
+           family={Fearon},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{85d93b93d5348ad9754eaae2aa494482}
+      \strng{fullhash}{85d93b93d5348ad9754eaae2aa494482}
+      \strng{bibnamehash}{85d93b93d5348ad9754eaae2aa494482}
+      \strng{authorbibnamehash}{85d93b93d5348ad9754eaae2aa494482}
+      \strng{authornamehash}{85d93b93d5348ad9754eaae2aa494482}
+      \strng{authorfullhash}{85d93b93d5348ad9754eaae2aa494482}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Politics}
+      \field{number}{2}
+      \field{title}{Counterfactuals and hypothesis testing in political science}
+      \field{volume}{43}
+      \field{year}{1991}
+      \field{pages}{169\bibrangedash 195}
+      \range{pages}{27}
     \endentry
     \entry{ferman2016revisiting}{misc}{}
       \name{author}{2}{}{%
@@ -2535,6 +2636,60 @@
       \field{title}{Synthetic control method: Inference, sensitivity analysis and confidence sets}
       \field{volume}{6}
       \field{year}{2018}
+    \endentry
+    \entry{fisher1935}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2c42cd9f3654a6a775b4e404f842b7b5}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Ronald\bibnamedelima Aylmer},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oliver \& Boyd}%
+      }
+      \strng{namehash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \strng{fullhash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \strng{bibnamehash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \strng{authorbibnamehash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \strng{authornamehash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \strng{authorfullhash}{2c42cd9f3654a6a775b4e404f842b7b5}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Design of Experiments.}
+      \field{year}{1935}
+    \endentry
+    \entry{fogel1964railroads}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4e7718ab66a07644d3d02410c686c689}{%
+           family={Fogel},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima William},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins Press: Baltimore}%
+      }
+      \strng{namehash}{4e7718ab66a07644d3d02410c686c689}
+      \strng{fullhash}{4e7718ab66a07644d3d02410c686c689}
+      \strng{bibnamehash}{4e7718ab66a07644d3d02410c686c689}
+      \strng{authorbibnamehash}{4e7718ab66a07644d3d02410c686c689}
+      \strng{authornamehash}{4e7718ab66a07644d3d02410c686c689}
+      \strng{authorfullhash}{4e7718ab66a07644d3d02410c686c689}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Railroads and American Economic Growth}
+      \field{year}{1964}
     \endentry
     \entry{frymer2014rush}{article}{}
       \name{author}{1}{}{%
@@ -3233,6 +3388,33 @@
       \field{pages}{121\bibrangedash 136}
       \range{pages}{16}
     \endentry
+    \entry{heckman1979sample}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6f7227f39c4c735be25d1d80a5de5678}{%
+           family={Heckman},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f7227f39c4c735be25d1d80a5de5678}
+      \strng{fullhash}{6f7227f39c4c735be25d1d80a5de5678}
+      \strng{bibnamehash}{6f7227f39c4c735be25d1d80a5de5678}
+      \strng{authorbibnamehash}{6f7227f39c4c735be25d1d80a5de5678}
+      \strng{authornamehash}{6f7227f39c4c735be25d1d80a5de5678}
+      \strng{authorfullhash}{6f7227f39c4c735be25d1d80a5de5678}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica: Journal of the Econometric Society}
+      \field{title}{Sample selection bias as a specification error}
+      \field{year}{1979}
+      \field{pages}{153\bibrangedash 161}
+      \range{pages}{9}
+    \endentry
     \entry{helper1860}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=965446fbf4ba2bda748d59352628f2e3}{%
@@ -3735,6 +3917,33 @@
       \field{title}{Agrarianism and Reconstruction Politics: {T}he Southern Homestead Act}
       \field{year}{1999}
     \endentry
+    \entry{lewis2013counterfactuals}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=987abb6adca7047e7c1fbaecfa4ef1af}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{fullhash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{bibnamehash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{authorbibnamehash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{authornamehash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{authorfullhash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Counterfactuals}
+      \field{year}{2013}
+    \endentry
     \entry{little2014}{book}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=abe261e681654bef55a5d88129d4453e}{%
@@ -4200,6 +4409,33 @@
       \field{pages}{65\bibrangedash 96}
       \range{pages}{32}
     \endentry
+    \entry{pearl2009causality}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=809f695b398afbb54b544c49e8d1bbbb}{%
+           family={Pearl},
+           familyi={P\bibinitperiod},
+           given={Judea},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{fullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{bibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorbibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authornamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorfullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Causality}
+      \field{year}{2009}
+    \endentry
     \entry{perotti1993political}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=55ce5f65063eaaa17e18002f1298566a}{%
@@ -4430,6 +4666,44 @@
       \field{year}{2010}
       \field{pages}{729\bibrangedash 744}
       \range{pages}{16}
+    \endentry
+    \entry{rosenbaum1983central}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=25fb059d9453ffd0fcf5a5e5063965cd}{%
+           family={Rosenbaum},
+           familyi={R\bibinitperiod},
+           given={Paul\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=557f967471a621bf5ed42b091c523bd9}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \strng{fullhash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \strng{bibnamehash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \strng{authorbibnamehash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \strng{authornamehash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \strng{authorfullhash}{adabefbb49ddfaab9603f54a93ceeac1}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{The central role of the propensity score in observational studies for causal effects}
+      \field{volume}{70}
+      \field{year}{1983}
+      \field{pages}{41\bibrangedash 55}
+      \range{pages}{15}
     \endentry
     \entry{rossi2014}{article}{}
       \name{author}{1}{}{%
@@ -5007,6 +5281,39 @@
       \field{pages}{267\bibrangedash 293}
       \range{pages}{27}
     \endentry
+    \entry{tetlock1996counterfactual}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=38b2d3dbf6b312fac8d5683fcff3f050}{%
+           family={Tetlock},
+           familyi={T\bibinitperiod},
+           given={Philip\bibnamedelima E},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=84bf393030086e55c71825abb7dfb430}{%
+           family={Belkin},
+           familyi={B\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \strng{fullhash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \strng{bibnamehash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \strng{authorbibnamehash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \strng{authornamehash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \strng{authorfullhash}{50e8a5aa028d1f90ed13f0edf77d9cdc}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Counterfactual thought experiments in world politics: Logical, methodological, and psychological perspectives}
+      \field{year}{1996}
+    \endentry
     \entry{troyanskaya2001missing}{article}{}
       \name{author}{8}{}{%
         {{uniquename=0,uniquepart=base,hash=c902f3a477bd97fab31b734320db003d}{%
@@ -5330,14 +5637,41 @@
       \field{pages}{835\bibrangedash 860}
       \range{pages}{26}
     \endentry
+    \entry{williamson2008late}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=a85491e218c9d6530fe35f030d87ead2}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Jeffrey\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{a85491e218c9d6530fe35f030d87ead2}
+      \strng{fullhash}{a85491e218c9d6530fe35f030d87ead2}
+      \strng{bibnamehash}{a85491e218c9d6530fe35f030d87ead2}
+      \strng{authorbibnamehash}{a85491e218c9d6530fe35f030d87ead2}
+      \strng{authornamehash}{a85491e218c9d6530fe35f030d87ead2}
+      \strng{authorfullhash}{a85491e218c9d6530fe35f030d87ead2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Late Nineteenth-Century American Development: A General Equilibrium History}
+      \field{year}{2008}
+    \endentry
     \entry{williamson2017seven}{misc}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=19080d83b7ecff306bae224a1827abef}{%
+        {{uniquename=1,uniquepart=given,hash=19080d83b7ecff306bae224a1827abef}{%
            family={Williamson},
            familyi={W\bibinitperiod},
            given={Samuel\bibnamedelima H},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{19080d83b7ecff306bae224a1827abef}
       \strng{fullhash}{19080d83b7ecff306bae224a1827abef}
@@ -5357,12 +5691,12 @@
     \endentry
     \entry{williamson2016}{misc}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=19080d83b7ecff306bae224a1827abef}{%
+        {{uniquename=1,uniquepart=given,hash=19080d83b7ecff306bae224a1827abef}{%
            family={Williamson},
            familyi={W\bibinitperiod},
            given={Samuel\bibnamedelima H},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{19080d83b7ecff306bae224a1827abef}
       \strng{fullhash}{19080d83b7ecff306bae224a1827abef}
