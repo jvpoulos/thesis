@@ -1,45 +1,21 @@
 \chapter{Conclusion}
 
-My dissertation argues that early land reforms had consequential long-run impacts on the development of the American state. The state-building role of land reform is frequently discussed in the context of comparative political economy, but rarely in the context of American political economy. I provide evidence that mid-nineteenth century homestead acts had positive long-run impacts that can help explain contemporary differences in the capacity of state governments.
+This dissertation argues that early land reforms had consequential long-run impacts on the development of the American state. The state-building role of land reform is frequently discussed in the context of comparative political economy, but rarely in the context of American political economy. I provide evidence that mid-nineteenth century homestead acts had significant long-run impacts that can help explain contemporary differences in the capacity of state governments.
 
-% Two avenenues for future reserach: homesteads/environmental externalities, Raildroads/fiscal capacity
-My proposed research is to investigate the long-run environmental externalities of land reforms on the American frontier. Specifically, I will aggregate millions of individual settler decisions to the share of settled land and estimate the consequences of collective settler decisions on drought, soil erosion, and farm failure. This research will be informative for research in comparative political economy on the long-run environmental impacts of public land reform.
+\section{Implications of key findings}
 
-%Measure of suffrage/ democratic participation (Engerman 2005)
-%Why were frontier states more liberal in extending the than the original states that had long been settled? (pg. 889/ ftn. 14)
-%See McCormick, "New Perspectives" and Second American Party System, for discussion of the variation over state and time in the proportion of adult white males who voted
-%If the right to participate in the political process was desirable to potential migrants, the new states thus had an economic incentive to adopt liberal suffrage provisions
-%Women's suffrange (ftn. 14)
-%the pattern of frontier areas or new states choosing to extend the franchise more broadly than their neighboring states to the East does not appear to have been driven by the preferences of the U.S. Congress, but rather by conditions in those states 
-%
-%Scarcity of labor is a condition characteristic of frontier areas, as well perhaps of newly settled regions with small native populations, that might have encouraged new states to place fewer restrictions on who had the right to vote
-%
-%
-%2018. Teele, Dawn. “How the West Was Won: Competition, Mobilization, and Women's Enfranchisement in the United States.”   Journal of Politics, 80(2): 442-461.
-%
-%Lott, John R. Jr., and Lawrence W. Kenny. "Did Women's Suffrage Change the Size and Scope of Government?" Journal of Political Economy 10 (December 1999): 1163-98.
-%
-%hansen2001us
-%work by Libecap and Hansen on the harmful consequences of homesteads in the Far West
-%Property Rights to Frontier Land and Minerals: US Exceptionalism - Libecap 2018
+\section{Future research on the American frontier}
 
-%*Railroads <-> fiscal capacity
-%measure fiscal capacity (pc taxes) in the absence of railroad access
-%railroad construction optimal or driven by rent-seeking?
-%
-%State Capacity and Economic Development: A Network Approach
-%Railroad expansion -> tax capacity, public education
-%
-%Pacific RR Act of 1862 (can get grants from GLO)
-%12 Stat. 489
-%Continuous DD
-%Counterfactuals: potential Pacific RR routes
-%Donaldson India RR paper
-%
-%Compare with RR access
-%(optimal RR development) 
+Three directions for future research related to the political economy of the American frontier are worth attention. One direction is related ot the work of \citet{hansen2001us} on the harmful consequences of homesteads on the western frontier. The authors argue in this work that the 160-acre homesteads were too small to be viable, were more likely to fail during drought, and contributed to the Dust Bowl of the 1930s. This raises the question: what were the long-run environmental externalities of homesteads on the frontier? One can aggregate the millions of individual homestead entries described in Chapter \ref{land-reform} to the share of settled land, and then use the measure to estimate the consequences of collective settler decisions on drought, soil erosion, and farm failure. 
 
-	%*cortes2008sample 
-% This is called the sample selection bias problem. 
-%The main correction technique used in all of these publications consists of reweighting the cost of training point errors to more closely reflect that of the test distribution.
-%This is in fact a technique commonly used in statistics and machine learning for a variety of problems of this type (Little & Rubin, 1986). With the exact weights, this reweighting could optimally correct the bias, but, in practice, the weights are based on an estimate of the sampling probability from finite data sets.
+The second direction is related to a question posed by \citet{engerman2005evolution}: ``Why were frontier states more liberal in extending the franchise than the original states that had long been settled?'' The authors argue that the observed pattern of frontier states having more liberal suffrage provisions was due to the conditions of the frontier states rather than the preferences of the national government -- namely, the labor-scarce frontier states had an economic incentive to freely extend suffrage in order to attract eastern migrants and foreign migrants, many of whom were accustomed to suffrage rights in their native countries. One can estimate the impact of per-capita homestead entries on the variation over state and time in the proportion of adult white males who voted, which is available in \citet{mccormick1960new}. As a related inquiry, one might examine the impact of homestead entries on women's suffrage in western states \citep{teele2018west} and western state government capacity grew as a result of giving women the right to vote \citep{lott1999did}.
+
+Recent attention has been paid to the railroad expansion in the 19th century and increasing returns to farm land  \citep{donaldson2016railroads}. After 1842, infrastructure investments at the local level began to outpace state investments, ushering in an era of growth in local government investments built upon a broadening property tax base that lasted until the early 1930s. How did railroad expansion shape the development of tax capacity of local governments? County-level data on railroad access, described in Chapter \ref{land-reform}, can be merged with information on taxes collected by counties during 1870 to 1942 and taxes collected by all local governments within the county during 1870 to 1992 \citep{rhode2003assessing}. In the early 1850s, the U.S. Secretary of War sent expeditions to select routes for a possible railroad from the Mississippi River to the Pacific Ocean \citep{blake1857geological,baird1858reports}, and these routes were later abandoned by Congress as it was deemed there was no commercial reason for a transcontinental railroad. The surveyed routes offer the possibility of a falsification test in the style of \citep{donaldson2018railroads} for testing the null hypothesis that railroad access resulting from the surveyed routes had an impact on the tax capacity of intersecting county governments.\footnote{Maps of the surveyed railroad routes are available in the Library of Congress Geography and Map Division Washington: \url{https://www.loc.gov/item/gm70005008/}.}
+
+\section{Future research on counterfactual prediction}
+
+On the methodological side, further exploration of the domain adaptation problem as it relates to counterfactual prediction is warranted. Propensity score reweighting of the training loss function is the standard correction technique for data settings with sample selection bias \citep{cortes2008sample}. In Chapter \ref{rnns-causal}, propensity score weights are based on the probability of receiving treatment, conditional on pre-treatment covariates, in finite data sets. More work can be done on how to measure the extent to which the propensity score estimation error can affect counterfactual predictions. 
+
+In the high-dimensional placebo tests in Chapter \ref{rnns-causal}, the RVAE achieves comparable accuracy despite being self-supervised; i.e., learning representations of the inputs without outputs. Future research might examine how to modify the RVAE to achieve balanced representations; i.e., representations that minimize the discrepancy between the distributions of treated and control groups, similar to the work of \citet{johansson2016learning}.
+
+

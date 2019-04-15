@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Land Lotteries, Long-term Wealth, and Political Selection}{8}{section*.4}
+\contentsline {subsection}{Land Lotteries, Long-term Wealth, and Political Selection}{7}{section*.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{8}{section*.5}
 \defcounter {refsection}{0}\relax 
@@ -119,18 +119,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion}{54}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{55}{section*.41}
+\contentsline {section}{\numberline {5.1}Implications of key findings}{54}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{67}{appendix.A}
+\contentsline {section}{\numberline {5.2}Future research on the American frontier}{54}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{73}{appendix.B}
+\contentsline {section}{\numberline {5.3}Future research on counterfactual prediction}{55}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{78}{appendix.C}
+\contentsline {chapter}{References}{56}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{79}{appendix.D}
+\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{69}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{84}{appendix.E}
+\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{75}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{85}{appendix.F}
+\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{80}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Randomization confidence intervals}{85}{section*.59}
+\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{81}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{86}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{87}{appendix.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Randomization confidence intervals}{87}{section*.59}
