@@ -189,7 +189,7 @@ In the empirical application below, I apply the RNN-based approach to the proble
 
 \subsection{Data and assumptions} \label{educ-data}
 
-I create a state-level measure of state government education spending from the records of 48 state governments during the period of 1783 to 1932 \citep{sylla1993sources} and the records of 16 state governments during the period of 1933 to 1937 \citep{sylla1995sourcesa,sylla1995sourcesb}. Comparable measures for 48 states are drawn from U.S. Census special reports for the years 1902, 1913, 1932, 1942, 1962, 1972, and 1982 \citep{haines2010}.
+I create a state-level measure of state government education spending from the records of 48 state governments during the period of 1783 to 1932 \citep{sylla1993sources} and the records of 16 state governments during the period of 1933 to 1937 \citep{sylla1995sourcesa,sylla1995sourcesb}. Comparable measures for 48 states are drawn from U.S. Census special reports for the years 1902, 1913, 1932, and 1942 \citep{haines2010}.
 
 The data pre-processing steps are as follows. The measure is inflation-adjusted according to the U.S. Consumer Price Index \citep{williamson2017seven} and scaled by the total free population in the decennial census \citep{haines2010}. Missing values are imputed separately in the pre- and -post-periods by carrying the last observation forward and remaining missing values are imputed by carrying the next observation backward. The data are log-transformed to alleviate exponential effects. Lastly, I remove states with no variance in the pre-period outcomes, resulting in a complete matrix of size $(\text{N} \times \text{T})= (32 \times 156)$. 
 
@@ -212,7 +212,7 @@ Taking the mean of post-period impacts, I estimate that the impact of the HSA on
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png}
-	\caption{Encoder-decoder estimates of the impact of the HSA on state government education spending, 1809 to 1982:		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+	\caption{Encoder-decoder estimates of the impact of the HSA on state government education spending, 1809 to 1942:		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
 		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
 		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
 		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\boldsymbol{\bar{\upphi}^{(t)}}$.\label{educ-ed}} 

@@ -3122,6 +3122,41 @@
       \field{pages}{206\bibrangedash 227}
       \range{pages}{22}
     \endentry
+    \entry{gates1968history}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8763ed010e401ac30aa2c92b6046c2be}{%
+           family={Gates},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima W},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a2c68092d43c3ade787bff469c04dd8}{%
+           family={Swenson},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[US Govt. Print. Off.]}%
+      }
+      \strng{namehash}{376878a0bc951eddb46a4fccf815fc09}
+      \strng{fullhash}{376878a0bc951eddb46a4fccf815fc09}
+      \strng{bibnamehash}{376878a0bc951eddb46a4fccf815fc09}
+      \strng{authorbibnamehash}{376878a0bc951eddb46a4fccf815fc09}
+      \strng{authornamehash}{376878a0bc951eddb46a4fccf815fc09}
+      \strng{authorfullhash}{376878a0bc951eddb46a4fccf815fc09}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{History of Public Land Law Development}
+      \field{year}{1968}
+    \endentry
     \entry{glorot2010}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=0b3943c3bfdbb5867b3760f7c7d488c2}{%

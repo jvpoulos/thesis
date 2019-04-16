@@ -119,24 +119,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion}{54}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Implications of key findings}{54}{section.5.1}
+\contentsline {section}{\numberline {5.1}Future research on the American frontier}{55}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future research on the American frontier}{54}{section.5.2}
+\contentsline {section}{\numberline {5.2}Future research on counterfactual prediction}{56}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Future research on counterfactual prediction}{55}{section.5.3}
+\contentsline {chapter}{References}{57}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{56}{section*.41}
+\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{70}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{69}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{76}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{75}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{81}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{80}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{82}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{81}{appendix.D}
+\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{87}{appendix.E}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{86}{appendix.E}
+\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{88}{appendix.F}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{87}{appendix.F}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Randomization confidence intervals}{87}{section*.59}
+\contentsline {subsection}{Randomization confidence intervals}{88}{section*.59}
