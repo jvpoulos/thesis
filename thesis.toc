@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Sample selection bias and covariate shift}{6}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Overview}{6}{section.1.7}
+\contentsline {section}{\numberline {1.7}Overview}{7}{section.1.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.7.1}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{subsection.1.7.1}
 \defcounter {refsection}{0}\relax 
@@ -29,13 +29,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{9}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
+\contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Historical background}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{12}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Matrix completion estimator}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Matrix completion estimator}{13}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Simulations}{13}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
@@ -45,13 +45,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{16}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Placebo tests}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Placebo tests}{18}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Main estimates}{18}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}DID estimation}{19}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}DID estimates on state capacity}{21}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}DID estimates on state capacity}{22}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Land inequality as a causal mechanism}{22}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
@@ -59,7 +59,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Land Lotteries, Long-term Wealth, and Political Selection}{25}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Theoretical considerations}{27}{section.3.2}
 \defcounter {refsection}{0}\relax 
@@ -67,29 +67,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Barriers to officeholding}{29}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Officeholder wealth}{29}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Officeholder wealth}{30}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}The 1805 and 1807 lotteries}{30}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Data and descriptive statistics}{31}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Candidacy}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Candidacy}{33}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Future wealth}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Future wealth}{33}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Estimation and results}{33}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Balance}{33}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Balance}{35}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}ITT estimates}{35}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Discussion}{37}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Conclusion}{37}{section.3.7}
+\contentsline {section}{\numberline {3.7}Conclusion}{38}{section.3.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{39}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{39}{section.4.1}
+\contentsline {section}{\numberline {4.1}Introduction}{40}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Counterfactual prediction}{41}{section.4.2}
 \defcounter {refsection}{0}\relax 
@@ -101,17 +101,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Encoder-decoder networks}{44}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Recurrent variational autoencoder}{44}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Recurrent variational autoencoder}{45}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Placebo tests}{45}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Synthetic control datasets}{45}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Synthetic control datasets}{46}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Stock market data}{46}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Application: Homestead policy and public schooling}{46}{section.4.5}
+\contentsline {section}{\numberline {4.5}Application: Homestead policy and public schooling}{48}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Data and assumptions}{49}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Data and assumptions}{48}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Estimates}{50}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
