@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.12.4)  17 APR 2019 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.12.4)  17 APR 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,6 +1223,13 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip273
+\bibsep=\skip274
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count406
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
@@ -1233,9 +1240,9 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count406
+\g_MT_multlinerow_int=\count407
 \l_MT_multwidth_dim=\dimen320
-\origjot=\skip273
+\origjot=\skip275
 \l_MT_shortvdotswithinadjustabove_dim=\dimen321
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen322
 \l_MT_above_intertext_sep=\dimen323
@@ -1254,7 +1261,7 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks50
 \footnotemargin=\dimen327
-\c@pp@next@reset=\count407
+\c@pp@next@reset=\count408
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1265,329 +1272,8 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
 Package footmisc Info: Declaring symbol style mySymbols on input line 50.
-\c@theorem=\count408
+\c@theorem=\count409
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks51
-\inpenc@posthook=\toks52
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/06/05 3.22 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/american.ldf
-Language: american 2017/06/06 v3.3r English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/06/05 3.22 Babel common definitions
-\babel@savecnt=\count409
-\U@D=\dimen328
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count410
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count411
-)
-\csq@reset=\count412
-\csq@gtype=\count413
-\csq@glevel=\count414
-\csq@qlevel=\count415
-\csq@maxlvl=\count416
-\csq@tshold=\count417
-\csq@ltx@everypar=\toks53
-
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-))
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
-Package: biblatex-chicago 2018/01/10 v 3.10 biblatex style
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count418
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write6
-\integerpart=\count419
-\decimalpart=\count420
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count421
-\c@listtotal=\count422
-\c@listcount=\count423
-\c@liststart=\count424
-\c@liststop=\count425
-\c@citecount=\count426
-\c@citetotal=\count427
-\c@multicitecount=\count428
-\c@multicitetotal=\count429
-\c@instcount=\count430
-\c@maxnames=\count431
-\c@minnames=\count432
-\c@maxitems=\count433
-\c@minitems=\count434
-\c@citecounter=\count435
-\c@savedcitecounter=\count436
-\c@uniquelist=\count437
-\c@uniquename=\count438
-\c@refsection=\count439
-\c@refsegment=\count440
-\c@maxextratitle=\count441
-\c@maxextratitleyear=\count442
-\c@maxextradate=\count443
-\c@maxextraalpha=\count444
-\c@abbrvpenalty=\count445
-\c@highnamepenalty=\count446
-\c@lownamepenalty=\count447
-\c@maxparens=\count448
-\c@parenlevel=\count449
-\blx@tempcnta=\count450
-\blx@tempcntb=\count451
-\blx@tempcntc=\count452
-\blx@maxsection=\count453
-\blx@maxsegment@0=\count454
-\blx@notetype=\count455
-\blx@parenlevel@text=\count456
-\blx@parenlevel@foot=\count457
-\blx@sectionciteorder@0=\count458
-\labelnumberwidth=\skip274
-\labelalphawidth=\skip275
-\biblabelsep=\skip276
-\bibnamesep=\skip277
-\bibinitsep=\skip278
-\bibparsep=\skip279
-\bibhang=\skip280
-\blx@bcfin=\read4
-\blx@bcfout=\write7
-\c@mincomprange=\count459
-\c@maxcomprange=\count460
-\c@mincompwidth=\count461
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count462
-\c@savedafterword=\count463
-\c@annotator=\count464
-\c@savedannotator=\count465
-\c@author=\count466
-\c@savedauthor=\count467
-\c@bookauthor=\count468
-\c@savedbookauthor=\count469
-\c@commentator=\count470
-\c@savedcommentator=\count471
-\c@editor=\count472
-\c@savededitor=\count473
-\c@editora=\count474
-\c@savededitora=\count475
-\c@editorb=\count476
-\c@savededitorb=\count477
-\c@editorc=\count478
-\c@savededitorc=\count479
-\c@foreword=\count480
-\c@savedforeword=\count481
-\c@holder=\count482
-\c@savedholder=\count483
-\c@introduction=\count484
-\c@savedintroduction=\count485
-\c@namea=\count486
-\c@savednamea=\count487
-\c@nameb=\count488
-\c@savednameb=\count489
-\c@namec=\count490
-\c@savednamec=\count491
-\c@translator=\count492
-\c@savedtranslator=\count493
-\c@shortauthor=\count494
-\c@savedshortauthor=\count495
-\c@shorteditor=\count496
-\c@savedshorteditor=\count497
-\c@labelname=\count498
-\c@savedlabelname=\count499
-\c@institution=\count500
-\c@savedinstitution=\count501
-\c@lista=\count502
-\c@savedlista=\count503
-\c@listb=\count504
-\c@savedlistb=\count505
-\c@listc=\count506
-\c@savedlistc=\count507
-\c@listd=\count508
-\c@savedlistd=\count509
-\c@liste=\count510
-\c@savedliste=\count511
-\c@listf=\count512
-\c@savedlistf=\count513
-\c@location=\count514
-\c@savedlocation=\count515
-\c@organization=\count516
-\c@savedorganization=\count517
-\c@origlocation=\count518
-\c@savedoriglocation=\count519
-\c@origpublisher=\count520
-\c@savedorigpublisher=\count521
-\c@publisher=\count522
-\c@savedpublisher=\count523
-\c@language=\count524
-\c@savedlanguage=\count525
-\c@origlanguage=\count526
-\c@savedoriglanguage=\count527
-\c@pageref=\count528
-\c@savedpageref=\count529
-\shorthandwidth=\skip281
-\shortjournalwidth=\skip282
-\shortserieswidth=\skip283
-\shorttitlewidth=\skip284
-\shortauthorwidth=\skip285
-\shorteditorwidth=\skip286
-\locallabelnumberwidth=\skip287
-\locallabelalphawidth=\skip288
-\localshorthandwidth=\skip289
-\localshortjournalwidth=\skip290
-\localshortserieswidth=\skip291
-\localshorttitlewidth=\skip292
-\localshortauthorwidth=\skip293
-\localshorteditorwidth=\skip294
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count530
-\c@textcitetotal=\count531
-\c@textcitemaxnames=\count532
-\c@biburlnumpenalty=\count533
-\c@biburlucpenalty=\count534
-\c@biburllcpenalty=\count535
-\c@smartand=\count536
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
-.
-Package biblatex Info: ... file 'chicago-authordate.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bb
-x
-File: chicago-authordate.bbx 2018/01/11 v 3.10 biblatex bibliography style
-\lositemsep=\skip295
-\c@bbx:relatedcount=\count537
-\c@bbx:relatedtotal=\count538
-)
-Package biblatex Info: Trying to load citation style 'chicago-authordate'...
-Package biblatex Info: ... file 'chicago-authordate.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cb
-x
-File: chicago-authordate.cbx 2018/01/11 v 3.10 biblatex citation style
-Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
-Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-common.
-cbx
-File: chicago-dates-common.cbx 2018/01/11 v 3.10 biblatex citation style
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footfullcite'.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Patching 'autolang=other' option.
-))
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-
-Package biblatex Warning: Since you are using the 'memoir' class,
-(biblatex)                I'm leaving the formatting of the foot- and/or
-(biblatex)                end-note mark and text to you..
-
-)
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'american'.
-Package biblatex Info: Trying to load language 'american' -> 'cms-american'...
-Package biblatex Info: ... file 'cms-american.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
-File: cms-american.lbx 2018/01/09 v 3.10 biblatex localization
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-))
 (./thesis.aux (./abstract.aux) (./intro.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./conclusion.aux) (./a1.aux) (./a2.aux) (./a2-power.aux)
 (./a3.aux) (./a3-implementation.aux) (./a3-hypothesis.aux))
@@ -1636,7 +1322,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count539
+\c@section@level=\count410
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1645,23 +1331,23 @@ LaTeX Info: Redefining \ref on input line 141.
 LaTeX Info: Redefining \pageref on input line 141.
 LaTeX Info: Redefining \nameref on input line 141.
 (./thesis.out) (./thesis.out)
-\@outlinefile=\write8
-\openout8 = `thesis.out'.
+\@outlinefile=\write6
+\openout6 = `thesis.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count540
-\scratchdimen=\dimen329
+\scratchcounter=\count411
+\scratchdimen=\dimen328
 \scratchbox=\box66
-\nofMPsegments=\count541
-\nofMParguments=\count542
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count543
-\MPscratchDim=\dimen330
-\MPnumerator=\count544
-\makeMPintoPDFobject=\count545
-\everyMPtoPDFconversion=\toks55
+\nofMPsegments=\count412
+\nofMParguments=\count413
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count414
+\MPscratchDim=\dimen329
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1687,18 +1373,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
-ABD: EveryShipout initializing macros
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout7 = `thesis.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' found.
- (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 141.
-Package biblatex Info: Reference segment=0 on input line 141.
- [1
+ABD: EveryShipout initializing macros [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
@@ -1732,12 +1407,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 l.13 \end{abstract}
                     [1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.13 \end{abstract}
-                    [2]) [1
+]) [1
 
 ] (./thesis.toc [2] [3]) [4]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
@@ -1764,13 +1434,12 @@ l.10
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \citet{
-            mares2015non} argue that higher levels of land inequality increa...
-[2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) h
-as been already used, duplicate ignored
+l.28 
+      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
+.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 
+l.42 
       [3] [4] [5] [6] [7]) [8]
 \openout2 = `chap1.aux'.
 
@@ -1790,18 +1459,18 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 52.
 
 [13]
-Overfull \hbox (15.39595pt too wide) in paragraph at lines 74--75
-[]\T1/cmr/m/n/12 Synthetic con-trol ap-proached via ex-po-nen-ti-ated gra-di-en
-t de-scent ([]Abadie,
+Overfull \hbox (12.23746pt too wide) in paragraph at lines 74--75
+[]\OT1/cmr/m/n/12 Synthetic con-trol ap-proached via ex-po-nen-ti-ated gra-di-e
+nt de-scent ([]Abadie
  []
 
 
-Overfull \hbox (6.21902pt too wide) in paragraph at lines 75--76
-[]\T1/cmr/m/n/12 Low-rank SVD ap-prox-i-ma-tion es-ti-mated by ex-pec-ta-tion m
-ax-i-miza-tion ([]Troy-
+Overfull \hbox (6.32205pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/12 Low-rank SVD ap-prox-i-ma-tion es-ti-mated by ex-pec-ta-tion 
+max-i-miza-tion ([]Troy-
  []
 
-</media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png, id=641, 6
+</media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png, id=758, 6
 14.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png Graph
 ic file (type png)
@@ -1809,15 +1478,15 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ba
 sque-stag.png  used on input line 88.
 (pdftex.def)             Requested size: 196.97914pt x 254.91719pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png, id=64
-2, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png, id=75
+9, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png G
 raphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ca
 lifornia-stag.png  used on input line 94.
 (pdftex.def)             Requested size: 196.97914pt x 254.91719pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png, id=643, 
+</media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png, id=760, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png Grap
 hic file (type png)
@@ -1826,26 +1495,25 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ge
 rmany-stag.png  used on input line 100.
 (pdftex.def)             Requested size: 196.97914pt x 254.91719pt.
 
-Underfull \hbox (badness 2261) in paragraph at lines 101--101
-[]\T1/cmr/m/sc/10.95 (c) |\T1/cmr/m/n/10.95 West Ger-man re-uni-fi-ca-tion data
-,
+Underfull \hbox (badness 1881) in paragraph at lines 101--101
+[]\OT1/cmr/m/sc/10.95 (c) |\OT1/cmr/m/n/10.95 West Ger-man re-uni-fi-ca-tion da
+ta,
  []
 
 
-LaTeX Warning: Float too large for page by 6.83179pt on input line 111.
+LaTeX Warning: Float too large for page by 6.901pt on input line 111.
 
 [14] [15 </media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png (
 PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/california-stag
 .png (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/germany-s
-tag.png (PNG copy)>] [16]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 156.
+tag.png (PNG copy)>] [16] [17]
+(/media/jason/Dropbox/github/land-reform/paper/placebo-tests.tex)
+Overfull \hbox (0.60574pt too wide) in paragraph at lines 177--178
+ [] 
+ []
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [17]
-(/media/jason/Dropbox/github/land-reform/paper/placebo-tests.tex) [18]
-</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png, id=721, 614
+[18]
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png, id=850, 614
 .295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png Graphic
  file (type png)
@@ -1853,11 +1521,10 @@ File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
 -exp-pc.png  used on input line 193.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-
-(/media/jason/Dropbox/github/land-reform/paper/mc-estimates.tex) [19] [20 </med
-ia/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png (PNG copy)>]
-[21] (/media/jason/Dropbox/github/land-reform/paper/dd-estimates.tex) [22]
-[23]) [24]
+ (/media/jason/Dropbox/github/land-reform/paper/mc-estimates.tex) [19]
+[20 </media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png (PNG cop
+y)>] [21] (/media/jason/Dropbox/github/land-reform/paper/dd-estimates.tex)
+[22] [23]) [24]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex [25
@@ -1870,11 +1537,11 @@ ia/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png (PNG copy)>]
 (/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/summa
 ry-table.tex)
 
-LaTeX Warning: Float too large for page by 3.96687pt on input line 95.
+LaTeX Warning: Float too large for page by 4.09393pt on input line 95.
 
 [33] [34]
 </media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/balan
-ce-plot.jpeg, id=949, 495.0495pt x 665.78737pt>
+ce-plot.jpeg, id=1138, 495.0495pt x 665.78737pt>
 File: /media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/
 balance-plot.jpeg Graphic file (type jpg)
 <use /media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/b
@@ -1884,7 +1551,7 @@ lottery-manuscript/balance-plot.jpeg  used on input line 118.
 (pdftex.def)             Requested size: 399.29463pt x 537.01935pt.
 
 
-LaTeX Warning: Float too large for page by 2.62785pt on input line 121.
+LaTeX Warning: Float too large for page by 2.69754pt on input line 121.
 
 [35] [36 </media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscr
 ipt/balance-plot.jpeg>]
@@ -1899,44 +1566,43 @@ able.tex) [37]) [38]
 ] [40
 
 ] [41] [42] [43] [44] [45]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png, id=111
-6, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png, id=137
+0, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png Gr
 aphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ca
-lifornia-sim.png  used on input line 154.
+lifornia-sim.png  used on input line 152.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
  [46]
 [47 </media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png (PN
 G copy)>]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png, id=1132, 61
+</media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png, id=1389, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png Graphic
  file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/st
-ock-sim.png  used on input line 172.
+ock-sim.png  used on input line 170.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
+ [48] [49 </media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png (P
+NG copy)>]
 
-Overfull \hbox (1.25139pt too wide) in paragraph at lines 184--185
-\T1/cmr/m/n/12 Sociologists and po-lit-i-cal economists (e.g,[] Meyer et al. []
-1979[][]; Alesina and Re-ich []2013[][]; Bandiera
- []
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 196.
 
-[48] [49 </media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png (PN
-G copy)>]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 200.
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 196.
 
 [50]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png, id=1172, 614.
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png, id=1451, 614.
 295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png Graphic f
 ile (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
-uc-ed.png  used on input line 216.
+uc-ed.png  used on input line 212.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
  [51] [52 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png (PNG
  copy)>]) [53]
@@ -1946,69 +1612,40 @@ uc-ed.png  used on input line 216.
 
 
 
-] [55]) [56] [57
+] [55]) [56] (./thesis.bbl [57
 
 
-] [58]
-Overfull \hbox (0.12506pt too wide) in paragraph at lines 221--221
-[][]\T1/cmr/m/n/12 Boix, Car-les. (2003). \T1/cmr/m/it/12 Democ-racy and Re-dis
--tri-bu-tion. \T1/cmr/m/n/12 Cam-bridge: Cam-bridge Uni-ver-sity Press,
- []
-
-[59]
-Overfull \hbox (10.22502pt too wide) in paragraph at lines 221--221
-[][]\T1/cmr/m/n/12 Cho, Kyunghyun, Bart Van Mer-riën-boer, Caglar Gul-cehre, Dz
-mitry Bah-danau, Fethi Bougares,
+]
+[58] [59] [60]
+Underfull \hbox (badness 1609) in paragraph at lines 359--362
+[]\OT1/cmr/m/n/12 Fabius, O. and van Amers-foort, J. R. (2014) Vari-a-tional re
+-cur-rent auto-encoders.
  []
 
 
-Overfull \hbox (21.79387pt too wide) in paragraph at lines 221--221
-\T1/cmr/m/n/12 cal Eval-u-a-tion of Gated Re-cur-rent Neu-ral Net-works on Se-q
-uence Mod-el-ing.^^Q \T1/cmr/m/it/12 arXiv:1412.3555
+Underfull \hbox (badness 1460) in paragraph at lines 384--388
+\OT1/cmr/m/n/12 re-examination of Turner's `safety valve'.  Avail-able at: []$\
+OT1/cmtt/m/n/12 http : / / faculty . wcas .
  []
 
-[60]
-Overfull \hbox (3.11943pt too wide) in paragraph at lines 221--221
-[][]\T1/cmr/m/n/12 Donaldson, Dave, and Richard Horn-beck. (2016). ^^P  Rail-ro
-ads and Amer-i-can Eco-nomic Growth:
+[61] [62] [63]
+Underfull \hbox (badness 3088) in paragraph at lines 567--569
+[]\OT1/cmr/m/n/12 Kingma, D. and Ba, J. (2014) Adam: A method for stochas-tic o
+p-ti-miza-tion.
  []
 
-[61]
-Overfull \hbox (5.1147pt too wide) in paragraph at lines 221--221
-[][]\T1/cmr/m/n/12 Ganin, Yaroslav, Ev-geniya Usti-nova, Hana Ajakan, Pas-cal G
-er-main, Hugo Larochelle, François
+[64]
+Underfull \hbox (badness 1173) in paragraph at lines 700--702
+[]\OT1/cmr/m/n/12 Poulos, J. (2017) RNN-based coun-ter-fac-tual time-series pre
+-dic-tion.  \OT1/cmr/m/it/12 arXiv e-prints\OT1/cmr/m/n/12 ,
  []
 
-
-Overfull \hbox (2.4561pt too wide) in paragraph at lines 221--221
-\T1/cmr/m/n/12 ing of Neu-ral Net-works.^^Q \T1/cmr/m/it/12 arXiv e-prints, \T1
-/cmr/m/n/12 arXiv:1505.07818 (May 2015): arXiv:1505.07818.
- []
-
-[62] [63]
-Overfull \hbox (28.25858pt too wide) in paragraph at lines 221--221
-[][]\T1/cmr/m/n/12 Kingma, Diederik P, and Max Welling. (2013). ^^P  Auto-encod
-ing vari-a-tional bayes.^^Q \T1/cmr/m/it/12 arXiv:1312.6114
- []
-
-[64] [65] [66]
-Overfull \hbox (11.49617pt too wide) in paragraph at lines 221--221
-\T1/cmr/m/it/12 [United States]: Sources and Uses of Funds, Cen-sus Statis-tics
-, Twen-ti-eth Cen-tury [Through
- []
-
-[67]
-Overfull \hbox (0.85098pt too wide) in paragraph at lines 221--221
-\T1/cmr/m/n/12 Po-lit-i-cal and So-cial Re-search, 2017-05-21. http://doi.org/1
-0.3886/ICPSR06306.v1, 1995. 
- []
-
-[68] [69]
+[65] [66] [67]) [68]
 \openout2 = `a1.aux'.
 
  (./a1.tex
 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numruns_2
-0_num_treated_8_simultaneuous_1.png, id=1343, 505.76955pt x 505.76955pt>
+0_num_treated_8_simultaneuous_1.png, id=1626, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numr
 uns_20_num_treated_8_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numru
@@ -2018,7 +1655,7 @@ sque_N_16_T_43_numruns_20_num_treated_8_simultaneuous_1.png  used on input line
  8.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_numru
-ns_20_num_treated_19_simultaneuous_1.png, id=1344, 505.76955pt x 505.76955pt>
+ns_20_num_treated_19_simultaneuous_1.png, id=1627, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_
 numruns_20_num_treated_19_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_n
@@ -2028,7 +1665,7 @@ lifornia_N_38_T_31_numruns_20_num_treated_19_simultaneuous_1.png  used on input
  line 14.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_numruns_
-20_num_treated_8_simultaneuous_1.png, id=1345, 505.76955pt x 505.76955pt>
+20_num_treated_8_simultaneuous_1.png, id=1628, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_num
 runs_20_num_treated_8_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_numr
@@ -2038,7 +1675,7 @@ rmany_N_16_T_44_numruns_20_num_treated_8_simultaneuous_1.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png, id=
-1346, 794.97pt x 614.295pt>
+1629, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png
  Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png>
@@ -2047,7 +1684,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ho
 mestead-heatmap.png  used on input line 28.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numruns_
-20_num_treated_9_simultaneuous_1.png, id=1347, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_1.png, id=1630, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_num
 runs_20_num_treated_9_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numr
@@ -2057,7 +1694,7 @@ p_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_1.png  used on input lin
 e 37.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numruns_
-20_num_treated_9_simultaneuous_1.png, id=1348, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_1.png, id=1631, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_num
 runs_20_num_treated_9_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numr
@@ -2067,7 +1704,7 @@ v_pc_N_18_T_158_numruns_20_num_treated_9_simultaneuous_1.png  used on input lin
 e 43.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numruns_
-20_num_treated_9_simultaneuous_0.png, id=1349, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_0.png, id=1632, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_num
 runs_20_num_treated_9_simultaneuous_0.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numr
@@ -2077,7 +1714,7 @@ p_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_0.png  used on input lin
 e 49.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_numruns_
-20_num_treated_10_simultaneuous_0.png, id=1350, 505.76955pt x 505.76955pt>
+20_num_treated_10_simultaneuous_0.png, id=1633, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_num
 runs_20_num_treated_10_simultaneuous_0.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_numr
@@ -2086,7 +1723,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/re
 v_pc_N_19_T_158_numruns_20_num_treated_10_simultaneuous_0.png  used on input li
 ne 55.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png, id=1351, 61
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png, id=1634, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png Graphic
  file (type png)
@@ -2094,7 +1731,7 @@ File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
 -rev-pc.png  used on input line 63.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png, id=1352
+</media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png, id=1635
 , 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png Gra
 phic file (type png)
@@ -2102,23 +1739,23 @@ phic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/in
 eq-capacity.png  used on input line 73.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
-) [70
+) [69
 
 
-] [71 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_num
+] [70 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_num
 runs_20_num_treated_8_simultaneuous_1.png (PNG copy)> </media/jason/Dropbox/git
 hub/land-reform/paper/plots/california_N_38_T_31_numruns_20_num_treated_19_simu
 ltaneuous_1.png (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plot
 s/germany_N_16_T_44_numruns_20_num_treated_8_simultaneuous_1.png (PNG copy)>] [
-72 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png (
-PNG copy)>] [73 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_1
+71 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png (
+PNG copy)>] [72 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_1
 7_T_159_numruns_20_num_treated_9_simultaneuous_1.png (PNG copy)> </media/jason/
 Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numruns_20_num_treated
 _9_simultaneuous_1.png (PNG copy)> </media/jason/Dropbox/github/land-reform/pap
 er/plots/exp_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_0.png (PNG co
 py)> </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_num
-runs_20_num_treated_10_simultaneuous_0.png (PNG copy)>] [74 </media/jason/Dropb
-ox/github/land-reform/paper/plots/mc-rev-pc.png (PNG copy)>] [75 </media/jason/
+runs_20_num_treated_10_simultaneuous_0.png (PNG copy)>] [73 </media/jason/Dropb
+ox/github/land-reform/paper/plots/mc-rev-pc.png (PNG copy)>] [74 </media/jason/
 Dropbox/github/land-reform/paper/plots/ineq-capacity.png (PNG copy)>]
 \openout2 = `a2.aux'.
 
@@ -2131,14 +1768,14 @@ e.tex)
 ex)
 (/media/jason/Dropbox/ga-lottery-local/online-appendix/slave-robust-table.tex)
 </media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png, id=1
-387, 794.97pt x 614.295pt>
+673, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png 
 Graphic file (type png)
 <use /media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png>
 Package pdftex.def Info: /media/jason/Dropbox/ga-lottery-local/online-appendix/
 power-plot-bin.png  used on input line 95.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
-</media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png, id=1388, 
+</media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png, id=1674, 
 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png Graph
 ic file (type png)
@@ -2146,16 +1783,16 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/ga-lottery-local/online-appendix/
 qreg-plot.png  used on input line 103.
 (pdftex.def)             Requested size: 469.75502pt x 363.00267pt.
-) [76
+) [75
 
 
 
-] [77] [78] [79 </media/jason/Dropbox/ga-lottery-local/online-appendix/power-pl
-ot-bin.png>] [80 </media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-pl
+] [76] [77] [78 </media/jason/Dropbox/ga-lottery-local/online-appendix/power-pl
+ot-bin.png>] [79 </media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-pl
 ot.png (PNG copy)>]
 \openout2 = `a2-power.aux'.
 
- (./a2-power.tex) [81
+ (./a2-power.tex) [80
 
 
 
@@ -2163,7 +1800,7 @@ ot.png (PNG copy)>]
 \openout2 = `a3.aux'.
 
  (./a3.tex
-</media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png, id=1421, 6
+</media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png, id=1708, 6
 14.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png Graphi
 c file (type png)
@@ -2171,7 +1808,7 @@ c file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ba
 sque-sim.png  used on input line 5.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png, id=1422, 
+</media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png, id=1709, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png Graph
 ic file (type png)
@@ -2179,7 +1816,7 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ge
 rmany-sim.png  used on input line 17.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png, id=1423, 61
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png, id=1710, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png Graphic
  file (type png)
@@ -2187,7 +1824,7 @@ File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-dens.png  used on input line 31.
 (pdftex.def)             Requested size: 225.118pt x 291.3322pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png, id=1424, 
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png, id=1711, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png Graph
 ic file (type png)
@@ -2195,7 +1832,7 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-dens-w.png  used on input line 37.
 (pdftex.def)             Requested size: 225.118pt x 291.3322pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png, id=1425, 614
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png, id=1712, 614
 .295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png Graphic 
 file (type png)
@@ -2203,20 +1840,20 @@ file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-sim.png  used on input line 46.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-) [82
+) [81
 
 
 
-] [83 </media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png (PNG 
-copy)>] [84 </media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.pn
+] [82 </media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png (PNG 
+copy)>] [83 </media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.pn
 g (PNG copy)>]
-[85 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png (PNG cop
+[84 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png (PNG cop
 y)> </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png (PNG c
-opy)>] [86 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png (P
+opy)>] [85 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png (P
 NG copy)>]
 \openout2 = `a3-implementation.aux'.
 
- (./a3-implementation.tex) [87
+ (./a3-implementation.tex) [86
 
 
 
@@ -2233,40 +1870,58 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 15.
 
-) [88
+) [87
 
 
 
-] [89]
-\tf@toc=\write9
-\openout9 = `thesis.toc'.
+] [88]
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (./thesis.aux (./abstract.aux) (./intro.aux) (./chap1.aux)
 (./chap2.aux) (./chap3.aux) (./conclusion.aux) (./a1.aux) (./a2.aux)
 (./a2-power.aux) (./a3.aux) (./a3-implementation.aux) (./a3-hypothesis.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D29A10D9F0206F60BB3C142DA993226C;5346.
-Package logreq Info: Writing requests to 'thesis.run.xml'.
-\openout1 = `thesis.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+(rerunfilecheck)             Checksum: 2527697FA11BC87578B1DE3EA745416A;5128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  )
 (\end occurred when \ifnum on line 176 was incomplete) 
 Here is how much of TeX's memory you used:
- 42809 strings out of 492641
- 794097 string characters out of 6131787
- 1578226 words of memory out of 5000000
- 45580 multiletter control sequences out of 15000+600000
- 569420 words of font info for 129 fonts, out of 8000000 for 9000
+ 33573 strings out of 492641
+ 614469 string characters out of 6131787
+ 822993 words of memory out of 5000000
+ 36444 multiletter control sequences out of 15000+600000
+ 560004 words of font info for 129 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 68i,19n,65p,2172b,3902s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,19n,65p,2172b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): na
-me{Hfootnote.20} has been referenced but does not exist, replaced by a fixed on
+me{Hfootnote.27} has been referenced but does not exist, replaced by a fixed on
 e
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2325,39 +1980,36 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-b10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmi
-b8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (99 pages, 6128102 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+mib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on thesis.pdf (97 pages, 5946128 bytes).
 PDF statistics:
- 1670 PDF objects out of 1728 (max. 8388607)
- 1495 compressed objects within 15 object streams
- 410 named destinations out of 1000 (max. 500000)
+ 1953 PDF objects out of 2073 (max. 8388607)
+ 1782 compressed objects within 18 object streams
+ 416 named destinations out of 1000 (max. 500000)
  682 words of extra memory for PDF output out of 10000 (max. 10000000)
 

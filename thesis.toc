@@ -1,140 +1,72 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {american}{}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Contents}{ii}{section*.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Land reform, inequality and state capacity}{2}{section.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.1}``Hollowing out'' tax institutions}{2}{subsection.1.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Culture and migration to the frontier}{3}{section.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Land monopolization and rent-seeking on the frontier}{4}{section.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}``What the railroad will bring us''}{4}{section.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Counterfactual history}{5}{section.1.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Sample selection bias and covariate shift}{6}{section.1.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Overview}{7}{section.1.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7.1}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{subsection.1.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7.2}Land Lotteries, Long-term Wealth, and Political Selection}{7}{subsection.1.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7.3}RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{8}{subsection.1.7.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.7}Overview}{6}{section.1.7}
+\contentsline {paragraph}{State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{7}{section*.2}
+\contentsline {paragraph}{Land Lotteries, Long-term Wealth, and Political Selection}{7}{section*.3}
+\contentsline {paragraph}{RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{8}{section*.4}
 \contentsline {chapter}{\chapternumberline {2}State-Building through Public Land Disposal? An Application of Matrix Completion for Counterfactual Prediction}{9}{chapter.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Historical background}{11}{section.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Matrix completion for counterfactual prediction}{12}{section.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Matrix completion estimator}{13}{subsection.2.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Simulations}{13}{subsection.2.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Hypothesis testing}{14}{subsection.2.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Permuation structures}{16}{section*.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{16}{section.2.4}
-\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Permuation structures}{16}{section*.6}
+\contentsline {section}{\numberline {2.4}Impact of homestead policies on state capacity}{17}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Placebo tests}{18}{subsection.2.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Main estimates}{18}{subsection.2.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}DID estimation}{19}{section.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}DID estimates on state capacity}{22}{subsection.2.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Land inequality as a causal mechanism}{22}{subsection.2.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Conclusion}{23}{section.2.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Land Lotteries, Long-term Wealth, and Political Selection}{25}{chapter.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Theoretical considerations}{27}{section.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Historical background}{28}{section.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Barriers to officeholding}{29}{subsection.3.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Officeholder wealth}{30}{subsection.3.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}The 1805 and 1807 lotteries}{30}{subsection.3.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Data and descriptive statistics}{31}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Candidacy}{33}{subsection.3.4.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Candidacy}{32}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Future wealth}{33}{subsection.3.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Estimation and results}{33}{section.3.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}Balance}{35}{subsection.3.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}ITT estimates}{35}{subsection.3.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Discussion}{37}{section.3.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Conclusion}{38}{section.3.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{39}{chapter.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Introduction}{40}{section.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Counterfactual prediction}{41}{section.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Relationship to matrix completion and covariate shift}{42}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Nonparametric regression}{43}{subsection.4.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}RNNs for counteractual prediction}{43}{section.4.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Encoder-decoder networks}{44}{subsection.4.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Recurrent variational autoencoder}{45}{subsection.4.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Placebo tests}{45}{section.4.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Synthetic control datasets}{46}{subsection.4.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Stock market data}{46}{subsection.4.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Application: Homestead policy and public schooling}{48}{section.4.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.1}Data and assumptions}{48}{subsection.4.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Estimates}{50}{subsection.4.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Conclusion}{51}{section.4.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion}{54}{chapter.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Future research on the American frontier}{55}{section.5.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Environmental externalities}{55}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Suffrage}{55}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Railroads}{56}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Future research on counterfactual prediction}{56}{section.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{57}{section*.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{70}{appendix.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{76}{appendix.B}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{81}{appendix.C}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{82}{appendix.D}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{87}{appendix.E}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{88}{appendix.F}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {F.0.1}Randomization confidence intervals}{88}{subsection.F.0.1}
+\contentsline {chapter}{Bibliography}{57}{chapter*.17}
+\contentsline {appendix}{\chapternumberline {A}Supplementary Tables and Figures for Chapter \ref {land-reform}}{69}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Supplementary Tables and Figures for Chapter \ref {ga-lottery}}{75}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{80}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}Supplementary Tables and Figures for Chapter \ref {rnns-causal}}{81}{appendix.D}
+\contentsline {appendix}{\chapternumberline {E}RNNs Implementation Details for Chapter \ref {rnns-causal}}{86}{appendix.E}
+\contentsline {appendix}{\chapternumberline {F}Hypothesis Testing for Chapter \ref {rnns-causal}}{87}{appendix.F}
+\contentsline {subsection}{\numberline {F.0.1}Randomization confidence intervals}{87}{subsection.F.0.1}
