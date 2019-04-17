@@ -6043,31 +6043,6 @@
       \field{pages}{731\bibrangedash 751}
       \range{pages}{21}
     \endentry
-    \entry{wright1986old}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=3c2a9a5cec6cec66d87c80c509bcec8c}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Gavin},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \strng{fullhash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \strng{bibnamehash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \strng{authorbibnamehash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \strng{authornamehash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \strng{authorfullhash}{3c2a9a5cec6cec66d87c80c509bcec8c}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{NY: Basic Books}
-      \field{title}{Old South, New South}
-      \field{year}{1986}
-    \endentry
     \entry{xu2017generalized}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=525088c4272a93c67f7c5e47f118568c}{%
