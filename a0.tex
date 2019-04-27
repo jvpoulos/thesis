@@ -1,0 +1,71 @@
+\chapter{Supporting Materials for Chapter \ref{diss-intro}}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png} 
+	\end{center}
+	\caption{Land inequality (lagged by 10 years) vs. log per-capita taxes in public land state counties, 1870-1950. Each point is a county-year observation. Lines represent generalized additive model (GAM) fits to the data and shaded regions represent corresponding 95\% confidence intervals.   \label{fig:ineq-taxpc}}
+\end{figure} 
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.png}
+	\end{center}
+	\caption{Cumulative total acres disbursed by cash entry in public land states, by region, 1800 - 1930. \label{sales-acres-time}} 
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/homesteads-acres-time.png}
+	\end{center}
+	\caption{Cumulative total acres disbursed by homestead in public land states, by region, 1862 - 1930. \label{homesteads-acres-time}} 
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/aland-gini-state-time.png}
+	\end{center}
+	\caption{Land inequality by state group, 1860-1950. The solid vertical line and short-dashed line represents the passage of the 1862 HSA and 1866 SHA, respectively. The long-dashed vertical line represents the 1889 cash-entry restriction. \label{aland-gini-state-time}} 
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/rr-1862.png} \\
+		\includegraphics[width=0.7\textwidth]{/media/jason/Dropbox/github/land-reform/results/plots/rr-1911.png} \\
+	\end{center}
+	\caption{Railroad lines in 1862 and 1911, overlaid on 1911 county borders. Railroad data from \cite{atack2013use} and county border data from \cite{long1995atlas}. \label{rr-map}} 
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+\begin{tikzpicture}[font=\sffamily]
+		
+		% Setup the style for the states
+		\tikzset{node style/.style={state, 
+				minimum width=2cm,
+				line width=1mm,
+				fill=gray!20!white}}
+		
+		% Draw the states
+		\node[node style] at (0, 0)     (railroads)     {Railroad access};
+		\node[node style] at (6, 0)     (capacity)     {State capacity};
+		\node[node style] at (3, -5.196) (inequality) {Land inequality};
+		\node[node style] at (-2, -3) (homesteads) {Homesteads};
+		
+		% Connect the states with arrows
+		\draw[every loop,
+		auto=right,
+		line width=1mm,
+		>=latex,
+		draw=orange,
+		fill=orange]
+		(railroads)     edge[bend right=30]            node {Settler access (+) } (homesteads)
+		(railroads)     edge[bend right=20, auto=left] node {Farm returns (+)} (capacity)
+		(capacity)     edge[bend right=20]            node {Grants (+) } (railroads)
+		(capacity)     edge[bend right=20, auto=center] node {Redistribution (+/-) } (inequality)
+		(inequality) edge[bend right=20, auto=center]            node {``Hollowing out'' (-) or sectoral shift (+)} (capacity)
+		(homesteads) edge[bend right=40, auto=right] node {Land decentralization (-)} (inequality);
+	%	(homesteads) edge[bend right=20, auto=left] node {Demand (+)} (railroads);
+		\end{tikzpicture}
+\caption{Causal mechanisms underlying the relationship between homesteads and state capacity \label{fig:causal-graph}}
+\end{figure}

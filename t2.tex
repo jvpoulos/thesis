@@ -1,0 +1,24 @@
+\chapter{Counterfactual History} \label{counterfactual-history}
+
+Inferring causal relationships is a fundamental problem in history and the social sciences. The problem of causal inference is usually framed in terms of counterfactuals: outcomes that would have been observed had the path of history diverged \citep{lewis2013counterfactuals,pearl2009causality,imbens2015causal}. Historians frequently pose counterfactuals in terms of speculating about the `might-have-beens' of history, as it is put by  \citet{elster1978logic}:
+
+\begin{quote}
+``In a non-experimental and non-comparative discipline one can hardly discuss the
+relative importance of causes without engaging in some kind of thought experiment where one removes successively and separately each of the causes in
+question and evaluates what difference the absence of this cause would have
+made to the phenomenon in question. Some historians have come to recognize,
+therefore, that they have been talking counterfactually all the time without
+recognizing it.''
+\end{quote}
+
+This dissertation focuses on counterfactual questions in observational studies, where interventions and outcomes have already been recorded. In observational studies, interventions are not randomly assigned and thus there is no ``reasoned basis for inference'' for evaluating counterfactuals, according to Fisherian view of causal inference \citep{fisher1935}. This absence of randomization has not prevented political scientists from reasoning about counterfactuals in comparative case studies \citep{fearon1991counterfactuals, tetlock1996counterfactual,abadie2010synthetic,abadie2015comparative}.% Economic historians have evaluated counterfactual questions such as, ``What would the U.S. economy have been like in 1890 had there been no railroads?'' using a ``social saving" methodology \citep{fogel1964railroads, donaldson2016railroads} or general equilibrium models \citep{williamson2008late}.
+
+\section{Sample selection bias and covariate shift}
+The problem of counterfactual analysis in observational studies is inevitably confronted with sample selection bias \citep{heckman1979sample} which arises because the units choose whether they are exposed to treatment, or because the researcher makes nonrandom sample selection decisions. In either case, inferences on observed samples are biased because they differ from what we would infer on random samples from the population. 
+
+The observational study in Chapter \ref{ga-lottery} makes the case that bias due to self-selection is ignorable because the treatment in the study -- winning land in the first two Georgia land lotteries --- was perfectly randomized by the state of Georgia; i.e., it is a true ``natural experiment.'' In Chapters \ref{land-reform} and \ref{rnns-causal}, it is acknowledged that treatment --- exposure to homestead policy or homestead entries authorized by those policies --- is not randomly assigned and units have selected into treatment. Both of these studies approach the problem of causal inference by counterfactual prediction via machine learning methods. The machine learning methods predict counterfactual outcomes of the treated units, which are then compared to the observed outcomes for estimating casual effects. These methods are data-driven, in that they do not require domain knowledge or pre-intervention covariates to generate counterfactual outcomes.  
+
+In machine learning terms, the sample selection bias problem occurs when test set data are drawn from a true distribution and training data are drawn from a biased distribution, where the support of biased distribution is included in that of the true distribution \citep{cortes2008sample}. The sample selection bias problem is a special case of the covariate shift problem, when the distributions of training and test sets differ \citep{bickel2007discriminative}. 
+
+The problem of causal inference by counterfactual prediction assumes that the training set (i.e., control unit observations) and test set (i.e., treated unit observations) are drawn from the same distribution and therefore, requires inference on a different distribution than training set. The approach described in Chapter \ref{rnns-causal} reweights the training loss function by the propensity score \citep{rosenbaum1983central}.\footnote{Note that the propensity score reweighting of the training loss can also be used to correct for the fact that treatment propensity increases over time in staggered treatment adoption settings, such as in Chapter \ref{land-reform}.} This correction technique, along with other regularization approaches, prevent the model from learning an overreliance on certain control units or time periods when generalizing from the factual to counterfactual domains \citep{johansson2016learning}.
+	

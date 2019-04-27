@@ -36,6 +36,7 @@
 }
 
 \usetikzlibrary{plotmarks}
+\usetikzlibrary{automata, positioning}
 
 % Wes Anderson colors
 
@@ -179,13 +180,9 @@ Professor Jasjeet Sekhon}
 
 \begin{dedication}
 \null\vfil
-\begin{center}
-``The desire for knowledge 
-	springs from doubt. Stop believing and begin learning. It is 
-	only when proofs are lacking that people try to impose their 
-	opinions. Do not let yourself be credulous. Do not let yourself 
-	be imposed on.'' André Gide, \emph{Les Nouvelles Nourritures}.
-\end{center}
+\null\hfil
+For Mom
+\null\hfil
 \vfil\null
 \end{dedication}
 
@@ -202,8 +199,6 @@ Professor Jasjeet Sekhon}
 	
 I thank my advisor, Sean Gailmard, for urging me to think more creatively and to pursue outsize research questions. And for reminding me that I'm not my own harshest critic.\\
 
-I thank the staff at Arbor Café in Oakland, Babette Cafe in Berkeley, and Haus Coffee in San Francisco, where much of this dissertation was written.\\
-
 I acknowledge support of the National Science Foundation Graduate Research Fellowship (DGE 1106400). Part of this work used the computer resources of Stampede2 at the Texas Advanced Computing Center (TACC) under an Extreme Science and Engineering Discovery Environment (XSEDE) startup allocation (TG-SES180010). The Titan Xp GPU used for this part of this research was donated by the NVIDIA Corporation.
 \end{acknowledgements}
 
@@ -214,7 +209,9 @@ I acknowledge support of the National Science Foundation Graduate Research Fello
 %\part{First Part}
 \include{intro} % Introduction and background to the general topic area.
 \include{chap1} % land-reform
+\include{t1} % transistion into ga-lottery
 \include{chap2} % ga-lottery
+\include{t2} % transistion into rnns-causal
 \include{chap3} % rnns-causal
 \include{conclusion} % Conclusion and implications for policy and/or further research.
 
@@ -222,6 +219,7 @@ I acknowledge support of the National Science Foundation Graduate Research Fello
 \bibliography{references}
 
 \appendix
+\include{a0} % Tables and Figures: introduction
 \include{a1} % Tables and Figures: land-reform
 \include{a2} % Tables and Figures: ga-lottery
 \include{a2-power} % Power analysis by simulation: ga-lottery
