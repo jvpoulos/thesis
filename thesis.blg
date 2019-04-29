@@ -4,7 +4,9 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: t1.aux
 A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: t2.aux
 A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: rss.bst
@@ -16,44 +18,46 @@ A level-1 auxiliary file: a3.aux
 A level-1 auxiliary file: a3-implementation.aux
 A level-1 auxiliary file: a3-hypothesis.aux
 Database file #1: references.bib
-You've used 175 entries,
+Warning--empty publisher in ferguson1767
+You've used 182 entries,
             2705 wiz_defined-function locations,
-            1472 strings with 32006 characters,
-and the built_in function-call counts, 82819 in all, are:
-= -- 8278
-> -- 3350
-< -- 129
-+ -- 1371
-- -- 1125
-* -- 6478
-:= -- 15229
-add.period$ -- 356
-call.type$ -- 175
-change.case$ -- 1271
-chr.to.int$ -- 174
-cite$ -- 175
-duplicate$ -- 3932
-empty$ -- 6155
-format.name$ -- 1614
-if$ -- 16554
-int.to.chr$ -- 2
+            1506 strings with 32672 characters,
+and the built_in function-call counts, 85603 in all, are:
+= -- 8552
+> -- 3420
+< -- 136
++ -- 1404
+- -- 1146
+* -- 6652
+:= -- 15752
+add.period$ -- 370
+call.type$ -- 182
+change.case$ -- 1310
+chr.to.int$ -- 180
+cite$ -- 183
+duplicate$ -- 4078
+empty$ -- 6409
+format.name$ -- 1642
+if$ -- 17131
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 180
-newline$ -- 708
-num.names$ -- 700
-pop$ -- 1570
+missing$ -- 191
+newline$ -- 736
+num.names$ -- 728
+pop$ -- 1627
 preamble$ -- 1
-purify$ -- 1073
+purify$ -- 1108
 quote$ -- 0
-skip$ -- 2572
+skip$ -- 2677
 stack$ -- 0
-substring$ -- 4505
-swap$ -- 885
+substring$ -- 4659
+swap$ -- 909
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1479
-warning$ -- 0
-while$ -- 732
+type$ -- 1530
+warning$ -- 1
+while$ -- 760
 width$ -- 0
-write$ -- 2042
+write$ -- 2122
+(There was 1 warning)

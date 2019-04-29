@@ -1,4 +1,4 @@
-\begin{thebibliography}{175}
+\begin{thebibliography}{182}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -118,6 +118,11 @@ Bazzi, S., Fiszbein, M. and Gebresilasse, M. (2017) Frontier culture: {T}he
   roots and persistence of ``rugged individualism'' in the {U}nited {S}tates.
 \newblock \textit{Tech. rep.}, National Bureau of Economic Research.
 
+\bibitem[{Beard(1913)}]{beard1913}
+Beard, C.~A. (1913) \textit{An Economic Interpretation of the Constitution of
+  the United States}.
+\newblock McMaster University Archive for the History of Economic Thought.
+
 \bibitem[{Ben-David et~al.(2007)Ben-David, Blitzer, Crammer and
   Pereira}]{ben2007analysis}
 Ben-David, S., Blitzer, J., Crammer, K. and Pereira, F. (2007) Analysis of
@@ -214,6 +219,11 @@ Cand{\`e}s, E.~J. and Recht, B. (2009) Exact matrix completion via convex
   optimization.
 \newblock \textit{Foundations of Computational Mathematics}, \textbf{9}, 717.
 
+\bibitem[{Carnes(2012)}]{carnes2012}
+Carnes, N. (2012) Does the numerical underrepresentation of the working class
+  in congress matter?
+\newblock \textit{Legislative Studies Quarterly}, \textbf{37}, 5--34.
+
 \bibitem[{Carpenter(2001)}]{carpenter2001}
 Carpenter, D.~P. (2001) \textit{The Forging of Bureaucratic Autonomy:
   Reputations, Networks, and Policy Innovation in Executive Agencies,
@@ -231,6 +241,11 @@ Carvalho, C., Masini, R. and Medeiros, M.~C. (2018) Ar{C}o: {A}n artificial
 Cavallo, E., Galiani, S., Noy, I. and Pantano, J. (2013) Catastrophic natural
   disasters and economic growth.
 \newblock \textit{Review of Economics and Statistics}, \textbf{95}, 1549--1561.
+
+\bibitem[{Chappell(1874)}]{chappell1874}
+Chappell, A.~H. (1874) \textit{Miscellanies of Georgia: Historical,
+  Biographical, Descriptive, Etc}.
+\newblock JF Meegan.
 
 \bibitem[{Chernozhukov et~al.(2017)Chernozhukov, Wuthrich and
   Zhu}]{chernozhukov2017exact}
@@ -365,6 +380,10 @@ Fearon, J.~D. (1991) Counterfactuals and hypothesis testing in political
   science.
 \newblock \textit{World Politics}, \textbf{43}, 169--195.
 
+\bibitem[{Ferguson(1767)}]{ferguson1767}
+Ferguson, A. (1767) \textit{An Essay on the History of Civil Society}.
+\newblock Pt. 4.2.
+
 \bibitem[{Ferman and Pinto(2016)}]{ferman2016revisiting}
 Ferman, B. and Pinto, C. (2016) Revisiting the synthetic control estimator.
 \newblock Available at \url{https://mpra.ub.uni-muenchen.de/81941/}.
@@ -473,6 +492,10 @@ Goodfellow, I., Bengio, Y. and Courville, A. (2016) \textit{Deep Learning}.
 Graham, P.~K. (2004) \textit{1805 Georgia Land Lottery Fortunate Drawers and
   Grantees}.
 \newblock Genealogy Company.
+
+\bibitem[{Graham(2010)}]{graham2010}
+--- (2010) \textit{Georgia Land Lottery Research}.
+\newblock Georgia Genealogical Society.
 
 \bibitem[{Graham(2011)}]{graham2011}
 --- (2011) \textit{1807 Georgia Land Lottery Fortunate Drawers and Grantees}.
@@ -625,14 +648,22 @@ Little, R.~J. and Rubin, D.~B. (2014) \textit{Statistical Analysis with Missing
   Data}.
 \newblock John Wiley \& Sons.
 
-\bibitem[{Long(1995)}]{long1995atlas}
-Long, J.~H. (1995) Atlas of historical county boundaries.
+\bibitem[{Long(1995{\natexlab{a}})}]{long1995}
+Long, J.~H. (1995{\natexlab{a}}) Atlas of historical county boundaries.
+\newblock \textit{The Journal of American History}, \textbf{81}, 1859--1863.
+
+\bibitem[{Long(1995{\natexlab{b}})}]{long1995atlas}
+--- (1995{\natexlab{b}}) Atlas of historical county boundaries.
 \newblock \textit{The Journal of American History}, \textbf{81}, 1859--1863.
 
 \bibitem[{Lott and Kenny(1999)}]{lott1999did}
 Lott, Jr, J.~R. and Kenny, L.~W. (1999) Did women's suffrage change the size
   and scope of government?
 \newblock \textit{Journal of Political Economy}, \textbf{107}, 1163--1198.
+
+\bibitem[{Madison(1787)}]{madison1787}
+Madison, J. (1787) Federalist 10.
+\newblock \textit{The Federalist Papers}, 77--84.
 
 \bibitem[{Mares and Queralt(2015)}]{mares2015non}
 Mares, I. and Queralt, D. (2015) The non-democratic origins of income taxation.
