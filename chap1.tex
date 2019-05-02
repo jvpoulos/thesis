@@ -186,8 +186,6 @@ In the main analyses, I fit the MC-NNM estimator described in (\ref{eq:mc-Y}) on
 
 The per-period impact time-series for both outcomes are essentially zero during the pre-period and within the bounds of the bootstrap confidence intervals, which demonstrates that the model is closely fitting the pre-period observations. Per-period impacts on state government spending peak in 1870, at the same time most PLS were first exposed to homesteads, representing a 0.18 [-0.35, 0.71] log increase in per-capita expenditure. By 1876, after most PLS had been exposed to homesteads, homestead exposure decreases expenditure by 0.51 [-1.67, 0.66] log points, and the trajectory of causal impacts remains negative for the rest of the time-series.
 
-A similar pattern of results emerges when estimating the impacts of homesteads on state government revenue (Figure \ref{mc-estimates-rev-pc}). Per-period impacts on revenue peak in 1873, representing a 0.43 [-0.57, 1.44] log increase in per-capita revenues, at the same time southern PLS are exposed to homesteads. The causal impacts on revenue quickly decrease and remain negative for the remaining time-series; in 1877, exposure to homesteads confer a 0.45 [-1.51, 0.61] log point decrease in per-capita revenue. 
-
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png}
@@ -196,6 +194,18 @@ A similar pattern of results emerges when estimating the impacts of homesteads o
 		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
 		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
 		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\hat{\bar{\alpha}}_{t}$.\label{mc-estimates-exp-pc}} 
+\end{figure}
+
+A similar pattern of results emerges when estimating the impacts of homesteads on state government revenue (Figure \ref{mc-estimates-rev-pc}). Per-period impacts on revenue peak in 1873, representing a 0.43 [-0.57, 1.44] log increase in per-capita revenues, at the same time southern PLS are exposed to homesteads. The causal impacts on revenue quickly decrease and remain negative for the remaining time-series; in 1877, exposure to homesteads confer a 0.45 [-1.51, 0.61] log point decrease in per-capita revenue. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png}
+	\caption{MC-NNM estimates of treatment exposure on state government revenue, 1809 to 1982:
+		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
+		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
+		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\hat{\bar{\alpha}}_{t}$.\label{mc-estimates-rev-pc}} 
 \end{figure}
 
 The estimated bootstrap confidence intervals are useful for evaluating per-period causal impacts but are not helpful in evaluating the overall effect of homestead policies. Table \ref{mc-estimates} reports the results of testing the null hypothesis:
@@ -247,6 +257,13 @@ Through which channels do homesteads affect state capacity? The political econom
 To test whether homesteads affected future land inequality in frontier counties, I calculate a commonly-used measure of land inequality based on the Gini coefficient of census farm sizes. Gini-based land inequality measures are commonly used as proxy for the \emph{de facto} bargaining power of landed elites \citep[e.g.,][]{boix2003democracy,ziblatt2008does,ansell2015}. Note that the Gini coefficient will underestimate land inequality in counties with high shares of propertyless farmers because tenant farms are included in the farm size data, which is problematic because farms can be operated by different tenants but owned by the same landlord. I correct for this problem by adjusting the farm Gini coefficient by the ratio of farms to adult males, as recommended by \citet{vollrath2013inequality}.
 
 In Figure \ref{fig:ineq-capacity}, a bivariate regression model yields a positive relationship between land inequality and state government finances during the period of 1860 to 1950, especially at higher levels of inequality. This relationship points to inequality as a potential causal mechanism underlying the relationship between homesteads and state capacity. This finding is in contrast to several empirical studies that establish an inverse relationship between land inequality and state capacity in the context of taxes, revenues, and public school spending at the county-level in 1890 and 1930 \citep{ramcharan2010inequality,vollrath2013inequality}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png} 
+	\end{center}
+	\caption{Land inequality (lagged by 10 years) vs. log per-capita revenue and expenditure, 1860-1950. Each point is a state-year observation. Lines represent generalized additive model (GAM) fits to the data and shaded regions represent corresponding 95\% confidence intervals.   \label{fig:ineq-capacity}}
+\end{figure} 
 
 Table \ref{dd-estimates} presents DID estimates of the impact of log per-capita homesteads on land inequality at the state-level during the period of 1870 to 1950. Since land inequality is measured every decennial, I aggregate homesteads to the next decennial year; e.g., the number of homesteads measured in 1880 is the total for the years 1871 to 1880. Average farm values are included in the regression as a proxy for agricultural productivity, which might be associated with farm sizes approaching ideal scale and therefore land inequality. I estimate that homesteads significantly decreased land inequality in frontier states: a 1\% increase in log per-capita homesteads is expected to lower  land inequality by $4.81\,\cdot\,10^{-6}$ points. 
 

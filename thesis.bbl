@@ -81,7 +81,8 @@ Atack, J., Margo, R. and Perlman, E. (2012) The impact of railroads on school
 
 \bibitem[{Atack and Margo(2011)}]{atack2011impact}
 Atack, J. and Margo, R.~A. (2011) The impact of access to rail transportation
-  on agricultural improvement: The american midwest as a test case, 1850-1860.
+  on agricultural improvement: {T}he {A}merican {M}idwest as a test case,
+  1850-1860.
 \newblock \textit{Journal of Transport and Land Use}, \textbf{4}.
 
 \bibitem[{Athey et~al.(2017)Athey, Bayati, Doudchenko, Imbens and
@@ -367,7 +368,7 @@ Elster, J. (1978) \textit{Logic and Society Contradictions and Possible
 
 \bibitem[{Engerman and Sokoloff(2005)}]{engerman2005evolution}
 Engerman, S.~L. and Sokoloff, K.~L. (2005) The evolution of suffrage
-  institutions in the new world.
+  institutions in the {N}ew {W}orld.
 \newblock \textit{The Journal of Economic History}, \textbf{65}, 891--921.
 
 \bibitem[{Fabius and van Amersfoort(2014)}]{fabius2014variational}
@@ -424,6 +425,10 @@ Firpo, S. and Possebom, V. (2018) Synthetic control method: Inference,
 Fisher, R.~A. (1935) \textit{The Design of Experiments.}
 \newblock Oliver \& Boyd.
 
+\bibitem[{Fogel(1964)}]{fogel1964railroads}
+Fogel, R.~W. (1964) \textit{Railroads and American Economic Growth}.
+\newblock Johns Hopkins Press.
+
 \bibitem[{Frymer(2014)}]{frymer2014rush}
 Frymer, P. (2014) `{A} rush and a push and the land is ours': {T}erritorial
   expansion, land policy, and {U.S.} state formation.
@@ -472,7 +477,7 @@ Gates, P.~W. (1939) Land policy and tenancy in the prairie counties of
 
 \bibitem[{Gates(1968)}]{gates1968history}
 --- (1968) History of public land law development.
-\newblock US Government Printing Office.
+\newblock U.S. Government Printing Office.
 
 \bibitem[{Gates(1979)}]{gates1979federal}
 --- (1979) Federal land policies in the southern public land states.
@@ -648,12 +653,8 @@ Little, R.~J. and Rubin, D.~B. (2014) \textit{Statistical Analysis with Missing
   Data}.
 \newblock John Wiley \& Sons.
 
-\bibitem[{Long(1995{\natexlab{a}})}]{long1995}
-Long, J.~H. (1995{\natexlab{a}}) Atlas of historical county boundaries.
-\newblock \textit{The Journal of American History}, \textbf{81}, 1859--1863.
-
-\bibitem[{Long(1995{\natexlab{b}})}]{long1995atlas}
---- (1995{\natexlab{b}}) Atlas of historical county boundaries.
+\bibitem[{Long(1995)}]{long1995atlas}
+Long, J.~H. (1995) Atlas of historical county boundaries.
 \newblock \textit{The Journal of American History}, \textbf{81}, 1859--1863.
 
 \bibitem[{Lott and Kenny(1999)}]{lott1999did}
@@ -706,7 +707,7 @@ Murtazashvili, I. (2013) \textit{The Political Economy of the American
 
 \bibitem[{Murtazashvili and Murtazashvili(2016)}]{murtazashvili2016does}
 Murtazashvili, I. and Murtazashvili, J. (2016) Does the sequence of land reform
-  and political reform matter? evidence from state-building in {A}fghanistan.
+  and political reform matter? {E}vidence from state-building in {A}fghanistan.
 \newblock \textit{Conflict, Security \& Development}, \textbf{16}, 145--172.
 
 \bibitem[{Neyman(1923)}]{neyman1923}
@@ -716,7 +717,7 @@ Neyman, J. (1923) On the application of probability theory to agricultural
 \newblock Reprinted in \citet{splawa1990}.
 
 \bibitem[{Novak(2008)}]{novak2008myth}
-Novak, W.~J. (2008) The myth of the “weak” american state.
+Novak, W.~J. (2008) The myth of the ``weal'' {A}merican state.
 \newblock \textit{The American Historical Review}, \textbf{113}, 752--772.
 
 \bibitem[{Officer and Williamson(2012)}]{officer2012}
@@ -756,7 +757,7 @@ Poulos, J. (2017) {RNN-based counterfactual time-series prediction}.
 
 \bibitem[{Querubin et~al.(2013)Querubin, Snyder~Jr et~al.}]{querubin2013}
 Querubin, P., Snyder~Jr, J.~M. et~al. (2013) The control of politicians in
-  normal times and times of crisis: Wealth accumulation by us congressmen,
+  normal times and times of crisis: Wealth accumulation by {U.S.} congressmen,
   1850--1880.
 \newblock \textit{Quarterly Journal of Political Science}, \textbf{8},
   409--450.
@@ -928,7 +929,7 @@ Williamson, S.~H. (2017) Seven ways to compute the relative value of a {U.S.}
 \newblock Available at: \url{https://www.measuringworth.com/uscpi/}.
 
 \bibitem[{Winters and Page(2009)}]{winters2009}
-Winters, J.~A. and Page, B.~I. (2009) Oligarchy in the united states?
+Winters, J.~A. and Page, B.~I. (2009) Oligarchy in the {U}nited {S}tates?
 \newblock \textit{Perspectives on Politics}, \textbf{7}, 731--751.
 
 \bibitem[{Xu(2017)}]{xu2017generalized}
@@ -943,7 +944,7 @@ Yoon, J., Zame, W.~R. and van~der Schaar, M. (2018) Estimating missing data in
 
 \bibitem[{Zhu and Laptev(2017)}]{zhu2017deep}
 Zhu, L. and Laptev, N. (2017) Deep and confident prediction for time series at
-  uber.
+  {U}ber.
 \newblock \textit{arXiv:1709.01907}.
 
 \bibitem[{Ziblatt(2008)}]{ziblatt2008does}
