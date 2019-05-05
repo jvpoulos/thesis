@@ -52,3 +52,59 @@
 		{\protect\tikz \protect\draw[color={rgb:red,244;pink,66;blue,223}] (0,0) -- plot[mark=triangle, mark options={scale=2, rotate=180}] (0.25,0) -- (0.5,0);}, VT-EN.
 		\label{educ-sim}}
 \end{figure}
+
+\begin{figure*}[htbp]
+	\centering
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-linear.png}
+		\caption{Linear interpolation} 
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-median.png}
+		\caption{Median replacement}
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-random.png}
+	\caption{Random replacement}
+	\end{subfigure}
+	\caption{Encoder-decoder estimates of the impact of the HSA on state government education spending, using differently imputed data:		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+	{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
+	{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
+	{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\boldsymbol{\bar{\upphi}^{(t)}}$.\label{educ-ed-imp}}
+\end{figure*}
+
+\begin{figure*}[htbp]
+	\centering
+		\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae.png}
+		\caption{LOCF interpolation} 
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-linear.png}
+		\caption{Linear interpolation} 
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-median.png}
+		\caption{Median replacement}
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png}
+		\caption{Random replacement}
+	\end{subfigure}
+	\caption{RVAE estimates of the impact of the HSA on state government education spending, using differently imputed data:		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
+		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
+		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\boldsymbol{\bar{\upphi}^{(t)}}$.\label{educ-rvae-imp}}
+\end{figure*}

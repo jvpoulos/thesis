@@ -1,4 +1,4 @@
-\begin{thebibliography}{182}
+\begin{thebibliography}{181}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -474,10 +474,6 @@ Gates, P.~W. (1939) Land policy and tenancy in the prairie counties of
 --- (1942) The role of the land speculator in western development.
 \newblock \textit{The Pennsylvania Magazine of History and Biography},
   \textbf{66}, 314--333.
-
-\bibitem[{Gates(1968)}]{gates1968history}
---- (1968) History of public land law development.
-\newblock U.S. Government Printing Office.
 
 \bibitem[{Gates(1979)}]{gates1979federal}
 --- (1979) Federal land policies in the southern public land states.
