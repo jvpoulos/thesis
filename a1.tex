@@ -56,3 +56,55 @@
 	\end{subfigure}
 	\caption{Placebo tests under simultaneous and staggered treatment adoption, with $N_t = 9$. \label{mc-sim}} 
 \end{figure}
+
+\begin{figure*}[htbp]
+	\centering
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-linear.png}
+		\caption{Linear interpolation} 
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-median.png}
+		\caption{Median replacement}
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-random.png}
+		\caption{Random replacement}
+	\end{subfigure}
+	\caption{MC-NNM estimates of treatment exposure on state government expenditure, using differently imputed data:				
+		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
+		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
+		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\hat{\bar{\alpha}}_{t}$.\label{mc-estimates-exp-pc-imp}} 
+\end{figure*}
+
+\begin{figure*}[htbp]
+	\centering
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-linear.png}
+		\caption{Linear interpolation} 
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-median.png}
+		\caption{Median replacement}
+	\end{subfigure}
+	~ 
+	\begin{subfigure}[t]{0.43\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-random.png}
+		\caption{Random replacement}
+	\end{subfigure}
+	\caption{MC-NNM estimates of treatment exposure on state government revenue, using differently imputed data:				
+		{\color{Darjeeling15}{\sampleline{}}}, observed treated;
+		{\color{Darjeeling11}{\sampleline{dashed}}}, observed control;
+		{\color{Darjeeling15}{\sampleline{dotted}}}, counterfactual treated;
+		{\color{Darjeeling15}{\sampleline{dash pattern=on .7em off .2em on .05em off .2em}}}, $\hat{\bar{\alpha}}_{t}$.\label{mc-estimates-rev-pc-imp}} 
+\end{figure*}

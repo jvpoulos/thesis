@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.12.4)  5 MAY 2019 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.12.4)  6 MAY 2019 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,12 +1450,22 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 1.
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [2] [3]
 Overfull \hbox (2.03766pt too wide) detected at line 77
- \OT1/cmr/bx/n/12 106
+ \OT1/cmr/bx/n/12 103
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 78
- \OT1/cmr/bx/n/12 107
+ \OT1/cmr/bx/n/12 104
+ []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 79
+ \OT1/cmr/bx/n/12 111
+ []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 80
+ \OT1/cmr/bx/n/12 112
  []
 
 ) [4]
@@ -1520,7 +1530,7 @@ Overfull \hbox (6.32205pt too wide) in paragraph at lines 75--76
 max-i-miza-tion ([]Troy-
  []
 
-</media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png, id=800, 6
+</media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png, id=810, 6
 14.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png Graph
 ic file (type png)
@@ -1528,7 +1538,7 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ba
 sque-stag.png  used on input line 88.
 (pdftex.def)             Requested size: 196.97914pt x 254.91719pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png, id=80
+</media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png, id=81
 1, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/california-stag.png G
 raphic file (type png)
@@ -1536,7 +1546,7 @@ raphic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ca
 lifornia-stag.png  used on input line 94.
 (pdftex.def)             Requested size: 196.97914pt x 254.91719pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png, id=802, 
+</media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png, id=812, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/germany-stag.png Grap
 hic file (type png)
@@ -1556,53 +1566,54 @@ LaTeX Warning: Float too large for page by 6.901pt on input line 111.
 [14] [15 </media/jason/Dropbox/github/land-reform/paper/plots/basque-stag.png (
 PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/california-stag
 .png (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/germany-s
-tag.png (PNG copy)>] [16] [17]
+tag.png (PNG copy)>] [16] [17] [18]
 (/media/jason/Dropbox/github/land-reform/paper/placebo-tests.tex)
-Overfull \hbox (0.60574pt too wide) in paragraph at lines 177--178
+Overfull \hbox (0.60574pt too wide) in paragraph at lines 185--186
  [] 
  []
 
-[18]
-</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png, id=892, 614
+[19]
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png, id=921, 614
 .295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png Graphic
  file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
--exp-pc.png  used on input line 191.
+-exp-pc.png  used on input line 199.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png, id=894, 614
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png, id=923, 614
 .295pt x 794.97pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png Graphic
  file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
--rev-pc.png  used on input line 203.
+-rev-pc.png  used on input line 211.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
- (/media/jason/Dropbox/github/land-reform/paper/mc-estimates.tex) [19]
-[20 </media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png (PNG cop
-y)>] [21 </media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png (PN
-G copy)>] [22] (/media/jason/Dropbox/github/land-reform/paper/dd-estimates.tex)
-[23]
-</media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png, id=969,
- 794.97pt x 614.295pt>
+ (/media/jason/Dropbox/github/land-reform/paper/mc-estimates.tex) [20]
+[21 </media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc.png (PNG cop
+y)>] [22 </media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc.png (PN
+G copy)>] (/media/jason/Dropbox/github/land-reform/paper/mc-sens.tex) [23]
+[24] (/media/jason/Dropbox/github/land-reform/paper/dd-estimates.tex) [25]
+[26]
+</media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png, id=1020
+, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png Gra
 phic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/in
-eq-capacity.png  used on input line 265.
+eq-capacity.png  used on input line 296.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
- [24] [25 </media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.pn
-g (PNG copy)>]) [26]
+ [27 </media/jason/Dropbox/github/land-reform/paper/plots/ineq-capacity.png (PN
+G copy)>]) [28] [29]
 \openout2 = `t1.aux'.
 
- (./t1.tex [27
+ (./t1.tex [30
 
 
 
-] [28]
+] [31]
 </media/jason/Dropbox/ga-lottery-local/paper-drafts/paper-sixth/county-map.png,
- id=1038, 2488.29625pt x 3409.73875pt>
+ id=1083, 2488.29625pt x 3409.73875pt>
 File: /media/jason/Dropbox/ga-lottery-local/paper-drafts/paper-sixth/county-map
 .png Graphic file (type png)
 <use /media/jason/Dropbox/ga-lottery-local/paper-drafts/paper-sixth/county-map.
@@ -1615,25 +1626,25 @@ Overfull \hbox (42.40138pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-[29] [30 </media/jason/Dropbox/ga-lottery-local/paper-drafts/paper-sixth/county
--map.png>] [31]) [32]
+[32] [33 </media/jason/Dropbox/ga-lottery-local/paper-drafts/paper-sixth/county
+-map.png>] [34]) [35]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex [33
+ (./chap2.tex [36
 
 
 
-] [34
+] [37
 
-] [35] [36] [37] [38] [39] [40]
+] [38] [39] [40] [41] [42] [43]
 (/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/summa
 ry-table.tex)
 
 LaTeX Warning: Float too large for page by 4.09393pt on input line 95.
 
-[41] [42]
+[44] [45]
 </media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/balan
-ce-plot.jpeg, id=1296, 495.0495pt x 665.78737pt>
+ce-plot.jpeg, id=1341, 495.0495pt x 665.78737pt>
 File: /media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/
 balance-plot.jpeg Graphic file (type jpg)
 <use /media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/b
@@ -1645,38 +1656,38 @@ lottery-manuscript/balance-plot.jpeg  used on input line 118.
 
 LaTeX Warning: Float too large for page by 2.69754pt on input line 121.
 
-[43] [44 </media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscr
+[46] [47 </media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscr
 ipt/balance-plot.jpeg>]
 (/media/jason/Dropbox/ga-lottery-local/paper-drafts/ga-lottery-manuscript/itt-t
-able.tex) [45]) [46]
+able.tex) [48]) [49]
 \openout2 = `t2.aux'.
 
- (./t2.tex [47
+ (./t2.tex [50
 
 
 
-]) [48]
+]) [51]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [49
+ (./chap3.tex [52
 
 
 
-] [50
+] [53
 
-] [51] [52]
-[53] [54] [55]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png, id=158
-7, 614.295pt x 794.97pt>
+] [54] [55]
+[56] [57] [58]
+</media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png, id=163
+2, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png Gr
 aphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ca
 lifornia-sim.png  used on input line 152.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
- [56] [57 </media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.p
+ [59] [60 </media/jason/Dropbox/github/rnns-causal/paper/plots/california-sim.p
 ng (PNG copy)>]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png, id=1604, 61
+</media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png, id=1650, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png Graphic
  file (type png)
@@ -1684,7 +1695,7 @@ File: /media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/st
 ock-sim.png  used on input line 170.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
- [58] [59 </media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png (P
+ [61] [62 </media/jason/Dropbox/github/rnns-causal/paper/plots/stock-sim.png (P
 NG copy)>]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
@@ -1694,8 +1705,8 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 196.
 
-[60]
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png, id=1671, 614.
+[63]
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png, id=1715, 614.
 295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png Graphic f
 ile (type png)
@@ -1703,20 +1714,20 @@ ile (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-ed.png  used on input line 212.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
- [61] [62 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png (PNG
+ [64] [65 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed.png (PNG
  copy)>] (/media/jason/Dropbox/github/rnns-causal/paper/educ-sens.tex)
-[63]) [64] [65]
+[66]) [67] [68]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex [66
+ (./conclusion.tex [69
 
 
 
-] [67]) [68] (./thesis.bbl [69
+] [70]) [71] (./thesis.bbl [72
 
 
-] [70]
-[71] [72]
+] [73]
+[74] [75]
 Underfull \hbox (badness 1609) in paragraph at lines 375--378
 []\OT1/cmr/m/n/12 Fabius, O. and van Amers-foort, J. R. (2014) Vari-a-tional re
 -cur-rent auto-encoders.
@@ -1728,23 +1739,23 @@ Underfull \hbox (badness 1460) in paragraph at lines 404--408
 OT1/cmtt/m/n/12 http : / / faculty . wcas .
  []
 
-[73] [74] [75]
+[76] [77] [78]
 Underfull \hbox (badness 3088) in paragraph at lines 602--604
 []\OT1/cmr/m/n/12 Kingma, D. and Ba, J. (2014) Adam: A method for stochas-tic o
 p-ti-miza-tion.
  []
 
-[76] [77]
+[79] [80]
 Underfull \hbox (badness 1173) in paragraph at lines 747--749
 []\OT1/cmr/m/n/12 Poulos, J. (2017) RNN-based coun-ter-fac-tual time-series pre
 -dic-tion.  \OT1/cmr/m/it/12 arXiv e-prints\OT1/cmr/m/n/12 ,
  []
 
-[78] [79] [80]) [81]
+[81] [82] [83]) [84]
 \openout2 = `a0.aux'.
 
  (./a0.tex
-</media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png, id=1856,
+</media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png, id=1900,
  3312.375pt x 2559.5625pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png Grap
 hic file (type png)
@@ -1753,7 +1764,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/results/plots/
 ineq-taxpc.png  used on input line 5.
 (pdftex.def)             Requested size: 469.0pt x 362.3981pt.
 </media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.png, id
-=1866, 794.97pt x 614.295pt>
+=1910, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.pn
 g Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.png
@@ -1762,7 +1773,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/results/plots/
 sales-acres-time.png  used on input line 12.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
 </media/jason/Dropbox/github/land-reform/results/plots/homesteads-acres-time.pn
-g, id=1867, 794.97pt x 614.295pt>
+g, id=1911, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/homesteads-acres-ti
 me.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/results/plots/homesteads-acres-tim
@@ -1771,7 +1782,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/results/plots/
 homesteads-acres-time.png  used on input line 19.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
 </media/jason/Dropbox/github/land-reform/results/plots/aland-gini-state-time.pn
-g, id=1868, 3312.375pt x 2559.5625pt>
+g, id=1912, 3312.375pt x 2559.5625pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/aland-gini-state-ti
 me.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/results/plots/aland-gini-state-tim
@@ -1779,7 +1790,7 @@ e.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/results/plots/
 aland-gini-state-time.png  used on input line 26.
 (pdftex.def)             Requested size: 469.0pt x 362.3981pt.
-</media/jason/Dropbox/github/land-reform/results/plots/rr-1862.png, id=1869, 33
+</media/jason/Dropbox/github/land-reform/results/plots/rr-1862.png, id=1913, 33
 12.375pt x 2559.5625pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/rr-1862.png Graphic
  file (type png)
@@ -1787,7 +1798,7 @@ File: /media/jason/Dropbox/github/land-reform/results/plots/rr-1862.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/results/plots/
 rr-1862.png  used on input line 33.
 (pdftex.def)             Requested size: 328.29857pt x 253.66696pt.
-</media/jason/Dropbox/github/land-reform/results/plots/rr-1911.png, id=1870, 33
+</media/jason/Dropbox/github/land-reform/results/plots/rr-1911.png, id=1914, 33
 12.375pt x 2559.5625pt>
 File: /media/jason/Dropbox/github/land-reform/results/plots/rr-1911.png Graphic
  file (type png)
@@ -1800,21 +1811,21 @@ Overfull \hbox (41.96964pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-) [82
+) [85
 
 
-] [83 </media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png>] [
-84 </media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.png 
-(PNG copy)>] [85 </media/jason/Dropbox/github/land-reform/results/plots/homeste
-ads-acres-time.png (PNG copy)>] [86 </media/jason/Dropbox/github/land-reform/re
-sults/plots/aland-gini-state-time.png>] [87 </media/jason/Dropbox/github/land-r
+] [86 </media/jason/Dropbox/github/land-reform/results/plots/ineq-taxpc.png>] [
+87 </media/jason/Dropbox/github/land-reform/results/plots/sales-acres-time.png 
+(PNG copy)>] [88 </media/jason/Dropbox/github/land-reform/results/plots/homeste
+ads-acres-time.png (PNG copy)>] [89 </media/jason/Dropbox/github/land-reform/re
+sults/plots/aland-gini-state-time.png>] [90 </media/jason/Dropbox/github/land-r
 eform/results/plots/rr-1862.png> </media/jason/Dropbox/github/land-reform/resul
-ts/plots/rr-1911.png>] [88]
+ts/plots/rr-1911.png>] [91]
 \openout2 = `a1.aux'.
 
  (./a1.tex
 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numruns_2
-0_num_treated_8_simultaneuous_1.png, id=1915, 505.76955pt x 505.76955pt>
+0_num_treated_8_simultaneuous_1.png, id=1959, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numr
 uns_20_num_treated_8_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_numru
@@ -1824,7 +1835,7 @@ sque_N_16_T_43_numruns_20_num_treated_8_simultaneuous_1.png  used on input line
  7.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_numru
-ns_20_num_treated_19_simultaneuous_1.png, id=1916, 505.76955pt x 505.76955pt>
+ns_20_num_treated_19_simultaneuous_1.png, id=1960, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_
 numruns_20_num_treated_19_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/california_N_38_T_31_n
@@ -1834,7 +1845,7 @@ lifornia_N_38_T_31_numruns_20_num_treated_19_simultaneuous_1.png  used on input
  line 13.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_numruns_
-20_num_treated_8_simultaneuous_1.png, id=1917, 505.76955pt x 505.76955pt>
+20_num_treated_8_simultaneuous_1.png, id=1961, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_num
 runs_20_num_treated_8_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/germany_N_16_T_44_numr
@@ -1844,7 +1855,7 @@ rmany_N_16_T_44_numruns_20_num_treated_8_simultaneuous_1.png  used on input lin
 e 19.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png, id=
-1918, 794.97pt x 614.295pt>
+1962, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png
  Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png>
@@ -1853,7 +1864,7 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/ho
 mestead-heatmap.png  used on input line 27.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numruns_
-20_num_treated_9_simultaneuous_1.png, id=1919, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_1.png, id=1963, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_num
 runs_20_num_treated_9_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numr
@@ -1863,7 +1874,7 @@ p_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_1.png  used on input lin
 e 36.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numruns_
-20_num_treated_9_simultaneuous_1.png, id=1920, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_1.png, id=1964, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_num
 runs_20_num_treated_9_simultaneuous_1.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numr
@@ -1873,7 +1884,7 @@ v_pc_N_18_T_158_numruns_20_num_treated_9_simultaneuous_1.png  used on input lin
 e 42.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numruns_
-20_num_treated_9_simultaneuous_0.png, id=1921, 505.76955pt x 505.76955pt>
+20_num_treated_9_simultaneuous_0.png, id=1965, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_num
 runs_20_num_treated_9_simultaneuous_0.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_17_T_159_numr
@@ -1883,7 +1894,7 @@ p_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_0.png  used on input lin
 e 48.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
 </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_numruns_
-20_num_treated_10_simultaneuous_0.png, id=1922, 505.76955pt x 505.76955pt>
+20_num_treated_10_simultaneuous_0.png, id=1966, 505.76955pt x 505.76955pt>
 File: /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_num
 runs_20_num_treated_10_simultaneuous_0.png Graphic file (type png)
 <use /media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_numr
@@ -1892,23 +1903,85 @@ Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/re
 v_pc_N_19_T_158_numruns_20_num_treated_10_simultaneuous_0.png  used on input li
 ne 54.
 (pdftex.def)             Requested size: 225.118pt x 225.1169pt.
-) [89
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-linear.png, id=1
+967, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-linear.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-linear.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-exp-pc-linear.png  used on input line 64.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-median.png, id=1
+968, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-median.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-median.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-exp-pc-median.png  used on input line 70.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-random.png, id=1
+969, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-random.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-random.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-exp-pc-random.png  used on input line 76.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+
+
+LaTeX Warning: Float too large for page by 6.33124pt on input line 84.
+
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-linear.png, id=1
+970, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-linear.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-linear.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-rev-pc-linear.png  used on input line 90.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-median.png, id=1
+971, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-median.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-median.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-rev-pc-median.png  used on input line 96.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+</media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-random.png, id=1
+972, 614.295pt x 794.97pt>
+File: /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-random.png 
+Graphic file (type png)
+<use /media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-random.png>
+Package pdftex.def Info: /media/jason/Dropbox/github/land-reform/paper/plots/mc
+-rev-pc-random.png  used on input line 102.
+(pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
+
+LaTeX Warning: Float too large for page by 6.33124pt on input line 110.
+
+) [92
 
 
 
-] [90 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_num
+] [93 </media/jason/Dropbox/github/land-reform/paper/plots/basque_N_16_T_43_num
 runs_20_num_treated_8_simultaneuous_1.png (PNG copy)> </media/jason/Dropbox/git
 hub/land-reform/paper/plots/california_N_38_T_31_numruns_20_num_treated_19_simu
 ltaneuous_1.png (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plot
 s/germany_N_16_T_44_numruns_20_num_treated_8_simultaneuous_1.png (PNG copy)>] [
-91 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png (
-PNG copy)>] [92 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_1
+94 </media/jason/Dropbox/github/land-reform/paper/plots/homestead-heatmap.png (
+PNG copy)>] [95 </media/jason/Dropbox/github/land-reform/paper/plots/exp_pc_N_1
 7_T_159_numruns_20_num_treated_9_simultaneuous_1.png (PNG copy)> </media/jason/
 Dropbox/github/land-reform/paper/plots/rev_pc_N_18_T_158_numruns_20_num_treated
 _9_simultaneuous_1.png (PNG copy)> </media/jason/Dropbox/github/land-reform/pap
 er/plots/exp_pc_N_17_T_159_numruns_20_num_treated_9_simultaneuous_0.png (PNG co
 py)> </media/jason/Dropbox/github/land-reform/paper/plots/rev_pc_N_19_T_158_num
-runs_20_num_treated_10_simultaneuous_0.png (PNG copy)>]
+runs_20_num_treated_10_simultaneuous_0.png (PNG copy)>] [96 </media/jason/Dropb
+ox/github/land-reform/paper/plots/mc-exp-pc-linear.png (PNG copy)> </media/jaso
+n/Dropbox/github/land-reform/paper/plots/mc-exp-pc-median.png (PNG copy)> </med
+ia/jason/Dropbox/github/land-reform/paper/plots/mc-exp-pc-random.png (PNG copy)
+>] [97 </media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-linear.pn
+g (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/mc-rev-pc-me
+dian.png (PNG copy)> </media/jason/Dropbox/github/land-reform/paper/plots/mc-re
+v-pc-random.png (PNG copy)>]
 \openout2 = `a2.aux'.
 
  (./a2.tex
@@ -1919,15 +1992,15 @@ e.tex)
 (/media/jason/Dropbox/ga-lottery-local/online-appendix/candidate-robust-table.t
 ex)
 (/media/jason/Dropbox/ga-lottery-local/online-appendix/slave-robust-table.tex)
-</media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png, id=1
-952, 794.97pt x 614.295pt>
+</media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png, id=2
+010, 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png 
 Graphic file (type png)
 <use /media/jason/Dropbox/ga-lottery-local/online-appendix/power-plot-bin.png>
 Package pdftex.def Info: /media/jason/Dropbox/ga-lottery-local/online-appendix/
 power-plot-bin.png  used on input line 95.
 (pdftex.def)             Requested size: 469.0pt x 362.42152pt.
-</media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png, id=1953, 
+</media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png, id=2011, 
 794.97pt x 614.295pt>
 File: /media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-plot.png Graph
 ic file (type png)
@@ -1935,16 +2008,16 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/ga-lottery-local/online-appendix/
 qreg-plot.png  used on input line 103.
 (pdftex.def)             Requested size: 469.75502pt x 363.00267pt.
-) [93
+) [98
 
 
 
-] [94] [95] [96 </media/jason/Dropbox/ga-lottery-local/online-appendix/power-pl
-ot-bin.png>] [97 </media/jason/Dropbox/ga-lottery-local/online-appendix/qreg-pl
-ot.png (PNG copy)>]
+] [99] [100] [101 </media/jason/Dropbox/ga-lottery-local/online-appendix/power-
+plot-bin.png>] [102 </media/jason/Dropbox/ga-lottery-local/online-appendix/qreg
+-plot.png (PNG copy)>]
 \openout2 = `a2-power.aux'.
 
- (./a2-power.tex) [98
+ (./a2-power.tex) [103
 
 
 
@@ -1952,7 +2025,7 @@ ot.png (PNG copy)>]
 \openout2 = `a3.aux'.
 
  (./a3.tex
-</media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png, id=1986, 6
+</media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png, id=2044, 6
 14.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png Graphi
 c file (type png)
@@ -1960,7 +2033,7 @@ c file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ba
 sque-sim.png  used on input line 5.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png, id=1987, 
+</media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png, id=2045, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.png Graph
 ic file (type png)
@@ -1968,7 +2041,7 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ge
 rmany-sim.png  used on input line 17.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png, id=1988, 61
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png, id=2046, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png Graphic
  file (type png)
@@ -1976,7 +2049,7 @@ File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-dens.png  used on input line 31.
 (pdftex.def)             Requested size: 225.118pt x 291.3322pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png, id=1989, 
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png, id=2047, 
 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-dens-w.png Graph
 ic file (type png)
@@ -1984,7 +2057,7 @@ ic file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-dens-w.png  used on input line 37.
 (pdftex.def)             Requested size: 225.118pt x 291.3322pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png, id=1990, 614
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png, id=2048, 614
 .295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-sim.png Graphic 
 file (type png)
@@ -1992,24 +2065,24 @@ file (type png)
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-sim.png  used on input line 46.
 (pdftex.def)             Requested size: 422.09714pt x 546.2494pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-linear.png, id=199
-1, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-linear.png, id=204
+9, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-linear.png Gr
 aphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-linear.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-ed-linear.png  used on input line 60.
 (pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-median.png, id=199
-2, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-median.png, id=205
+0, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-median.png Gr
 aphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-median.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-ed-median.png  used on input line 66.
 (pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-random.png, id=199
-3, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-random.png, id=205
+1, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-random.png Gr
 aphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-ed-random.png>
@@ -2020,7 +2093,7 @@ uc-ed-random.png  used on input line 72.
 
 LaTeX Warning: Float too large for page by 6.33124pt on input line 79.
 
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae.png, id=1994, 61
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae.png, id=2052, 61
 4.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae.png Graphic
  file (type png)
@@ -2028,24 +2101,24 @@ File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae.png Graphic
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-rvae.png  used on input line 85.
 (pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-linear.png, id=1
-995, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-linear.png, id=2
+053, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-linear.png 
 Graphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-linear.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-rvae-linear.png  used on input line 91.
 (pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-median.png, id=1
-996, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-median.png, id=2
+054, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-median.png 
 Graphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-median.png>
 Package pdftex.def Info: /media/jason/Dropbox/github/rnns-causal/paper/plots/ed
 uc-rvae-median.png  used on input line 97.
 (pdftex.def)             Requested size: 201.66656pt x 260.98232pt.
-</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png, id=1
-997, 614.295pt x 794.97pt>
+</media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png, id=2
+055, 614.295pt x 794.97pt>
 File: /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png 
 Graphic file (type png)
 <use /media/jason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png>
@@ -2055,26 +2128,26 @@ uc-rvae-random.png  used on input line 103.
 
 LaTeX Warning: Float too large for page by 6.33124pt on input line 110.
 
-) [99
+) [104
 
 
 
-] [100 </media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png (PNG
- copy)>] [101 </media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.
-png (PNG copy)>] [102 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ
+] [105 </media/jason/Dropbox/github/rnns-causal/paper/plots/basque-sim.png (PNG
+ copy)>] [106 </media/jason/Dropbox/github/rnns-causal/paper/plots/germany-sim.
+png (PNG copy)>] [107 </media/jason/Dropbox/github/rnns-causal/paper/plots/educ
 -dens.png (PNG copy)> </media/jason/Dropbox/github/rnns-causal/paper/plots/educ
--dens-w.png (PNG copy)>] [103 </media/jason/Dropbox/github/rnns-causal/paper/pl
-ots/educ-sim.png (PNG copy)>] [104 </media/jason/Dropbox/github/rnns-causal/pap
+-dens-w.png (PNG copy)>] [108 </media/jason/Dropbox/github/rnns-causal/paper/pl
+ots/educ-sim.png (PNG copy)>] [109 </media/jason/Dropbox/github/rnns-causal/pap
 er/plots/educ-ed-linear.png (PNG copy)> </media/jason/Dropbox/github/rnns-causa
 l/paper/plots/educ-ed-median.png (PNG copy)> </media/jason/Dropbox/github/rnns-
-causal/paper/plots/educ-ed-random.png (PNG copy)>] [105 </media/jason/Dropbox/g
+causal/paper/plots/educ-ed-random.png (PNG copy)>] [110 </media/jason/Dropbox/g
 ithub/rnns-causal/paper/plots/educ-rvae.png (PNG copy)> </media/jason/Dropbox/g
 ithub/rnns-causal/paper/plots/educ-rvae-linear.png (PNG copy)> </media/jason/Dr
 opbox/github/rnns-causal/paper/plots/educ-rvae-median.png (PNG copy)> </media/j
 ason/Dropbox/github/rnns-causal/paper/plots/educ-rvae-random.png (PNG copy)>]
 \openout2 = `a3-implementation.aux'.
 
- (./a3-implementation.tex) [106
+ (./a3-implementation.tex) [111
 
 
 
@@ -2091,11 +2164,11 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 15.
 
-) [107
+) [112
 
 
 
-] [108]
+] [113]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -2108,21 +2181,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1863723DB794470E05C37AFFD5E9797A;5733.
+(rerunfilecheck)             Checksum: 7E8C2730F65D23773CCEB7E89C43C95A;5888.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  )
 (\end occurred when \ifnum on line 149 was incomplete) 
 Here is how much of TeX's memory you used:
- 34659 strings out of 492641
- 648276 string characters out of 6131787
- 867297 words of memory out of 5000000
- 37416 multiletter control sequences out of 15000+600000
+ 34709 strings out of 492641
+ 650691 string characters out of 6131787
+ 869193 words of memory out of 5000000
+ 37446 multiletter control sequences out of 15000+600000
  560311 words of font info for 130 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 68i,19n,78p,2172b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,20n,78p,2172b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): na
-me{Hfootnote.38} has been referenced but does not exist, replaced by a fixed on
+me{Hfootnote.39} has been referenced but does not exist, replaced by a fixed on
 e
+
+pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.37} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2262,10 +2338,10 @@ cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on thesis.pdf (117 pages, 13083282 bytes).
+Output written on thesis.pdf (122 pages, 15319440 bytes).
 PDF statistics:
- 2266 PDF objects out of 2487 (max. 8388607)
- 2043 compressed objects within 21 object streams
- 475 named destinations out of 1000 (max. 500000)
- 808 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2325 PDF objects out of 2487 (max. 8388607)
+ 2091 compressed objects within 21 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 854 words of extra memory for PDF output out of 10000 (max. 10000000)
 
