@@ -1,7 +1,7 @@
-\contentsline {chapter}{Contents}{ii}{section*.1}
+\contentsline {chapter}{Table of contents}{ii}{section*.1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Land reform, inequality and state capacity}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Constrained state or sectoral shift of new taxes?}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Constrained state or sectoral shift of new taxes?}{3}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Culture, migration, and public schooling}{3}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Land monopolization and rent-seeking on the frontier}{4}{section.1.2}
 \contentsline {section}{\numberline {1.3}Railroad access as a potential confound}{5}{section.1.3}
@@ -25,57 +25,57 @@
 \contentsline {subsection}{\numberline {2.4.4}Sensitivity to imputation method}{20}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}DID estimation}{23}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}DID estimates on state capacity}{25}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Land inequality as a causal mechanism}{25}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Land inequality as a causal mechanism}{26}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Conclusion}{28}{section.2.6}
 \contentsline {chapter}{\chapternumberline {3}Using Land Lotteries for Natural Experiments on Wealth and Power}{30}{chapter.3}
 \contentsline {section}{\numberline {3.1}Historical Background of Land Lotteries}{31}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}1805 Georgia Land Lottery}{31}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}1807 Georgia Land Lottery}{35}{subsection.3.1.2}
-\contentsline {chapter}{\chapternumberline {4}Land Lotteries, Long-term Wealth, and Political Selection}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Theoretical considerations}{38}{section.4.2}
-\contentsline {section}{\numberline {4.3}Historical background}{39}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Barriers to officeholding}{40}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Officeholder wealth}{41}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}The 1805 and 1807 lotteries}{41}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Data and descriptive statistics}{42}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Candidacy}{43}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Future wealth}{44}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Estimation and results}{44}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Balance}{46}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}ITT estimates}{46}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Discussion}{48}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{49}{section.4.7}
-\contentsline {chapter}{\chapternumberline {5}Counterfactual Prediction, Sample Selection Bias, and Covariate Shift}{50}{chapter.5}
-\contentsline {section}{\numberline {5.1}Sample selection bias and covariate shift}{50}{section.5.1}
-\contentsline {chapter}{\chapternumberline {6}RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{52}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{53}{section.6.1}
-\contentsline {section}{\numberline {6.2}Counterfactual prediction}{54}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Relationship to matrix completion and covariate shift}{55}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Nonparametric regression}{56}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}RNNs for counteractual prediction}{56}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Encoder-decoder networks}{57}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Recurrent variational autoencoder}{58}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Placebo tests}{58}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Synthetic control datasets}{59}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Stock market data}{59}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Application: Homestead policy and public schooling}{61}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Data and assumptions}{61}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Estimates}{64}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Sensitivity to imputation method}{64}{subsection.6.5.3}
-\contentsline {section}{\numberline {6.6}Conclusion}{66}{section.6.6}
-\contentsline {chapter}{\chapternumberline {7}Conclusion}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Future research on the American frontier}{70}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Environmental externalities}{70}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Suffrage}{70}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Railroads}{70}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Future research on counterfactual prediction}{71}{section.7.2}
-\contentsline {chapter}{Bibliography}{72}{chapter*.23}
-\contentsline {appendix}{\chapternumberline {A}Supporting Materials for Chapter \ref {diss-intro}}{85}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}Supporting Materials for Chapter \ref {land-reform}}{92}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}Supporting Materials for Chapter \ref {ga-lottery}}{98}{appendix.C}
-\contentsline {appendix}{\chapternumberline {D}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{103}{appendix.D}
-\contentsline {appendix}{\chapternumberline {E}Supporting Materials for Chapter \ref {rnns-causal}}{104}{appendix.E}
-\contentsline {appendix}{\chapternumberline {F}RNNs Implementation Details for Chapter \ref {rnns-causal}}{111}{appendix.F}
-\contentsline {appendix}{\chapternumberline {G}Hypothesis Testing for Chapter \ref {rnns-causal}}{112}{appendix.G}
-\contentsline {subsection}{\numberline {G.0.1}Randomization confidence intervals}{112}{subsection.G.0.1}
+\contentsline {subsection}{\numberline {3.1.2}1807 Georgia Land Lottery}{34}{subsection.3.1.2}
+\contentsline {chapter}{\chapternumberline {4}Land Lotteries, Long-term Wealth, and Political Selection}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2}Theoretical considerations}{37}{section.4.2}
+\contentsline {section}{\numberline {4.3}Historical background}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Barriers to officeholding}{39}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Officeholder wealth}{40}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}The 1805 and 1807 lotteries}{40}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Data and descriptive statistics}{41}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Candidacy}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Future wealth}{43}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Estimation and results}{43}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Balance}{45}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}ITT estimates}{45}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Discussion}{47}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{48}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}Counterfactual Prediction, Sample Selection Bias, and Covariate Shift}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Sample selection bias and covariate shift}{49}{section.5.1}
+\contentsline {chapter}{\chapternumberline {6}RNN-Based Counterfactual Prediction, with an Application to Homestead Policy and Public Schooling}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{52}{section.6.1}
+\contentsline {section}{\numberline {6.2}Counterfactual prediction}{53}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Relationship to matrix completion and covariate shift}{54}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Nonparametric regression}{55}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}RNNs for counteractual prediction}{55}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Encoder-decoder networks}{56}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Recurrent variational autoencoder}{57}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Placebo tests}{57}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Synthetic control datasets}{58}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Stock market data}{58}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Application: Homestead policy and public schooling}{60}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Data and assumptions}{60}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Estimates}{63}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Sensitivity to imputation method}{63}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Conclusion}{65}{section.6.6}
+\contentsline {chapter}{\chapternumberline {7}Conclusion}{68}{chapter.7}
+\contentsline {section}{\numberline {7.1}Future research on the American frontier}{69}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Environmental externalities}{69}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Suffrage}{69}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Railroads}{69}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Future research on counterfactual prediction}{70}{section.7.2}
+\contentsline {chapter}{Bibliography}{71}{chapter*.22}
+\contentsline {appendix}{\chapternumberline {A}Supporting Materials for Chapter \ref {diss-intro}}{84}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Supporting Materials for Chapter \ref {land-reform}}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}Supporting Materials for Chapter \ref {ga-lottery}}{97}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}Power Analysis by Simulation for Chapter \ref {ga-lottery}}{102}{appendix.D}
+\contentsline {appendix}{\chapternumberline {E}Supporting Materials for Chapter \ref {rnns-causal}}{103}{appendix.E}
+\contentsline {appendix}{\chapternumberline {F}RNNs Implementation Details for Chapter \ref {rnns-causal}}{110}{appendix.F}
+\contentsline {appendix}{\chapternumberline {G}Hypothesis Testing for Chapter \ref {rnns-causal}}{111}{appendix.G}
+\contentsline {subsection}{\numberline {G.0.1}Randomization confidence intervals}{111}{subsection.G.0.1}

@@ -18,46 +18,44 @@ A level-1 auxiliary file: a3.aux
 A level-1 auxiliary file: a3-implementation.aux
 A level-1 auxiliary file: a3-hypothesis.aux
 Database file #1: references.bib
-Warning--empty publisher in ferguson1767
-You've used 181 entries,
+You've used 180 entries,
             2705 wiz_defined-function locations,
-            1505 strings with 32680 characters,
-and the built_in function-call counts, 85179 in all, are:
-= -- 8500
-> -- 3410
-< -- 135
-+ -- 1399
-- -- 1143
-* -- 6616
-:= -- 15673
-add.period$ -- 368
-call.type$ -- 181
-change.case$ -- 1302
-chr.to.int$ -- 180
-cite$ -- 182
-duplicate$ -- 4059
-empty$ -- 6383
-format.name$ -- 1638
-if$ -- 17051
+            1504 strings with 32640 characters,
+and the built_in function-call counts, 84868 in all, are:
+= -- 8476
+> -- 3400
+< -- 134
++ -- 1395
+- -- 1140
+* -- 6603
+:= -- 15607
+add.period$ -- 366
+call.type$ -- 180
+change.case$ -- 1296
+chr.to.int$ -- 179
+cite$ -- 180
+duplicate$ -- 4039
+empty$ -- 6352
+format.name$ -- 1634
+if$ -- 16987
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 192
-newline$ -- 732
-num.names$ -- 724
-pop$ -- 1627
+missing$ -- 190
+newline$ -- 728
+num.names$ -- 720
+pop$ -- 1614
 preamble$ -- 1
-purify$ -- 1103
+purify$ -- 1098
 quote$ -- 0
-skip$ -- 2670
+skip$ -- 2655
 stack$ -- 0
-substring$ -- 4615
-swap$ -- 905
+substring$ -- 4620
+swap$ -- 903
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1518
-warning$ -- 1
-while$ -- 755
+type$ -- 1512
+warning$ -- 0
+while$ -- 754
 width$ -- 0
-write$ -- 2110
-(There was 1 warning)
+write$ -- 2099

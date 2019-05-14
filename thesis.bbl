@@ -1,4 +1,4 @@
-\begin{thebibliography}{181}
+\begin{thebibliography}{180}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -117,7 +117,7 @@ Bandiera, O., Mohnen, M., Rasul, I. and Viarengo, M. (2018) Nation-building
   Gebresilasse}]{bazzi2017frontier}
 Bazzi, S., Fiszbein, M. and Gebresilasse, M. (2017) Frontier culture: {T}he
   roots and persistence of ``rugged individualism'' in the {U}nited {S}tates.
-\newblock \textit{Tech. rep.}, National Bureau of Economic Research.
+\newblock National Bureau of Economic Research.
 
 \bibitem[{Beard(1913)}]{beard1913}
 Beard, C.~A. (1913) \textit{An Economic Interpretation of the Constitution of
@@ -315,7 +315,8 @@ Cortes, C., Mohri, M., Riley, M. and Rostamizadeh, A. (2008) Sample selection
   Vicente}]{corvalan2018political}
 Corvalan, A., Querubin, P. and Vicente, S. (2018) The political class and
   redistributive policies.
-\newblock \textit{Journal of the European Economic Association}.
+\newblock \textit{Journal of the European Economic Association}, \textbf{00},
+  1--48.
 
 \bibitem[{Coulter(1960)}]{coulter1960}
 Coulter, E.~M. (1960) \textit{Georgia: A Short History}.
@@ -383,7 +384,7 @@ Fearon, J.~D. (1991) Counterfactuals and hypothesis testing in political
 
 \bibitem[{Ferguson(1767)}]{ferguson1767}
 Ferguson, A. (1767) \textit{An Essay on the History of Civil Society}.
-\newblock Pt. 4.2.
+\newblock Transaction Publishers.
 
 \bibitem[{Ferman and Pinto(2016)}]{ferman2016revisiting}
 Ferman, B. and Pinto, C. (2016) Revisiting the synthetic control estimator.
@@ -493,10 +494,6 @@ Goodfellow, I., Bengio, Y. and Courville, A. (2016) \textit{Deep Learning}.
 Graham, P.~K. (2004) \textit{1805 Georgia Land Lottery Fortunate Drawers and
   Grantees}.
 \newblock Genealogy Company.
-
-\bibitem[{Graham(2010)}]{graham2010}
---- (2010) \textit{Georgia Land Lottery Research}.
-\newblock Georgia Genealogical Society.
 
 \bibitem[{Graham(2011)}]{graham2011}
 --- (2011) \textit{1807 Georgia Land Lottery Fortunate Drawers and Grantees}.
@@ -713,7 +710,7 @@ Neyman, J. (1923) On the application of probability theory to agricultural
 \newblock Reprinted in \citet{splawa1990}.
 
 \bibitem[{Novak(2008)}]{novak2008myth}
-Novak, W.~J. (2008) The myth of the ``weal'' {A}merican state.
+Novak, W.~J. (2008) The myth of the ``weak'' {A}merican state.
 \newblock \textit{The American Historical Review}, \textbf{113}, 752--772.
 
 \bibitem[{Officer and Williamson(2012)}]{officer2012}
@@ -822,14 +819,14 @@ Skowronek, S. (1982) \textit{Building a New American State: The Expansion of
 
 \bibitem[{Snyder and Dillow(2010)}]{snyder2010digest}
 Snyder, T.~D. and Dillow, S.~A. (2010) Digest of education statistics, 2009.
-  nces 2010-013.
+  {NCES} 2010-13.
 \newblock National Center for Education Statistics.
 
 \bibitem[{Splawa-Neyman et~al.(1990)Splawa-Neyman, Dabrowska, Speed
   et~al.}]{splawa1990}
 Splawa-Neyman, J., Dabrowska, D., Speed, T. et~al. (1990) On the application of
-  probability theory to agricultural experiments. essay on principles. section
-  9.
+  probability theory to agricultural experiments. {E}ssay on principles.
+  {S}ection 9.
 \newblock \textit{Statistical Science}, \textbf{5}, 465--472.
 
 \bibitem[{Suryanarayan(2017)}]{suryanarayan2017hollowing}
