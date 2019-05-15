@@ -395,7 +395,7 @@
 
   \begin{center}
     \fmfont
-    \textbf{\@title}\par
+    \@title\par
     \vspace{14pt minus 4pt}
     by \par
     {\@author}\par
@@ -536,11 +536,7 @@ by\par
 {\@degree} in \@field\par
 \ifdefined\@emphasis
 \vspace{.1in}
-and the Designated Emphasis\par
-\vspace{.1in}
-in\par
-\vspace{.1in}
-{\@emphasis}\par
+Designated Emphasis in {\@emphasis}\par
 \vspace{.1in}
 University of California, {\@campus}\par
 \vspace{.1in}
