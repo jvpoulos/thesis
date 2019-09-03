@@ -1,6 +1,6 @@
 # Essays on the Political Economy of the American Frontier
 
-**[Dissertation](https://github.com/jvpoulos/essays/raw/master/thesis.pdf)** by [Jason Poulos](https://github.com/jvpoulos) accepted by the UC Berkeley Graduate Division on May 16, 2019. 
+**[Dissertation](https://escholarship.org/uc/item/7rp4680k)** by [Jason Poulos](https://github.com/jvpoulos) accepted by the UC Berkeley Graduate Division on May 16, 2019. 
 
 The LaTeX files in this repo modify the **ucbthesis** package, which consists of the file *ucbthesis.cls*. 
 
@@ -22,5 +22,5 @@ BibTeX citation for the dissertation:
     School = {University of California, Berkeley},
     Year = {2019},
     Month = {May},
-    URL = {https://github.com/jvpoulos/essays/raw/master/thesis.pdf}
+    URL = {https://escholarship.org/uc/item/7rp4680k}
 ```
